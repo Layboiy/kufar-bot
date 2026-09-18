@@ -1,7 +1,9 @@
-name: Kufar watch bot
+name: Kufar Casio watch bot
 
 on:
   schedule:
+    # Каждые 10 минут. GitHub может слегка задерживать cron при высокой
+    # нагрузке на свою инфраструктуру — это нормально и некритично здесь.
     - cron: "*/10 * * * *"
   workflow_dispatch: {}
 
@@ -32,6 +34,11 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          # Необязательный секрет — если не добавлен в репозитории, здесь
+          # просто будет пустая строка, и бот сам работает без ИИ-функций.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          MAX_RISK_TO_SUGGEST: ${{ vars.MAX_RISK_TO_SUGGEST }}
         run: python main.py
 
       - name: Save state back to the repository
