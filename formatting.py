@@ -5,7 +5,8 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from config import ORIGINALITY_LABELS, STATUS_LABELS
+from config import ORIGINALITY_LABELS, PRICE_CATEGORIES, STATUS_LABELS
+from scoring import price_category
 
 
 def fmt_money(v: float | None) -> str:
@@ -27,8 +28,10 @@ def kb(rows: list[list[tuple[str, str]]]) -> str:
 
 def suggestion_text(lot: dict[str, Any], sc: dict[str, Any], reference_note: str | None) -> str:
     title = lot.get("title") or f"Лот #{lot['ad_id']}"
+    category = price_category(lot.get("price") or 0.0, PRICE_CATEGORIES)
     lines = [
         f"🕵️ Новая находка: <b>{_escape(title)}</b>",
+        f"Категория: {category}",
         f"Цена: <b>{fmt_money(lot.get('price'))}</b>",
         f"Ссылка: {lot.get('link')}",
     ]
@@ -44,6 +47,13 @@ def suggestion_text(lot: dict[str, Any], sc: dict[str, Any], reference_note: str
         lines.append("Ожидаемая цена продажи не задана — нажмите «✏️ Указать цену», чтобы уточнить.")
     lines.append(f"Риск: {sc['risk']}/100 · Шанс успеха: {sc['success']}%")
     lines.append(f"Ориентир срока продажи: {sc['days_min']}–{sc['days_max']} дн.")
+
+    orig = lot.get("originality", "unverified")
+    orig_line = f"Подлинность (по фото, ИИ-оценка): {ORIGINALITY_LABELS.get(orig, orig)}"
+    if lot.get("originality_note"):
+        orig_line += f"\n<i>{_escape(lot['originality_note'])}</i>"
+    lines.append(orig_line)
+
     if reference_note:
         lines.append(f"<i>{_escape(reference_note)}</i>")
     lines.append(
@@ -65,8 +75,10 @@ def suggestion_keyboard(ad_id: int) -> str:
 def approved_text(lot: dict[str, Any], sc: dict[str, Any]) -> str:
     title = lot.get("title") or f"Лот #{lot['ad_id']}"
     status_label = STATUS_LABELS.get(lot.get("status", "watching"), lot.get("status"))
+    category = price_category(lot.get("price") or 0.0, PRICE_CATEGORIES)
     lines = [
         f"📌 <b>{_escape(title)}</b> — {status_label}",
+        f"Категория: {category}",
         f"Покупка: {fmt_money(lot.get('price'))} · Ссылка: {lot.get('link')}",
     ]
     if lot.get("status") == "sold":
@@ -97,8 +109,36 @@ def approved_keyboard(ad_id: int, status: str) -> str:
         rows.append(row2)
     if status != "sold":
         rows.append([("💰 Продано", f"sold:{ad_id}")])
+    rows.append([("📸 Собрать фото для объявления", f"listing:{ad_id}")])
     rows.append([("🗑 Удалить лот", f"del:{ad_id}")])
     return kb(rows)
+
+
+_COMPLETE_PHRASES = {
+    "full": "полный комплект (коробка, документы)",
+    "partial": "без коробки, только сами часы",
+    "unverified": "комплектность уточняется у покупателя",
+}
+
+
+def listing_template(lot: dict[str, Any]) -> str:
+    """Запасной (бесплатный, без ИИ) вариант текста объявления — используется,
+    когда не задан ANTHROPIC_API_KEY или ИИ не ответил. Не такой живой, как
+    сгенерированный, но полностью рабочий текст для копирования на Kufar."""
+    title = lot.get("title") or "Наручные часы"
+    price = fmt_money(lot.get("resale") or lot.get("price"))
+    condition = lot.get("condition") or "б/у, в рабочем состоянии"
+    complete = _COMPLETE_PHRASES.get(lot.get("complete", "unverified"), "")
+    lines = [
+        f"{title}",
+        "",
+        f"Продаю часы {title}. Состояние: {condition}.",
+    ]
+    if complete:
+        lines.append(f"Комплектность: {complete}.")
+    lines.append(f"Цена: {price}.")
+    lines.append("Пишите в сообщения — отвечу быстро, отправлю дополнительные фото по запросу.")
+    return "\n".join(lines)
 
 
 def stats_text(capital: float, realized: float, sold_count: int, win_rate: str) -> str:

@@ -12,9 +12,10 @@ from __future__ import annotations
 
 import sys
 
+import ai
 import formatting
 import scoring
-from config import BOT_TOKEN, MAX_NEW_ITEMS_PER_RUN, OWNER_CHAT_ID
+from config import BOT_TOKEN, MAX_NEW_ITEMS_PER_RUN, MAX_RISK_TO_SUGGEST, OWNER_CHAT_ID
 from state import load_state, remember_price, remember_seen, save_state
 from telegram_api import TelegramClient, TelegramError
 
@@ -23,17 +24,25 @@ import scraper
 HELP_TEXT = (
     "<b>Команды</b>\n"
     "/queue — показать текущие предложения на одобрение заново\n"
-    "/approved — список одобренных лотов в работе\n"
+    "/approved — список одобренных лотов в работе (по ценовым категориям)\n"
     "/stats — статистика (в обороте, прибыль, продажи)\n"
     "/models — список известных моделей с ориентиром цены\n"
     "/addmodel ключ цена [high|medium|low] — задать ориентир цены продажи "
     "для модели, например: /addmodel ga-2100 250 high\n"
-    "/delmodel ключ — удалить модель\n\n"
+    "/delmodel ключ — удалить модель\n"
+    "/done — закончить присылать фото для объявления и получить готовый текст\n\n"
     "Бот сам проверяет категории наручных часов на Kufar (все бренды) на "
-    "новые объявления и присылает их сюда на одобрение, отсеивая только "
-    "явный мусор вроде ремешков и запчастей. Кнопками под карточкой лота "
-    "можно одобрить/отклонить, указать цену продажи и двигать статус "
-    "(торгуюсь → куплено → выставлено → продано)."
+    "новые объявления и присылает их сюда на одобрение, отсеивая явный мусор "
+    "(ремешки, запчасти) и лоты с расчётным риском выше "
+    f"{MAX_RISK_TO_SUGGEST}/100. Кнопками под карточкой лота можно "
+    "одобрить/отклонить, указать цену продажи и двигать статус (торгуюсь → "
+    "куплено → выставлено → продано). После одобрения кнопка «📸 Собрать "
+    "фото для объявления» переводит в режим приёма фото — присылайте фото "
+    "уже купленной вещи по одному, затем /done — бот пришлёт готовый текст "
+    "объявления для Kufar (скопировать и вставить самостоятельно)."
+    + ("" if ai.available() else "\n\nПодсказка: подлинность по фото и более "
+       "живой текст объявления заработают, если добавить секрет "
+       "ANTHROPIC_API_KEY — сейчас используются только эвристики и шаблоны.")
 )
 
 
@@ -124,6 +133,15 @@ def _handle_callback(state: dict, tg: TelegramClient, cq: dict) -> None:
         except TelegramError:
             pass
         tg.answer_callback_query(cq["id"], "Удалено")
+    elif action == "listing":
+        lot.setdefault("listing_photo_file_ids", [])
+        state.setdefault("awaiting", {})[str(chat_id)] = {"ad_id": ad_id, "field": "listing_photos"}
+        tg.answer_callback_query(
+            cq["id"],
+            "Присылайте фото уже купленной вещи по одному (можно несколько), "
+            "затем напишите /done — пришлю готовый текст объявления.",
+            show_alert=True,
+        )
     else:
         tg.answer_callback_query(cq["id"])
 
@@ -132,6 +150,24 @@ def _handle_message(state: dict, tg: TelegramClient, msg: dict) -> None:
     chat_id = msg["chat"]["id"]
     if not _is_owner(chat_id):
         return
+
+    awaiting = state.setdefault("awaiting", {})
+    ctx = awaiting.get(str(chat_id))
+
+    # Фото в режиме сбора для объявления — обрабатываем до текстовой ветки,
+    # у фото-сообщений обычно нет текста (разве что подпись).
+    if msg.get("photo") and ctx and ctx.get("field") == "listing_photos":
+        ad_id = ctx["ad_id"]
+        lot = state["lots"].get(ad_id)
+        if not lot:
+            del awaiting[str(chat_id)]
+            return
+        largest = msg["photo"][-1]  # Telegram присылает варианты по возрастанию размера
+        lot.setdefault("listing_photo_file_ids", []).append(largest["file_id"])
+        count = len(lot["listing_photo_file_ids"])
+        tg.send_message(chat_id, f"📸 Фото добавлено ({count}). Присылайте ещё или напишите /done, когда готово.")
+        return
+
     text = (msg.get("text") or "").strip()
     if not text:
         return
@@ -140,8 +176,6 @@ def _handle_message(state: dict, tg: TelegramClient, msg: dict) -> None:
         _handle_command(state, tg, chat_id, text)
         return
 
-    awaiting = state.setdefault("awaiting", {})
-    ctx = awaiting.get(str(chat_id))
     if not ctx:
         return  # обычное сообщение без контекста ожидания — просто игнорируем
 
@@ -181,14 +215,20 @@ def _handle_command(state: dict, tg: TelegramClient, chat_id, text: str) -> None
         tg.send_message(chat_id, _build_stats_text(state))
 
     elif cmd == "/queue":
-        pending = [l for l in state["lots"].values() if l["status"] == "suggested"]
+        pending = sorted(
+            (l for l in state["lots"].values() if l["status"] == "suggested"),
+            key=lambda l: l.get("price") or 0,
+        )
         if not pending:
             tg.send_message(chat_id, "Пока нет новых предложений на рассмотрение.")
         for lot in pending:
             _send_suggestion(state, tg, lot)
 
     elif cmd == "/approved":
-        active = [l for l in state["lots"].values() if l["status"] not in ("suggested", "rejected", "sold")]
+        active = sorted(
+            (l for l in state["lots"].values() if l["status"] not in ("suggested", "rejected", "sold")),
+            key=lambda l: l.get("price") or 0,
+        )
         if not active:
             tg.send_message(chat_id, "Одобренных лотов в работе пока нет.")
         for lot in active:
@@ -236,6 +276,20 @@ def _handle_command(state: dict, tg: TelegramClient, chat_id, text: str) -> None
         else:
             tg.send_message(chat_id, f"Модели «{keyword}» не было в списке.")
 
+    elif cmd == "/done":
+        awaiting = state.setdefault("awaiting", {})
+        ctx = awaiting.get(str(chat_id))
+        if not ctx or ctx.get("field") != "listing_photos":
+            tg.send_message(
+                chat_id,
+                "Сейчас не жду фото для объявления — сначала нажмите «📸 Собрать "
+                "фото для объявления» под нужным одобренным лотом.",
+            )
+            return
+        ad_id = ctx["ad_id"]
+        del awaiting[str(chat_id)]
+        _finish_listing(state, tg, chat_id, ad_id)
+
     else:
         tg.send_message(chat_id, "Не знаю такую команду. /help — список команд.")
 
@@ -265,6 +319,18 @@ def _run_scan(state: dict, tg: TelegramClient) -> None:
             remember_price(state, details.price, brand)
 
         lot = _build_lot(state, details)
+
+        # Автопроверка подлинности по фото — только если задан ANTHROPIC_API_KEY,
+        # иначе originality остаётся "unverified" (см. ai.py).
+        if ai.available() and lot.get("image_url"):
+            result = ai.check_authenticity(lot["image_url"], lot.get("title"))
+            if result:
+                lot["originality"], lot["originality_note"] = result
+
+        sc = _score_lot(lot)
+        if sc["risk"] > MAX_RISK_TO_SUGGEST:
+            continue  # риск выше допустимого — не показываем и не храним
+
         state["lots"][str(ad_id)] = lot
         _send_suggestion(state, tg, lot)
 
@@ -333,6 +399,8 @@ def _build_lot(state: dict, details) -> dict:
         "pricevsmarket": pricevsmarket,
         "resalevsmarket": resalevsmarket,
         "originality": "unverified",
+        "originality_note": None,
+        "listing_photo_file_ids": [],
         "chat_id": None,
         "message_id": None,
         "is_photo": False,
@@ -407,6 +475,34 @@ def _refresh_lot_message(state: dict, tg: TelegramClient, ad_id: str) -> None:
             tg.edit_message_text(lot["chat_id"], lot["message_id"], text, reply_markup=keyboard)
     except TelegramError:
         pass  # сообщение могли удалить вручную — не критично
+
+
+def _finish_listing(state: dict, tg: TelegramClient, chat_id, ad_id: str) -> None:
+    lot = state["lots"].get(ad_id)
+    if not lot:
+        tg.send_message(chat_id, "Лот не найден (возможно, был удалён).")
+        return
+
+    file_ids = lot.get("listing_photo_file_ids") or []
+    text = None
+    if file_ids and ai.available():
+        photo_bytes = [b for b in (tg.download_file(fid) for fid in file_ids) if b]
+        if photo_bytes:
+            text = ai.generate_listing_text(lot, photo_bytes)
+
+    if not text:
+        text = formatting.listing_template(lot)
+        if not ai.available():
+            text += (
+                "\n\n(Это шаблонный текст без ИИ — добавьте секрет ANTHROPIC_API_KEY, "
+                "чтобы получать более живое описание по вашим фото.)"
+            )
+        elif not file_ids:
+            text += "\n\n(Фото не присылали — использован шаблон по данным объявления.)"
+
+    tg.send_message(chat_id, "<b>Готовый текст для Kufar</b> (скопируйте и вставьте сами):")
+    tg.send_message(chat_id, text, parse_mode=None)
+    lot["listing_photo_file_ids"] = []
 
 
 def _build_stats_text(state: dict) -> str:

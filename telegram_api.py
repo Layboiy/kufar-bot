@@ -73,13 +73,17 @@ class TelegramClient:
         return self._call("getUpdates", **params)
 
     def send_message(self, chat_id: int | str, text: str, reply_markup: str | None = None,
-                      parse_mode: str = "HTML", disable_web_page_preview: bool = True) -> dict:
+                      parse_mode: str | None = "HTML", disable_web_page_preview: bool = True) -> dict:
         params: dict[str, Any] = {
             "chat_id": chat_id,
             "text": text,
-            "parse_mode": parse_mode,
             "disable_web_page_preview": disable_web_page_preview,
         }
+        if parse_mode:
+            # parse_mode=None/"" отправляет обычный текст без разметки — нужно
+            # для свободного текста (например, сгенерированного объявления),
+            # который может содержать символы, ломающие HTML/Markdown-парсинг.
+            params["parse_mode"] = parse_mode
         if reply_markup:
             params["reply_markup"] = reply_markup
         return self._call("sendMessage", **params)
@@ -141,3 +145,27 @@ class TelegramClient:
             text=text,
             show_alert=show_alert,
         )
+
+    def get_file_path(self, file_id: str) -> str | None:
+        try:
+            result = self._call("getFile", file_id=file_id)
+        except TelegramError:
+            return None
+        return result.get("file_path")
+
+    def file_url(self, file_path: str) -> str:
+        return f"https://api.telegram.org/file/bot{self.token}/{file_path}"
+
+    def download_file(self, file_id: str) -> bytes | None:
+        """Скачивает файл, присланный пользователем боту (например, фото
+        часов для будущего объявления) — используется для передачи в ИИ."""
+        path = self.get_file_path(file_id)
+        if not path:
+            return None
+        try:
+            resp = requests.get(self.file_url(path), timeout=30)
+        except requests.RequestException:
+            return None
+        if resp.status_code != 200:
+            return None
+        return resp.content

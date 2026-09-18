@@ -176,6 +176,43 @@ check("approved_text вернул непустую строку", isinstance(app
 approved_kb = formatting.approved_keyboard(built["ad_id"], "listed")
 check("approved_keyboard — валидный JSON", "inline_keyboard" in json.loads(approved_kb))
 
+# --- 9b. Ценовые категории, ИИ-заглушка без ключа, шаблон объявления ---
+import config as config_mod
+check(
+    "бюджетная категория",
+    scoring.price_category(30, config_mod.PRICE_CATEGORIES) == config_mod.PRICE_CATEGORIES[0][1],
+)
+check(
+    "премиум-категория (очень дорогой лот)",
+    scoring.price_category(10_000, config_mod.PRICE_CATEGORIES) == config_mod.PRICE_CATEGORIES[-1][1],
+)
+
+import ai as ai_mod
+check("без ANTHROPIC_API_KEY ai.available() == False", ai_mod.available() is False)
+check("без ключа check_authenticity возвращает None", ai_mod.check_authenticity("http://example.com/x.jpg", "Casio") is None)
+check("без ключа generate_listing_text возвращает None", ai_mod.generate_listing_text(built, []) is None)
+check(
+    "parse_verdict распознаёт «похоже на подделку»",
+    ai_mod.parse_verdict("бла бла\nВердикт: похоже на подделку") == "likely_fake",
+)
+check(
+    "parse_verdict по умолчанию — uncertain",
+    ai_mod.parse_verdict("что-то без вердикта") == "uncertain",
+)
+
+template_text = formatting.listing_template(built)
+check("listing_template вернул непустой текст", isinstance(template_text, str) and len(template_text) > 10)
+
+built_with_verdict = dict(built)
+built_with_verdict["originality"] = "likely_fake"
+built_with_verdict["originality_note"] = "Логотип смазан, похоже на реплику."
+sc_verdict = bot_main._score_lot(built_with_verdict)
+verdict_text = formatting.suggestion_text(built_with_verdict, sc_verdict, None)
+check(
+    "suggestion_text показывает вердикт и заметку ИИ",
+    "похоже на подделку".lower() in verdict_text.lower() and "смазан" in verdict_text,
+)
+
 # --- 10. Ориентир цены по бренду, когда конкретной модели в /addmodel нет ---
 brand_state = state_mod.load_state()
 for p in (140, 150, 160, 145):  # 4 образца — достаточно для брендового ориентира

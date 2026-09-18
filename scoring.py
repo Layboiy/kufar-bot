@@ -188,3 +188,15 @@ def resale_vs_reference(resale: float, reference: float | None) -> str:
     if ratio < 0.85:
         return "discount"
     return "realistic"
+
+
+def price_category(price: float, categories: list[tuple[float, str]]) -> str:
+    """Возвращает подпись ценовой категории по списку (порог, подпись) —
+    см. config.PRICE_CATEGORIES. Порог включительный, категории должны идти
+    по возрастанию, последняя обычно с порогом float('inf')."""
+    if not categories:
+        return ""
+    for threshold, label in categories:
+        if price <= threshold:
+            return label
+    return categories[-1][1]
