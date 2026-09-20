@@ -603,6 +603,30 @@
       "status": "suggested",
       "title": "Часы Seiko Prospex SBDC197 Japan, цена 3 400 р. купить в Минске на Куфаре - Объявление №1079211791"
     },
+    "1079946061": {
+      "actual_sale": null,
+      "ad_id": 1079946061,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/64af97b9-a1ce-4891-b532-e103e817ecf3.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1079946061",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 142,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2800.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Seiko SPB453J1 Prospex Diver 300m / Оригинал, цена 2 800 р. купить в Минске на Куфаре - Объявление №1079946061"
+    },
     "1080596285": {
       "actual_sale": null,
       "ad_id": 1080596285,
@@ -1587,6 +1611,54 @@
       "status": "suggested",
       "title": "Часы Evangelion, цена 60 р. купить в Минске на Куфаре - Объявление №1085890409"
     },
+    "1085890712": {
+      "actual_sale": null,
+      "ad_id": 1085890712,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f7a55076-3a3a-42ae-b44a-2e3583e73cc9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085890712",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 141,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 90.0,
+      "pricevsmarket": "high",
+      "resale": 75.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские ''Okami'', цена 90 р. купить в Бресте на Куфаре - Объявление №1085890712"
+    },
+    "1085890898": {
+      "actual_sale": null,
+      "ad_id": 1085890898,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/fa4408df-77db-4747-a8c4-77ad3af3897c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085890898",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 140,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 65.0,
+      "pricevsmarket": "normal",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские (новые), реплика, цена 65 р. купить в Минске на Куфаре - Объявление №1085890898"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -1729,7 +1801,10 @@
     65.0,
     50.0,
     29.99,
-    115.0
+    115.0,
+    65.0,
+    90.0,
+    2800.0
   ],
   "recent_prices_by_brand": {
     "audemars": [
@@ -1835,7 +1910,8 @@
       75.0,
       20.0,
       65.0,
-      80.0
+      80.0,
+      90.0
     ],
     "кулон": [
       300.0
@@ -1849,7 +1925,8 @@
       10.0
     ],
     "мужские": [
-      40.0
+      40.0,
+      65.0
     ],
     "наручные": [
       35.0,
@@ -1970,6 +2047,9 @@
     1016487266,
     241057608,
     232895778,
-    177582130
+    177582130,
+    1085890898,
+    1085890712,
+    1079946061
   ]
 }
