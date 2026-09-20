@@ -675,6 +675,30 @@
       "status": "suggested",
       "title": "Часы наручные мужские, цена 1 150 р. купить в Минске на Куфаре - Объявление №1081002793"
     },
+    "1082739829": {
+      "actual_sale": null,
+      "ad_id": 1082739829,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/589c8503-74da-46fa-adbc-25777b5e47c2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082739829",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 148,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 700.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы SEIKO SNZG15J1, цена 700 р. купить в Минске на Куфаре - Объявление №1082739829"
+    },
     "1082865449": {
       "actual_sale": null,
       "ad_id": 1082865449,
@@ -770,6 +794,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Мужские часы Tissot Le Locle Powermatic 80 (Комплект) Оригинал, цена 1 550 р. купить в Минске на Куфаре - Объявление №1085075807"
+    },
+    "1085634733": {
+      "actual_sale": null,
+      "ad_id": 1085634733,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/79f733cc-759d-4c8a-8863-6434c997e0b8.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085634733",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 147,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 102.5,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские, цена 250 р. купить в Лиде на Куфаре - Объявление №1085634733"
     },
     "1085744747": {
       "actual_sale": null,
@@ -1707,6 +1755,54 @@
       "status": "suggested",
       "title": "часы наручные G-SHOCK, цена 70 р. купить в Могилеве на Куфаре - Объявление №1085891171"
     },
+    "1085891453": {
+      "actual_sale": null,
+      "ad_id": 1085891453,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/a8bb309b-886f-485f-9e55-ebeab77e14f3.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085891453",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 146,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 55.0,
+      "pricevsmarket": "normal",
+      "resale": 65.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские (новые) на ремне, цена 55 р. купить в Минске на Куфаре - Объявление №1085891453"
+    },
+    "1085891743": {
+      "actual_sale": null,
+      "ad_id": 1085891743,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/43877416-fcc7-4635-9806-9ce240ed1ded.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085891743",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 145,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 55.0,
+      "pricevsmarket": "normal",
+      "resale": 70.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские (новые), реплика, цена 55 р. купить в Минске на Куфаре - Объявление №1085891743"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -1854,7 +1950,13 @@
     90.0,
     2800.0,
     70.0,
-    140.0
+    140.0,
+    55.0,
+    55.0,
+    10.0,
+    250.0,
+    45.0,
+    700.0
   ],
   "recent_prices_by_brand": {
     "audemars": [
@@ -1907,6 +2009,9 @@
     "hilfiger": [
       45.0
     ],
+    "hyblot": [
+      45.0
+    ],
     "michael": [
       700.0,
       1050.0
@@ -1932,7 +2037,8 @@
       1699.0
     ],
     "seiko": [
-      3400.0
+      3400.0,
+      700.0
     ],
     "sport": [
       15.0
@@ -1961,7 +2067,9 @@
       20.0,
       65.0,
       80.0,
-      90.0
+      90.0,
+      55.0,
+      55.0
     ],
     "кулон": [
       300.0
@@ -1977,7 +2085,8 @@
     "мужские": [
       40.0,
       65.0,
-      140.0
+      140.0,
+      250.0
     ],
     "наручные": [
       35.0,
@@ -2104,6 +2213,12 @@
     1085890712,
     1079946061,
     1085891171,
-    1085891089
+    1085891089,
+    1085891743,
+    1085891453,
+    1085891421,
+    1085634733,
+    1083425837,
+    1082739829
   ]
 }
