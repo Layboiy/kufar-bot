@@ -795,6 +795,30 @@
       "status": "suggested",
       "title": "Часы наручные мужские, цена 1 150 р. купить в Минске на Куфаре - Объявление №1081002793"
     },
+    "1082133141": {
+      "actual_sale": null,
+      "ad_id": 1082133141,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2f6ce527-9f10-4ac5-bc46-1f831cfe29f5.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082133141",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 159,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 820.0,
+      "pricevsmarket": "high",
+      "resale": 250.0,
+      "resale_source": "brand:луч",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Луч Биколор '' 30лет победы'', цена 820 р. купить в Минске на Куфаре - Объявление №1082133141"
+    },
     "1082260928": {
       "actual_sale": null,
       "ad_id": 1082260928,
@@ -2207,7 +2231,8 @@
     280.0,
     500.0,
     30.0,
-    45.0
+    45.0,
+    820.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2338,7 +2363,8 @@
       250.0,
       23.0,
       20.0,
-      500.0
+      500.0,
+      820.0
     ],
     "механические": [
       10.0
@@ -2499,6 +2525,7 @@
     1071708754,
     1085893158,
     1085893142,
-    1064269483
+    1064269483,
+    1082133141
   ]
 }
