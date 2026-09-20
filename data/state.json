@@ -651,6 +651,30 @@
       "status": "suggested",
       "title": "Часы женские Michael Kors MK5799, цена 300 р. купить в Минске на Куфаре - Объявление №1078242941"
     },
+    "1078254896": {
+      "actual_sale": null,
+      "ad_id": 1078254896,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b3f969b4-615b-4ffc-b664-417fecfbf5b0.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078254896",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 161,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 320.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские Fossil оригинал, цена 320 р. купить в Гомеле на Куфаре - Объявление №1078254896"
+    },
     "1078294384": {
       "actual_sale": null,
       "ad_id": 1078294384,
@@ -2067,6 +2091,30 @@
       "status": "suggested",
       "title": "Часы ''Восток'' механические с браслетом, цена 70 р. купить в Минске на Куфаре - Объявление №1085891891"
     },
+    "1085894466": {
+      "actual_sale": null,
+      "ad_id": 1085894466,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7de77df9-aa59-42bc-b16f-7d3925d2b81a.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085894466",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 160,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 40.0,
+      "pricevsmarket": "normal",
+      "resale": 44.5,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio, цена 40 р. купить в Бресте на Куфаре - Объявление №1085894466"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2232,7 +2280,9 @@
     500.0,
     30.0,
     45.0,
-    820.0
+    820.0,
+    40.0,
+    320.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2269,7 +2319,8 @@
       720.0,
       50.0,
       29.99,
-      35.0
+      35.0,
+      40.0
     ],
     "daniel": [
       50.0
@@ -2354,7 +2405,8 @@
       80.0,
       90.0,
       55.0,
-      55.0
+      55.0,
+      320.0
     ],
     "кулон": [
       300.0
@@ -2526,6 +2578,8 @@
     1085893158,
     1085893142,
     1064269483,
-    1082133141
+    1082133141,
+    1085894466,
+    1078254896
   ]
 }
