@@ -2139,6 +2139,30 @@
       "status": "suggested",
       "title": "Часы ''Луч/СССР'', цена 350 р. купить в Пинске на Куфаре - Объявление №1085895457"
     },
+    "1085896109": {
+      "actual_sale": null,
+      "ad_id": 1085896109,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/07958aac-2156-4c0a-8cbf-0360830098c6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085896109",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 163,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 315.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Daniel Klein, цена 315 р. купить в Бресте на Куфаре - Объявление №1085896109"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2307,7 +2331,9 @@
     820.0,
     40.0,
     320.0,
-    350.0
+    350.0,
+    400.0,
+    315.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2348,7 +2374,8 @@
       40.0
     ],
     "daniel": [
-      50.0
+      50.0,
+      315.0
     ],
     "dom": [
       45.0
@@ -2396,7 +2423,8 @@
     ],
     "seiko": [
       3400.0,
-      700.0
+      700.0,
+      400.0
     ],
     "sport": [
       15.0
@@ -2606,6 +2634,8 @@
     1082133141,
     1085894466,
     1078254896,
-    1085895457
+    1085895457,
+    1084984510,
+    1085896109
   ]
 }
