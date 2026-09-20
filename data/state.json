@@ -3,6 +3,150 @@
   "known_models": {},
   "last_update_id": 99233347,
   "lots": {
+    "1065947172": {
+      "actual_sale": null,
+      "ad_id": 1065947172,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/19c2df21-83f3-43aa-9fb9-577473321d76.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1065947172",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 121,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 75.0,
+      "pricevsmarket": "high",
+      "resale": 69.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские часы Bretling (новые,реплика), цена 75 р. купить в Минске на Куфаре - Объявление №1065947172"
+    },
+    "1069556473": {
+      "actual_sale": null,
+      "ad_id": 1069556473,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/404e7033-68eb-48b2-b345-bcd1e8a16402.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1069556473",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 120,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 60.0,
+      "pricevsmarket": "normal",
+      "resale": 77.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Женские часы Cartier (реплика, новые), цена 60 р. купить в Минске на Куфаре - Объявление №1069556473"
+    },
+    "1069636484": {
+      "actual_sale": null,
+      "ad_id": 1069636484,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1b8ac6b0-9c05-4e37-a692-d4826dcefaf8.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1069636484",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 119,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 100.0,
+      "pricevsmarket": "high",
+      "resale": 67.5,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные, механические ''Луч '', цена 100 р. купить в Минске на Куфаре - Объявление №1069636484"
+    },
+    "1070769445": {
+      "actual_sale": null,
+      "ad_id": 1070769445,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/dd4c014b-eb7e-4078-a3e9-912417781ac8.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1070769445",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 118,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 49.0,
+      "pricevsmarket": "normal",
+      "resale": 60.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Casio Classic женские, цена 49 р. купить в Минске на Куфаре - Объявление №1070769445"
+    },
+    "1071072636": {
+      "actual_sale": null,
+      "ad_id": 1071072636,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/038eb573-12bf-47fb-8d56-6aa04703a1bc.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1071072636",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 117,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 180.0,
+      "pricevsmarket": "high",
+      "resale": 94.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Fossil, цена 180 р. купить в Минске на Куфаре - Объявление №1071072636"
+    },
+    "1073880013": {
+      "actual_sale": null,
+      "ad_id": 1073880013,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/198a02e8-c8dd-4fb5-b06a-5feeb88b5187.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073880013",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 116,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 129.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Новые Гарантия Наручные часы Casio LTP-V007SG-9B, цена 129 р. купить в Минске на Куфаре - Объявление №1073880013"
+    },
     "1076427648": {
       "actual_sale": null,
       "ad_id": 1076427648,
@@ -987,6 +1131,54 @@
       "status": "suggested",
       "title": "Женские аксессуары, цена Договорная купить в других городах Гомельской области на Куфаре - Объявление №1085888480"
     },
+    "1085889734": {
+      "actual_sale": null,
+      "ad_id": 1085889734,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7fc89874-56cd-4868-9d8f-03ec73413201.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085889734",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 115,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 94.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы, цена 250 р. купить в Витебске на Куфаре - Объявление №1085889734"
+    },
+    "1085890106": {
+      "actual_sale": null,
+      "ad_id": 1085890106,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/50fbdeb3-4b7e-4992-a912-dc6cf67930c6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085890106",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 114,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "high",
+      "resale": 60.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio MTP-V300D-7A, цена 150 р. купить в Минске на Куфаре - Объявление №1085890106"
+    },
     "1085890113": {
       "actual_sale": null,
       "ad_id": 1085890113,
@@ -1064,19 +1256,54 @@
     6400.0,
     69.99,
     700.0,
+    75.0,
+    150.0,
+    20.0,
+    250.0,
+    129.0,
+    45.0,
+    180.0,
+    49.0,
+    26.0,
+    45.0,
+    100.0,
+    60.0,
+    55.0,
+    45.0,
+    35.0,
+    25.0,
     75.0
   ],
   "recent_prices_by_brand": {
+    "audemars": [
+      45.0
+    ],
+    "bretling": [
+      75.0
+    ],
     "burker": [
       230.0
+    ],
+    "cartier": [
+      60.0
     ],
     "casio": [
       36.99,
       70.0,
-      50.0
+      50.0,
+      150.0,
+      129.0,
+      49.0,
+      26.0
     ],
     "daniel": [
       50.0
+    ],
+    "dom": [
+      45.0
+    ],
+    "fossil": [
+      180.0
     ],
     "hamilton": [
       1950.0
@@ -1094,6 +1321,9 @@
     "oris": [
       80.0
     ],
+    "patek": [
+      45.0
+    ],
     "rsw": [
       1699.0
     ],
@@ -1107,7 +1337,8 @@
       140.0,
       399.99,
       1550.0,
-      69.99
+      69.99,
+      55.0
     ],
     "женские": [
       20.0,
@@ -1115,7 +1346,8 @@
       130.0,
       140.0,
       300.0,
-      75.0
+      75.0,
+      20.0
     ],
     "луч": [
       250.0,
@@ -1131,7 +1363,8 @@
     "наручные": [
       35.0,
       20.0,
-      1150.0
+      1150.0,
+      100.0
     ],
     "новые": [
       15.0
@@ -1205,6 +1438,22 @@
     1077893610,
     1076837972,
     1076427648,
-    1085890113
+    1085890113,
+    1085890106,
+    1085889771,
+    1085889734,
+    1073880013,
+    1071295332,
+    1071072636,
+    1070769445,
+    1070639868,
+    1069785756,
+    1069636484,
+    1069556473,
+    1069536855,
+    1068136801,
+    1067189619,
+    1067183104,
+    1065947172
   ]
 }
