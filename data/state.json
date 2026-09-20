@@ -1,7 +1,7 @@
 {
   "awaiting": {},
   "known_models": {},
-  "last_update_id": 99233341,
+  "last_update_id": 99233345,
   "lots": {
     "1085873020": {
       "actual_sale": null,
@@ -24,7 +24,7 @@
       "resalevsmarket": "realistic",
       "seller": "new",
       "shipping": 0.0,
-      "status": "suggested",
+      "status": "rejected",
       "title": "Michael Kors MK-6560, цена 450 р. купить в Могилеве на Куфаре - Объявление №1085873020"
     },
     "1085873604": {
@@ -48,7 +48,7 @@
       "resalevsmarket": "realistic",
       "seller": "new",
       "shipping": 0.0,
-      "status": "suggested",
+      "status": "rejected",
       "title": "Часы оригинал, цена 65 р. купить в Минске на Куфаре - Объявление №1085873604"
     },
     "1085875479": {
@@ -115,9 +115,9 @@
       "originality_note": null,
       "price": 100.0,
       "pricevsmarket": "high",
-      "resale": 89.5,
+      "resale": 300.0,
       "resale_source": "global",
-      "resalevsmarket": "realistic",
+      "resalevsmarket": "optimistic",
       "seller": "new",
       "shipping": 0.0,
       "status": "suggested",
