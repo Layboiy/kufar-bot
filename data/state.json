@@ -2115,6 +2115,30 @@
       "status": "suggested",
       "title": "Часы Casio, цена 40 р. купить в Бресте на Куфаре - Объявление №1085894466"
     },
+    "1085895457": {
+      "actual_sale": null,
+      "ad_id": 1085895457,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/771f9137-6db9-4d68-b119-3d2adde273a3.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085895457",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 162,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ''Луч/СССР'', цена 350 р. купить в Пинске на Куфаре - Объявление №1085895457"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2282,7 +2306,8 @@
     45.0,
     820.0,
     40.0,
-    320.0
+    320.0,
+    350.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2580,6 +2605,7 @@
     1064269483,
     1082133141,
     1085894466,
-    1078254896
+    1078254896,
+    1085895457
   ]
 }
