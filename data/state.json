@@ -435,6 +435,30 @@
       "status": "suggested",
       "title": "Часы Fossil, цена 180 р. купить в Минске на Куфаре - Объявление №1071072636"
     },
+    "1073262229": {
+      "actual_sale": null,
+      "ad_id": 1073262229,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/a9fcb05f-e392-40a2-ab83-24c86d7e759d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073262229",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 155,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 420.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Суточные часы на калибре Ракеты 2623 Марьяж, цена 420 р. купить в Бресте на Куфаре - Объявление №1073262229"
+    },
     "1073880013": {
       "actual_sale": null,
       "ad_id": 1073880013,
@@ -794,6 +818,54 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы Burker Diana Petite Silver White, оригинал, цена 230 р. купить в Логойске на Куфаре - Объявление №1083576799"
+    },
+    "1084012595": {
+      "actual_sale": null,
+      "ad_id": 1084012595,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8faac7bc-85c1-426a-bfc2-597ad4b8fc8e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084012595",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 154,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 35.0,
+      "pricevsmarket": "normal",
+      "resale": 50.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы CASIO (Новые), цена 35 р. купить в Минске на Куфаре - Объявление №1084012595"
+    },
+    "1084884646": {
+      "actual_sale": null,
+      "ad_id": 1084884646,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/541fa9d7-c81f-44da-a92f-641851ac7364.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084884646",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 153,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 550.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские механические часы Молния (Марьяж)3602, цена 550 р. купить в Бресте на Куфаре - Объявление №1084884646"
     },
     "1085075450": {
       "actual_sale": null,
@@ -2056,7 +2128,10 @@
     70.0,
     50.0,
     45.0,
-    290.0
+    290.0,
+    550.0,
+    35.0,
+    420.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2092,7 +2167,8 @@
       70.0,
       720.0,
       50.0,
-      29.99
+      29.99,
+      35.0
     ],
     "daniel": [
       50.0
@@ -2189,11 +2265,17 @@
     "механические": [
       10.0
     ],
+    "молния": [
+      550.0
+    ],
     "мужские": [
       40.0,
       65.0,
       140.0,
       250.0
+    ],
+    "на": [
+      420.0
     ],
     "наручные": [
       35.0,
@@ -2330,6 +2412,9 @@
     1085891891,
     1085891878,
     1078402969,
-    1077619874
+    1077619874,
+    1084884646,
+    1084012595,
+    1073262229
   ]
 }
