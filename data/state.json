@@ -579,6 +579,30 @@
       "status": "suggested",
       "title": "Raymond Weil Tango, цена 2 000 р. купить в Минске на Куфаре - Объявление №1078294384"
     },
+    "1078402969": {
+      "actual_sale": null,
+      "ad_id": 1078402969,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2459bcb5-3386-49a2-b569-420f9408a37d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078402969",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 151,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 45.0,
+      "pricevsmarket": "normal",
+      "resale": 45.0,
+      "resale_source": "brand:rolex",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы ROLEX (Новые.Коробка в подарок), цена 45 р. купить в Минске на Куфаре - Объявление №1078402969"
+    },
     "1079211791": {
       "actual_sale": null,
       "ad_id": 1079211791,
@@ -1803,6 +1827,54 @@
       "status": "suggested",
       "title": "Часы женские (новые), реплика, цена 55 р. купить в Минске на Куфаре - Объявление №1085891743"
     },
+    "1085891878": {
+      "actual_sale": null,
+      "ad_id": 1085891878,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/867552a9-7815-4a1b-966a-1a432377b0e9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085891878",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 150,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 50.0,
+      "pricevsmarket": "normal",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Alabaster, цена 50 р. купить в Гомеле на Куфаре - Объявление №1085891878"
+    },
+    "1085891891": {
+      "actual_sale": null,
+      "ad_id": 1085891891,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/11b4d565-6a83-4775-a38f-c3e38fbe11e2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085891891",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 149,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 70.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ''Восток'' механические с браслетом, цена 70 р. купить в Минске на Куфаре - Объявление №1085891891"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -1956,9 +2028,15 @@
     10.0,
     250.0,
     45.0,
-    700.0
+    700.0,
+    70.0,
+    50.0,
+    45.0
   ],
   "recent_prices_by_brand": {
+    "alabaster": [
+      50.0
+    ],
     "audemars": [
       45.0
     ],
@@ -2031,7 +2109,8 @@
     ],
     "rolex": [
       45.0,
-      710.0
+      710.0,
+      45.0
     ],
     "rsw": [
       1699.0
@@ -2219,6 +2298,9 @@
     1085891421,
     1085634733,
     1083425837,
-    1082739829
+    1082739829,
+    1085891891,
+    1085891878,
+    1078402969
   ]
 }
