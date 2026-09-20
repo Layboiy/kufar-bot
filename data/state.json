@@ -1442,6 +1442,54 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы женские (новые), реплика, цена 75 р. купить в Минске на Куфаре - Объявление №1085890113"
+    },
+    "1085890401": {
+      "actual_sale": null,
+      "ad_id": 1085890401,
+      "chat_id": null,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7f80c828-c322-48cb-b1f6-3c5372eee388.jpg",
+      "is_photo": false,
+      "link": "https://www.kufar.by/item/1085890401",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": null,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 65.0,
+      "pricevsmarket": "normal",
+      "resale": 65.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские (новые), реплика, цена 65 р. купить в Минске на Куфаре - Объявление №1085890401"
+    },
+    "1085890409": {
+      "actual_sale": null,
+      "ad_id": 1085890409,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/453ced6a-5e75-4f3c-9e1a-4afa50b6c44e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085890409",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 132,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 60.0,
+      "pricevsmarket": "normal",
+      "resale": 75.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Evangelion, цена 60 р. купить в Минске на Куфаре - Объявление №1085890409"
     }
   },
   "recent_prices": [
@@ -1525,7 +1573,9 @@
     300.0,
     2950.0,
     720.0,
-    79.99
+    79.99,
+    60.0,
+    65.0
   ],
   "recent_prices_by_brand": {
     "audemars": [
@@ -1559,6 +1609,9 @@
     ],
     "dom": [
       45.0
+    ],
+    "evangelion": [
+      60.0
     ],
     "fossil": [
       180.0
@@ -1614,7 +1667,8 @@
       140.0,
       300.0,
       75.0,
-      20.0
+      20.0,
+      65.0
     ],
     "кулон": [
       300.0
@@ -1737,6 +1791,8 @@
     1040763747,
     1036330875,
     1032712655,
-    1021625072
+    1021625072,
+    1085890409,
+    1085890401
   ]
 }
