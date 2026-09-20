@@ -1,22 +1,46 @@
 """
-Точка входа. Запускается GitHub Actions раз в N минут (см. .github/workflows/bot.yml).
+Точка входа. Бот теперь работает как ПОСТОЯННО запущенный процесс (не как
+разовый скрипт по расписанию через GitHub Actions) — это нужно для
+мгновенной реакции на кнопки и команды. Хостится на сервисе с постоянно
+работающими процессами (например Render, см. README), а не на GitHub
+Actions cron.
 
-За один запуск:
-1. Забирает накопившиеся апдейты Telegram (нажатия кнопок, ответы, команды).
-2. Сканирует категории часов на kufar.by, ищет новые объявления с Casio/G-Shock.
-3. Присылает владельцу карточки с предложениями на одобрение.
-4. Сохраняет состояние в data/state.json (коммитится обратно workflow-ом).
+Внутри процесса параллельно работают:
+1. Long polling Telegram в основном потоке — реагирует на кнопки/сообщения
+   сразу, как только они приходят (без ожидания расписания).
+2. Фоновый поток, который каждые SCAN_INTERVAL_SECONDS сканирует категории
+   часов на kufar.by и присылает новые находки.
+3. Фоновый поток с крошечным HTTP-сервером — хостинг видит процесс как
+   "живой" веб-сервис, а внешний пинг-сервис (см. README) не даёт ему
+   "заснуть" от бездействия.
+4. Фоновый поток, который периодически сохраняет состояние (кто одобрен,
+   статусы, цены) в GitHub (если настроено — см. remote_state.py), чтобы
+   прогресс не терялся при перезапуске процесса хостингом.
 """
 
 from __future__ import annotations
 
+import copy
+import signal
 import sys
+import threading
+import time
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 import ai
 import formatting
+import remote_state
 import scoring
-from config import BOT_TOKEN, MAX_NEW_ITEMS_PER_RUN, MAX_RISK_TO_SUGGEST, OWNER_CHAT_ID
-from state import load_state, remember_price, remember_seen, save_state
+from config import (
+    BOT_TOKEN,
+    MAX_NEW_ITEMS_PER_RUN,
+    MAX_RISK_TO_SUGGEST,
+    OWNER_CHAT_ID,
+    PORT,
+    SCAN_INTERVAL_SECONDS,
+    STATE_PUSH_INTERVAL_SECONDS,
+)
+from state import load_state, remember_price, remember_seen, save_state, with_defaults
 from telegram_api import TelegramClient, TelegramError
 
 import scraper
@@ -32,18 +56,60 @@ HELP_TEXT = (
     "/delmodel ключ — удалить модель\n"
     "/done — закончить присылать фото для объявления и получить готовый текст\n\n"
     "Бот сам проверяет категории наручных часов на Kufar (все бренды) на "
-    "новые объявления и присылает их сюда на одобрение, отсеивая явный мусор "
-    "(ремешки, запчасти) и лоты с расчётным риском выше "
-    f"{MAX_RISK_TO_SUGGEST}/100. Кнопками под карточкой лота можно "
-    "одобрить/отклонить, указать цену продажи и двигать статус (торгуюсь → "
-    "куплено → выставлено → продано). После одобрения кнопка «📸 Собрать "
-    "фото для объявления» переводит в режим приёма фото — присылайте фото "
-    "уже купленной вещи по одному, затем /done — бот пришлёт готовый текст "
-    "объявления для Kufar (скопировать и вставить самостоятельно)."
+    "новые объявления каждые "
+    f"{max(1, SCAN_INTERVAL_SECONDS // 60)} мин. и присылает их сюда на "
+    "одобрение, отсеивая явный мусор (ремешки, запчасти) и лоты с расчётным "
+    f"риском выше {MAX_RISK_TO_SUGGEST}/100. Кнопками под карточкой лота "
+    "можно одобрить/отклонить, указать цену продажи и двигать статус "
+    "(торгуюсь → куплено → выставлено → продано) — реакция на кнопки и "
+    "команды мгновенная, бот работает постоянно. После одобрения кнопка "
+    "«📸 Собрать фото для объявления» переводит в режим приёма фото — "
+    "присылайте фото уже купленной вещи по одному, затем /done — бот "
+    "пришлёт готовый текст объявления для Kufar (скопировать и вставить "
+    "самостоятельно)."
     + ("" if ai.available() else "\n\nПодсказка: подлинность по фото и более "
        "живой текст объявления заработают, если добавить секрет "
        "ANTHROPIC_API_KEY — сейчас используются только эвристики и шаблоны.")
 )
+
+# Один лок на всё состояние — бот однопользовательский и низконагруженный,
+# поэтому простой RLock проще и надёжнее, чем гранулярная блокировка по
+# отдельным ключам. Держим его коротко: сетевые вызовы (Telegram, Kufar, ИИ)
+# стараемся делать ДО или ПОСЛЕ захвата лока, а не во время.
+STATE_LOCK = threading.RLock()
+
+_shutdown = threading.Event()
+_dirty = threading.Event()
+
+
+def _mark_dirty() -> None:
+    _dirty.set()
+
+
+def _handle_signal(signum, frame) -> None:  # noqa: ARG001
+    print(f"[info] получен сигнал {signum}, останавливаюсь...", file=sys.stderr)
+    _shutdown.set()
+
+
+class _HealthHandler(BaseHTTPRequestHandler):
+    """Крошечный HTTP-эндпоинт: хостингу нужен слушающий порт, а внешнему
+    пинг-сервису — что-то, что можно дёргать каждые несколько минут, чтобы
+    бесплатный инстанс не "засыпал" от бездействия."""
+
+    def do_GET(self) -> None:  # noqa: N802
+        self.send_response(200)
+        self.send_header("Content-Type", "text/plain; charset=utf-8")
+        self.end_headers()
+        self.wfile.write("kufar-bot is running\n".encode("utf-8"))
+
+    def log_message(self, format: str, *args) -> None:  # noqa: A002
+        pass  # не засоряем логи хостинга служебными пинг-запросами
+
+
+def _start_health_server(port: int) -> None:
+    server = ThreadingHTTPServer(("0.0.0.0", port), _HealthHandler)
+    thread = threading.Thread(target=server.serve_forever, name="health", daemon=True)
+    thread.start()
 
 
 def main() -> None:
@@ -51,35 +117,93 @@ def main() -> None:
         print("Не заданы переменные окружения BOT_TOKEN / OWNER_CHAT_ID — выхожу.", file=sys.stderr)
         sys.exit(1)
 
-    state = load_state()
+    signal.signal(signal.SIGTERM, _handle_signal)
+    signal.signal(signal.SIGINT, _handle_signal)
+
+    state = None
+    if remote_state.available():
+        state = remote_state.fetch()
+        if state is not None:
+            print("[info] состояние загружено из GitHub.", file=sys.stderr)
+            state = with_defaults(state)
+    if state is None:
+        state = load_state()
+
     tg = TelegramClient(BOT_TOKEN)
 
-    try:
-        _process_updates(state, tg)
-    except TelegramError as exc:
-        print(f"[warn] обработка апдейтов: {exc}", file=sys.stderr)
+    _start_health_server(PORT)
 
-    try:
-        _run_scan(state, tg)
-    except Exception as exc:  # сеть/парсинг не должны ронять весь запуск
-        print(f"[warn] сканирование Kufar: {exc}", file=sys.stderr)
+    scan_thread = threading.Thread(target=_scan_loop, args=(state, tg), name="scan", daemon=True)
+    scan_thread.start()
 
-    save_state(state)
+    persistence_thread = threading.Thread(
+        target=_persistence_loop, args=(state,), name="persistence", daemon=True
+    )
+    persistence_thread.start()
+
+    print("[info] Kufar bot запущен, жду обновления Telegram...", file=sys.stderr)
+    _poll_loop(state, tg)
+
+    scan_thread.join(timeout=5)
+    persistence_thread.join(timeout=15)
+    print("[info] остановлен.", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
-# Обработка входящих апдейтов
+# Постоянный long polling Telegram (мгновенная реакция)
 # ---------------------------------------------------------------------------
 
-def _process_updates(state: dict, tg: TelegramClient) -> None:
-    offset = (state["last_update_id"] + 1) if state["last_update_id"] else None
-    updates = tg.get_updates(offset=offset)
-    for upd in updates:
-        state["last_update_id"] = upd["update_id"]
-        if "callback_query" in upd:
-            _handle_callback(state, tg, upd["callback_query"])
-        elif "message" in upd:
-            _handle_message(state, tg, upd["message"])
+def _poll_loop(state: dict, tg: TelegramClient) -> None:
+    while not _shutdown.is_set():
+        try:
+            with STATE_LOCK:
+                offset = (state["last_update_id"] + 1) if state["last_update_id"] else None
+            updates = tg.get_updates(offset=offset, timeout=25)
+        except TelegramError as exc:
+            print(f"[warn] getUpdates: {exc}", file=sys.stderr)
+            time.sleep(5)
+            continue
+        except Exception as exc:  # сеть не должна ронять процесс
+            print(f"[warn] getUpdates неожиданная ошибка: {exc}", file=sys.stderr)
+            time.sleep(5)
+            continue
+
+        for upd in updates:
+            with STATE_LOCK:
+                state["last_update_id"] = upd["update_id"]
+                try:
+                    if "callback_query" in upd:
+                        _handle_callback(state, tg, upd["callback_query"])
+                    elif "message" in upd:
+                        _handle_message(state, tg, upd["message"])
+                except Exception as exc:
+                    print(f"[warn] обработка апдейта: {exc}", file=sys.stderr)
+            _mark_dirty()
+
+
+# ---------------------------------------------------------------------------
+# Периодическое сохранение состояния (локально + опционально в GitHub)
+# ---------------------------------------------------------------------------
+
+def _persistence_loop(state: dict) -> None:
+    while not _shutdown.wait(STATE_PUSH_INTERVAL_SECONDS):
+        if _dirty.is_set():
+            _dirty.clear()
+            _flush(state)
+    # Финальное сохранение при остановке, даже если ничего не "грязное" —
+    # дешевле лишний раз сохранить, чем потерять последние изменения.
+    _flush(state)
+
+
+def _flush(state: dict) -> None:
+    with STATE_LOCK:
+        snapshot = copy.deepcopy(state)
+    try:
+        save_state(snapshot)
+    except Exception as exc:
+        print(f"[warn] не удалось сохранить состояние локально: {exc}", file=sys.stderr)
+    if remote_state.available():
+        remote_state.push(snapshot)
 
 
 def _is_owner(chat_id) -> bool:
@@ -295,18 +419,30 @@ def _handle_command(state: dict, tg: TelegramClient, chat_id, text: str) -> None
 
 
 # ---------------------------------------------------------------------------
-# Сканирование Kufar
+# Сканирование Kufar (фоновый поток, раз в SCAN_INTERVAL_SECONDS)
 # ---------------------------------------------------------------------------
+
+def _scan_loop(state: dict, tg: TelegramClient) -> None:
+    while not _shutdown.is_set():
+        try:
+            _run_scan(state, tg)
+        except Exception as exc:  # сеть/парсинг не должны ронять весь процесс
+            print(f"[warn] сканирование Kufar: {exc}", file=sys.stderr)
+        if _shutdown.wait(SCAN_INTERVAL_SECONDS):
+            break
+
 
 def _run_scan(state: dict, tg: TelegramClient) -> None:
     session = scraper._session()
     ids = scraper.discover_item_ids(session)
-    seen = set(state["seen_ad_ids"])
+    with STATE_LOCK:
+        seen = set(state["seen_ad_ids"])
     new_ids = [i for i in ids if i not in seen][:MAX_NEW_ITEMS_PER_RUN]
 
     for ad_id in new_ids:
         details = scraper.fetch_item_details(session, ad_id)
-        remember_seen(state, ad_id)
+        with STATE_LOCK:
+            remember_seen(state, ad_id)
 
         if not details.raw_ok:
             continue
@@ -316,9 +452,11 @@ def _run_scan(state: dict, tg: TelegramClient) -> None:
 
         brand = scraper.extract_brand(details.title)
         if details.price:
-            remember_price(state, details.price, brand)
+            with STATE_LOCK:
+                remember_price(state, details.price, brand)
 
-        lot = _build_lot(state, details)
+        with STATE_LOCK:
+            lot = _build_lot(state, details)
 
         # Автопроверка подлинности по фото — только если задан ANTHROPIC_API_KEY,
         # иначе originality остаётся "unverified" (см. ai.py).
@@ -331,8 +469,10 @@ def _run_scan(state: dict, tg: TelegramClient) -> None:
         if sc["risk"] > MAX_RISK_TO_SUGGEST:
             continue  # риск выше допустимого — не показываем и не храним
 
-        state["lots"][str(ad_id)] = lot
+        with STATE_LOCK:
+            state["lots"][str(ad_id)] = lot
         _send_suggestion(state, tg, lot)
+        _mark_dirty()
 
 
 def _match_known_model(known_models: dict, title: str) -> dict | None:
@@ -372,9 +512,17 @@ def _resolve_reference(state: dict, title: str | None) -> tuple[float | None, st
 
 def _build_lot(state: dict, details) -> dict:
     known = _match_known_model(state["known_models"], details.title or "")
-    reference, _source = _resolve_reference(state, details.title)
+    reference, source = _resolve_reference(state, details.title)
 
-    resale = known["resale_price"] if known else 0.0
+    # Раньше ожидаемая цена продажи (resale) заполнялась ТОЛЬКО для моделей,
+    # заданных вручную через /addmodel — для всего остального маржа не
+    # показывалась вообще ("не задана"), и по карточке нельзя было на глаз
+    # понять, выгодное это предложение или нет. Теперь, если точной модели
+    # нет, используется тот же грубый автоматический ориентир (медиана по
+    # бренду или по всем часам), что и раньше показывался только в сноске —
+    # так маржа/выгода видна сразу почти по любому лоту, просто с пометкой,
+    # что это оценка, а не точная цифра (см. _send_suggestion).
+    resale = reference if reference is not None else 0.0
     liquidity = known["liquidity"] if known else "medium"
     complete = scoring.guess_completeness(details.description or "")
     seller = scoring.guess_seller(details.seller_name or "", details.seller_listing_count, details.description or "")
@@ -392,6 +540,7 @@ def _build_lot(state: dict, details) -> dict:
         "price": details.price or 0.0,
         "shipping": 0.0,
         "resale": resale,
+        "resale_source": source,  # known | brand:<x> | global | none — для пометки в карточке
         "actual_sale": None,
         "liquidity": liquidity,
         "complete": complete,
@@ -426,17 +575,25 @@ def _send_suggestion(state: dict, tg: TelegramClient, lot: dict) -> None:
     sc = _score_lot(lot)
     reference, source = _resolve_reference(state, lot.get("title"))
 
+    # Маржа в карточке теперь показывается почти всегда (см. _build_lot) —
+    # эта сноска поясняет, откуда взялась ожидаемая цена продажи, чтобы не
+    # выдавать грубую автооценку за точный расчёт.
     note = None
-    if not lot.get("resale"):
-        if source == "none":
-            note = "Данных для ориентира цены пока нет — ожидаемая продажа не задана, укажите сами."
-        else:
-            note = "Эталонной цены для этой модели нет — ожидаемая продажа не задана."
+    if source == "known":
+        pass  # заданная вами модель (/addmodel) — точная цифра, пояснять нечего
     elif source.startswith("brand:"):
         brand = source.split(":", 1)[1]
-        note = f"Ориентир — медиана недавних цен на «{brand}» на Kufar (≈{reference:.0f} р.), это грубая оценка."
+        note = (
+            f"Ожидаемая цена продажи — грубая автооценка (медиана недавних цен "
+            f"на «{brand}» на Kufar, ≈{reference:.0f} р.), не точная модель."
+        )
     elif source == "global":
-        note = f"Ориентир — медиана цен по всем недавно виденным часам (≈{reference:.0f} р.), очень грубая оценка."
+        note = (
+            f"Ожидаемая цена продажи — очень грубая автооценка (медиана по всем "
+            f"недавно виденным часам, ≈{reference:.0f} р.)."
+        )
+    else:
+        note = "Данных для ориентира цены пока нет — ожидаемая продажа не задана, укажите сами кнопкой «✏️ Указать цену»."
 
     text = formatting.suggestion_text(lot, sc, note)
     keyboard = formatting.suggestion_keyboard(lot["ad_id"])

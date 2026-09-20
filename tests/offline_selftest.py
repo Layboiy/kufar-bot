@@ -119,10 +119,25 @@ details_unknown = ItemDetails(
     seller_name="Пётр", seller_listing_count=0, raw_ok=True,
 )
 built2 = bot_main._build_lot(fake_state, details_unknown)
-check("неизвестная модель resale=0 (нужен ручной ввод)", built2["resale"] == 0.0)
+# Раньше без /addmodel resale всегда оставался 0 ("укажите сами"). Теперь,
+# если есть хоть какая-то история цен (пусть даже не по этому бренду),
+# используется грубый глобальный ориентир — маржа видна сразу, с пометкой.
+check(
+    f"неизвестная модель берёт грубый ориентир из истории цен (получили {built2['resale']})",
+    built2["resale"] == scoring.robust_reference_price(fake_state["recent_prices"]),
+)
+check("источник ориентира помечен как global", built2["resale_source"] == "global")
 check("неизвестная модель liquidity=medium по умолчанию", built2["liquidity"] == "medium")
 check("без коробки распознано как partial", built2["complete"] == "partial")
 check("новый продавец без отзывов -> new", built2["seller"] == "new")
+
+details_no_history = ItemDetails(
+    ad_id=3, link="https://www.kufar.by/item/3", title="Неизвестные часы, цена 40 р.",
+    price=40.0, image_url=None, description="Б/у", condition="Б/у",
+    seller_name="Аноним", seller_listing_count=0, raw_ok=True,
+)
+built3 = bot_main._build_lot(state_mod.load_state(), details_no_history)
+check("совсем без истории цен resale=0 и источник none", built3["resale"] == 0.0 and built3["resale_source"] == "none")
 
 # --- 8. Разбор HTML (офлайн, без сети): og:*-теги и id объявлений ---
 import scraper
@@ -226,6 +241,20 @@ check(
     f"без образцов и без /addmodel — ориентира нет (получили {(ref_none, source_none)})",
     source_none == "none" and ref_none is None,
 )
+
+# --- 11. Постоянный режим: настройки по умолчанию и remote_state без репозитория ---
+check("SCAN_INTERVAL_SECONDS задан положительным числом", config_mod.SCAN_INTERVAL_SECONDS > 0)
+check("PORT задан положительным числом", config_mod.PORT > 0)
+check("GITHUB_REPO по умолчанию пуст (без явной настройки)", config_mod.GITHUB_REPO == "")
+
+import remote_state
+
+# available() требует и токен, и репозиторий — без GITHUB_REPO (как в этом
+# тестовом окружении) должно быть False, даже если GITHUB_TOKEN случайно
+# задан средой (например, самой песочницей для несвязанных целей).
+check("без GITHUB_REPO remote_state.available() == False", remote_state.available() is False)
+check("без репозитория fetch() возвращает None", remote_state.fetch() is None)
+check("без репозитория push() возвращает False", remote_state.push({"x": 1}) is False)
 
 print()
 if errors:

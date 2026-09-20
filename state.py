@@ -27,14 +27,21 @@ DEFAULT_STATE: dict[str, Any] = {
 }
 
 
+def with_defaults(data: dict[str, Any]) -> dict[str, Any]:
+    """Дополняет словарь состояния недостающими ключами из DEFAULT_STATE —
+    нужно и для локального файла (старая версия без новых полей), и для
+    состояния, загруженного из GitHub (см. remote_state.py)."""
+    for key, value in DEFAULT_STATE.items():
+        data.setdefault(key, json.loads(json.dumps(value)))
+    return data
+
+
 def load_state() -> dict[str, Any]:
     if not STATE_PATH.exists():
         return json.loads(json.dumps(DEFAULT_STATE))
     with open(STATE_PATH, encoding="utf-8") as f:
         data = json.load(f)
-    for key, value in DEFAULT_STATE.items():
-        data.setdefault(key, json.loads(json.dumps(value)))
-    return data
+    return with_defaults(data)
 
 
 def save_state(state: dict[str, Any]) -> None:

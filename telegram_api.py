@@ -1,17 +1,16 @@
 """
 Тонкая обёртка над Telegram Bot API поверх обычных HTTP-запросов.
 
-Бот работает не как постоянно запущенный процесс (long polling), а как
-короткий скрипт, который GitHub Actions запускает раз в N минут:
-- один раз спрашивает getUpdates (с offset) — забирает всё, что накопилось
-  с прошлого запуска (нажатия на кнопки, текстовые ответы, команды);
-- обрабатывает это;
-- рассылает новые уведомления;
-- завершается.
+Бот работает как постоянно запущенный процесс и использует настоящий long
+polling: get_updates вызывается в цикле с ненулевым timeout, и Telegram
+"придерживает" ответ на HTTP-запрос до этого времени, если новых апдейтов
+пока нет, а как только что-то приходит — отвечает сразу. Поэтому реакция на
+кнопки/команды мгновенная (в пределах секунды), а не раз в несколько минут,
+как было бы при разовом запуске по расписанию.
 
-Telegram копит обновления на своей стороне, пока их не заберут через
-getUpdates — так что ничего не теряется, просто реакция бота приходит не
-мгновенно, а с задержкой до одного интервала запуска (обычно 10 минут).
+Важно: клиентский таймаут самого HTTP-запроса (_http_timeout) должен быть
+больше, чем long-polling timeout, который мы просим у Telegram — иначе
+requests оборвёт соединение раньше, чем Telegram успеет ответить.
 """
 
 from __future__ import annotations
@@ -38,12 +37,13 @@ class TelegramClient:
     def _call(self, method: str, **params: Any) -> Any:
         url = API_ROOT.format(token=self.token, method=method)
         files = params.pop("_files", None)
+        http_timeout = params.pop("_http_timeout", TIMEOUT)
         for attempt in range(3):
             try:
                 if files:
-                    resp = requests.post(url, data=params, files=files, timeout=TIMEOUT)
+                    resp = requests.post(url, data=params, files=files, timeout=http_timeout)
                 else:
-                    resp = requests.post(url, data=params, timeout=TIMEOUT)
+                    resp = requests.post(url, data=params, timeout=http_timeout)
             except requests.RequestException as exc:
                 if attempt == 2:
                     raise TelegramError(f"Сеть: {method} не удался: {exc}") from exc
@@ -70,6 +70,9 @@ class TelegramClient:
         if offset is not None:
             params["offset"] = offset
         params["allowed_updates"] = '["message","callback_query"]'
+        # HTTP-таймаут клиента должен быть с запасом больше, чем long-polling
+        # timeout, который мы просим у Telegram (см. docstring файла).
+        params["_http_timeout"] = timeout + 10 if timeout else TIMEOUT
         return self._call("getUpdates", **params)
 
     def send_message(self, chat_id: int | str, text: str, reply_markup: str | None = None,
