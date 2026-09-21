@@ -387,6 +387,30 @@
       "status": "suggested",
       "title": "Tissot PR 100 Sport Chic женские, цена 950 р. купить в Минске на Куфаре - Объявление №1058932212"
     },
+    "1060011469": {
+      "actual_sale": null,
+      "ad_id": 1060011469,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d3938dfa-d3e2-4a82-8648-e9af7f8d6a2b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1060011469",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 275,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 230.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы MARTYN LINE, цена 230 р. купить в Речице на Куфаре - Объявление №1060011469"
+    },
     "1060355488": {
       "actual_sale": null,
       "ad_id": 1060355488,
@@ -1922,6 +1946,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "tissot Chrono XL. Оригинал, цена 770 р. купить в Минске на Куфаре - Объявление №1081191829"
+    },
+    "1081633761": {
+      "actual_sale": null,
+      "ad_id": 1081633761,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/60873bad-4cf0-4480-81c0-030bc1e6c04d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081633761",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 274,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1399.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "HVILINA LMR MECHANICAL NOVELTY, цена 1 399 р. купить в Минске на Куфаре - Объявление №1081633761"
     },
     "1081983335": {
       "actual_sale": null,
@@ -5068,7 +5116,9 @@
     150.0,
     65.0,
     200.0,
-    700.0
+    700.0,
+    1399.0,
+    230.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -5199,6 +5249,9 @@
       4550.0,
       5200.0,
       1500.0
+    ],
+    "martyn": [
+      230.0
     ],
     "michael": [
       700.0,
@@ -5697,6 +5750,8 @@
     1085955767,
     1085955511,
     1078525200,
-    1076295714
+    1076295714,
+    1081633761,
+    1060011469
   ]
 }
