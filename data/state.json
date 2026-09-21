@@ -2859,6 +2859,30 @@
       "status": "suggested",
       "title": "Часы PASCAL Paradoxe (Сальвадор Дали), цена 800 р. купить в Витебске на Куфаре - Объявление №1084448800"
     },
+    "1084523798": {
+      "actual_sale": null,
+      "ad_id": 1084523798,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e8a8a063-7439-4479-b5b1-24f5c84b6ada.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084523798",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 324,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2000.0,
+      "pricevsmarket": "high",
+      "resale": 127.5,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Tissot Chemin des Tourelles Powermatic 80, цена 2 000 р. купить в Минске на Куфаре - Объявление №1084523798"
+    },
     "1084640250": {
       "actual_sale": null,
       "ad_id": 1084640250,
@@ -6005,7 +6029,6 @@
     }
   },
   "recent_prices": [
-    9.0,
     20.0,
     90.0,
     50.0,
@@ -6304,7 +6327,8 @@
     750.0,
     300.0,
     250.0,
-    350.0
+    350.0,
+    2000.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6574,7 +6598,8 @@
       750.0,
       45.0,
       450.0,
-      45.0
+      45.0,
+      2000.0
     ],
     "tommy": [
       290.0,
@@ -7085,6 +7110,7 @@
     1072916662,
     1085970645,
     1083361180,
-    1051139767
+    1051139767,
+    1084523798
   ]
 }
