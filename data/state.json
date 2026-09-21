@@ -2235,6 +2235,30 @@
       "status": "suggested",
       "title": "Наручные часы ROLEX (Новые.Коробка в подарок), цена 45 р. купить в Минске на Куфаре - Объявление №1078402969"
     },
+    "1078511081": {
+      "actual_sale": null,
+      "ad_id": 1078511081,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f6e2c614-91ca-48a9-9810-3538b173ecc2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078511081",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 378,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 360.0,
+      "pricevsmarket": "high",
+      "resale": 200.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские часы Slazenger Оригинал, цена 360 р. купить в Кобрине на Куфаре - Объявление №1078511081"
+    },
     "1078525200": {
       "actual_sale": null,
       "ad_id": 1078525200,
@@ -2690,6 +2714,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы наручные мужские, цена 1 150 р. купить в Минске на Куфаре - Объявление №1081002793"
+    },
+    "1081149170": {
+      "actual_sale": null,
+      "ad_id": 1081149170,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/4974196d-93f3-45ec-931f-21e95bea504d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081149170",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 377,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1200.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные механические с автоподзаводом Seiko, цена 1 200 р. купить в Минске на Куфаре - Объявление №1081149170"
     },
     "1081174061": {
       "actual_sale": null,
@@ -7277,8 +7325,6 @@
     }
   },
   "recent_prices": [
-    700.0,
-    70.0,
     50.0,
     45.0,
     290.0,
@@ -7576,7 +7622,9 @@
     120.0,
     130.0,
     300.0,
-    49.0
+    49.0,
+    1200.0,
+    360.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7849,6 +7897,9 @@
     "skmei": [
       15.0
     ],
+    "slazenger": [
+      360.0
+    ],
     "smart": [
       135.0
     ],
@@ -8020,7 +8071,8 @@
       300.0,
       400.0,
       35.0,
-      150.0
+      150.0,
+      1200.0
     ],
     "немецкого": [
       550.0
@@ -8508,6 +8560,8 @@
     1085987029,
     1081317852,
     1081976883,
-    1070696616
+    1070696616,
+    1081149170,
+    1078511081
   ]
 }
