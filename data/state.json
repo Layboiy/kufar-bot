@@ -2019,6 +2019,30 @@
       "status": "suggested",
       "title": "Tissot Cera, цена 810 р. купить в Минске на Куфаре - Объявление №1074969757"
     },
+    "1075678620": {
+      "actual_sale": null,
+      "ad_id": 1075678620,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/887d9636-6fcb-481b-a8d9-2c1e41ce95c9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1075678620",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 437,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 580.0,
+      "pricevsmarket": "high",
+      "resale": 300.0,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Tissot, цена 580 р. купить в Минске на Куфаре - Объявление №1075678620"
+    },
     "1075927235": {
       "actual_sale": null,
       "ad_id": 1075927235,
@@ -8717,8 +8741,6 @@
     }
   },
   "recent_prices": [
-    2380.0,
-    4550.0,
     1000.0,
     400.0,
     250.0,
@@ -9016,7 +9038,9 @@
     20.0,
     45.0,
     400.0,
-    290.0
+    290.0,
+    50.0,
+    580.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9400,7 +9424,8 @@
       1111.0,
       145.0,
       275.0,
-      65.0
+      65.0,
+      580.0
     ],
     "tommy": [
       290.0,
@@ -10172,6 +10197,10 @@
     1086016639,
     1084602574,
     1086016911,
-    1036814997
+    1036814997,
+    1086018393,
+    1086018486,
+    1086019346,
+    1075678620
   ]
 }
