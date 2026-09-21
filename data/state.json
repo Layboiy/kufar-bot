@@ -7803,6 +7803,30 @@
       "status": "suggested",
       "title": "Мужские часы, цена 650 р. купить в Кобрине на Куфаре - Объявление №1085998412"
     },
+    "1086000181": {
+      "actual_sale": null,
+      "ad_id": 1086000181,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5229f5c0-fbe5-4994-bca9-87bcb18fbb8b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086000181",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 403,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 40.0,
+      "pricevsmarket": "high",
+      "resale": 35.0,
+      "resale_source": "brand:механические",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы механические СССР Луч  AU, цена 40 р. купить в Минске на Куфаре - Объявление №1086000181"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -7901,7 +7925,6 @@
     }
   },
   "recent_prices": [
-    695.0,
     2590.0,
     120.0,
     850.0,
@@ -8200,7 +8223,8 @@
     20.0,
     200.0,
     650.0,
-    30.0
+    30.0,
+    40.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8641,7 +8665,8 @@
       115.0,
       10.0,
       30.0,
-      160.0
+      160.0,
+      40.0
     ],
     "молния": [
       550.0
@@ -9241,6 +9266,8 @@
     1085997575,
     1085998412,
     1085998237,
-    1038217355
+    1038217355,
+    1086000181,
+    1085999261
   ]
 }
