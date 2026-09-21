@@ -1131,6 +1131,30 @@
       "status": "suggested",
       "title": "Мужские часы Tissot Le Locle Powermatic 80 (Комплект) Оригинал, цена 1 550 р. купить в Минске на Куфаре - Объявление №1085075807"
     },
+    "1085085313": {
+      "actual_sale": null,
+      "ad_id": 1085085313,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/ca72acc2-cf7c-415c-b59b-197c4d912a74.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085085313",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 174,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские механические, цена 350 р. купить в Орше на Куфаре - Объявление №1085085313"
+    },
     "1085634733": {
       "actual_sale": null,
       "ad_id": 1085634733,
@@ -2564,7 +2588,10 @@
     630.0,
     2200.0,
     9900.0,
-    550.0
+    550.0,
+    25.0,
+    45.0,
+    350.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2641,7 +2668,8 @@
       1050.0
     ],
     "omega": [
-      99.0
+      99.0,
+      45.0
     ],
     "orient": [
       110.0
@@ -2731,7 +2759,8 @@
       140.0,
       250.0,
       270.0,
-      150.0
+      150.0,
+      350.0
     ],
     "на": [
       420.0
@@ -2747,7 +2776,8 @@
       550.0
     ],
     "новые": [
-      15.0
+      15.0,
+      25.0
     ],
     "оригинал": [
       65.0
@@ -2912,6 +2942,10 @@
     1085922553,
     1073308101,
     1066335529,
-    1085923104
+    1085923104,
+    1077994478,
+    1085923702,
+    1083621984,
+    1085085313
   ]
 }
