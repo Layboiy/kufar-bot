@@ -3507,6 +3507,30 @@
       "status": "suggested",
       "title": "Наручные часы CASIO (Новые), цена 35 р. купить в Минске на Куфаре - Объявление №1084012595"
     },
+    "1084124597": {
+      "actual_sale": null,
+      "ad_id": 1084124597,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f3bbb3e9-83fa-4f43-b302-51e37357ddba.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084124597",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 386,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 195.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "СРОЧНО...Часы Casio MDV. Ориг. Документы есть, цена 195 р. купить в Могилеве на Куфаре - Объявление №1084124597"
+    },
     "1084365513": {
       "actual_sale": null,
       "ad_id": 1084365513,
@@ -3578,6 +3602,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы Tissot Chemin des Tourelles Powermatic 80, цена 2 000 р. купить в Минске на Куфаре - Объявление №1084523798"
+    },
+    "1084610121": {
+      "actual_sale": null,
+      "ad_id": 1084610121,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f836a37a-cb10-4a0c-9a51-079e4e387f37.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084610121",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 385,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "normal",
+      "resale": 150.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские Baldinini на ходу, цена 150 р. купить в Минске на Куфаре - Объявление №1084610121"
     },
     "1084640250": {
       "actual_sale": null,
@@ -7469,10 +7517,6 @@
     }
   },
   "recent_prices": [
-    820.0,
-    40.0,
-    320.0,
-    350.0,
     400.0,
     315.0,
     15.0,
@@ -7768,7 +7812,11 @@
     4500.0,
     3000.0,
     120.0,
-    5.0
+    5.0,
+    100.0,
+    100.0,
+    150.0,
+    195.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7805,6 +7853,9 @@
     ],
     "candino": [
       220.0
+    ],
+    "cardinal": [
+      100.0
     ],
     "carl": [
       4500.0
@@ -7865,7 +7916,8 @@
       50.0,
       40.0,
       149.99,
-      49.0
+      49.0,
+      195.0
     ],
     "certina": [
       630.0,
@@ -8199,7 +8251,8 @@
       40.0,
       690.0,
       15.0,
-      250.0
+      250.0,
+      150.0
     ],
     "на": [
       420.0,
@@ -8252,6 +8305,9 @@
     ],
     "полет": [
       165.0
+    ],
+    "полёт": [
+      100.0
     ],
     "ракета": [
       100.0,
@@ -8729,6 +8785,10 @@
     1085990093,
     1085990055,
     1085990035,
-    1085989989
+    1085989989,
+    1085990452,
+    1085990184,
+    1084610121,
+    1084124597
   ]
 }
