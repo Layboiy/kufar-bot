@@ -8043,6 +8043,30 @@
       "status": "suggested",
       "title": "Часы Casio LTP-E157MRB-1B, Оригинал, цена 299.99 р. купить в Минске на Куфаре - Объявление №1086003042"
     },
+    "1086003319": {
+      "actual_sale": null,
+      "ad_id": 1086003319,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/dadda109-e564-4219-a8c7-d1952052f711.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086003319",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 413,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 615.0,
+      "pricevsmarket": "high",
+      "resale": 382.5,
+      "resale_source": "brand:fossil",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Fossil Everett Chronograph Новые Оригинал, цена 615 р. купить в Минске на Куфаре - Объявление №1086003319"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8141,8 +8165,6 @@
     }
   },
   "recent_prices": [
-    30.0,
-    350.0,
     50.0,
     2300.0,
     600.0,
@@ -8440,7 +8462,9 @@
     519.0,
     595.0,
     1800.0,
-    299.99
+    299.99,
+    615.0,
+    59.99
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8601,7 +8625,8 @@
     "fossil": [
       180.0,
       130.0,
-      585.0
+      585.0,
+      615.0
     ],
     "gevril": [
       3800.0,
@@ -8797,7 +8822,8 @@
       349.99,
       160.0,
       999.99,
-      300.0
+      300.0,
+      59.99
     ],
     "tommy": [
       290.0,
@@ -9498,6 +9524,8 @@
     1086001888,
     1086000922,
     1085867798,
-    1086003042
+    1086003042,
+    1086003319,
+    237308255
   ]
 }
