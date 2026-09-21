@@ -3,6 +3,30 @@
   "known_models": {},
   "last_update_id": 99233349,
   "lots": {
+    "1015394628": {
+      "actual_sale": null,
+      "ad_id": 1015394628,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/65a0e88a-50e6-47f8-be32-58efbfa50ce6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1015394628",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 239,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 69.99,
+      "pricevsmarket": "high",
+      "resale": 44.5,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Casio Square (Парные М/Ж), цена 69.99 р. купить в Минске на Куфаре - Объявление №1015394628"
+    },
     "1016487266": {
       "actual_sale": null,
       "ad_id": 1016487266,
@@ -4183,7 +4207,9 @@
     29.99,
     29.99,
     29.99,
-    29.99
+    29.99,
+    69.99,
+    59.99
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4242,7 +4268,8 @@
       29.99,
       29.99,
       29.99,
-      29.99
+      29.99,
+      69.99
     ],
     "certina": [
       630.0
@@ -4279,6 +4306,9 @@
     ],
     "hilfiger": [
       45.0
+    ],
+    "hublot": [
+      59.99
     ],
     "hyblot": [
       45.0
@@ -4715,6 +4745,8 @@
     1021621309,
     1021621271,
     1021621229,
-    1021621180
+    1021621180,
+    1015394628,
+    243265289
   ]
 }
