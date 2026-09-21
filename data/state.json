@@ -243,6 +243,30 @@
       "status": "suggested",
       "title": "Tissot PR 100 Sport Chic женские, цена 950 р. купить в Минске на Куфаре - Объявление №1058932212"
     },
+    "1060793271": {
+      "actual_sale": null,
+      "ad_id": 1060793271,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1b8e7549-03fa-4299-9890-054b51e597d6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1060793271",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 178,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1100.0,
+      "pricevsmarket": "high",
+      "resale": 72.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы Citizen CA0820-50X ECO-DRIVE DIVER НОВЫЕ, цена 1 100 р. купить в Минске на Куфаре - Объявление №1060793271"
+    },
     "1061123934": {
       "actual_sale": null,
       "ad_id": 1061123934,
@@ -1154,6 +1178,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы мужские механические, цена 350 р. купить в Орше на Куфаре - Объявление №1085085313"
+    },
+    "1085490799": {
+      "actual_sale": null,
+      "ad_id": 1085490799,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9d437bba-797d-4116-afba-c13b838986fc.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085490799",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 177,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 72.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Omega Speedmaster Gmt копия, цена 250 р. купить в Минске на Куфаре - Объявление №1085490799"
     },
     "1085634733": {
       "actual_sale": null,
@@ -2427,6 +2475,30 @@
       "status": "suggested",
       "title": "наручные часы, цена 90 р. купить в Бобруйске на Куфаре - Объявление №1085924492"
     },
+    "1085924652": {
+      "actual_sale": null,
+      "ad_id": 1085924652,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/256f95d2-714f-40bf-8e3c-afbe69681b80.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085924652",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 176,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 200.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "наручные часы, цена 200 р. купить в Бобруйске на Куфаре - Объявление №1085924652"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2616,7 +2688,10 @@
     25.0,
     45.0,
     350.0,
-    90.0
+    90.0,
+    200.0,
+    250.0,
+    1100.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2659,6 +2734,9 @@
     ],
     "certina": [
       630.0
+    ],
+    "citizen": [
+      1100.0
     ],
     "corum": [
       9900.0
@@ -2972,6 +3050,9 @@
     1085923702,
     1083621984,
     1085085313,
-    1085924492
+    1085924492,
+    1085924652,
+    1085490799,
+    1060793271
   ]
 }
