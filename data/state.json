@@ -2403,6 +2403,30 @@
       "status": "suggested",
       "title": "Новые женские часы немецкого бренда Zeppelin, цена 550 р. купить в Минске на Куфаре - Объявление №1085923104"
     },
+    "1085924492": {
+      "actual_sale": null,
+      "ad_id": 1085924492,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/93e87937-817d-49d0-b55e-973b34578032.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085924492",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 175,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 90.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "наручные часы, цена 90 р. купить в Бобруйске на Куфаре - Объявление №1085924492"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2591,7 +2615,8 @@
     550.0,
     25.0,
     45.0,
-    350.0
+    350.0,
+    90.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2946,6 +2971,7 @@
     1077994478,
     1085923702,
     1083621984,
-    1085085313
+    1085085313,
+    1085924492
   ]
 }
