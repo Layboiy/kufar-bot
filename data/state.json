@@ -8379,6 +8379,30 @@
       "status": "suggested",
       "title": "Часы скелетоны, цена 600 р. купить в Солигорске на Куфаре - Объявление №1086012859"
     },
+    "1086013370": {
+      "actual_sale": null,
+      "ad_id": 1086013370,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8e6f8239-280e-424b-9bc8-dfe60ab12be9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086013370",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 427,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 590.0,
+      "pricevsmarket": "high",
+      "resale": 77.5,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio AMW-710, цена 590 р. купить в Могилеве на Куфаре - Объявление №1086013370"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8451,6 +8475,30 @@
       "status": "suggested",
       "title": "Часы Tissot PR 100 P660/760, Оригинал, цена 349.99 р. купить в Минске на Куфаре - Объявление №225012086"
     },
+    "237215450": {
+      "actual_sale": null,
+      "ad_id": 237215450,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/78ba6d2f-9279-46af-b607-5f4f41aa2f55.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/237215450",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 429,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 45.0,
+      "pricevsmarket": "normal",
+      "resale": 45.0,
+      "resale_source": "brand:rolex",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские часы Rolex (новые, реплика), цена 45 р. купить в Минске на Куфаре - Объявление №237215450"
+    },
     "241057608": {
       "actual_sale": null,
       "ad_id": 241057608,
@@ -8474,15 +8522,33 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Женские часы Casio (новые, разные расцветки), цена 50 р. купить в Минске на Куфаре - Объявление №241057608"
+    },
+    "247537985": {
+      "actual_sale": null,
+      "ad_id": 247537985,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5102fcb8-7bb1-4ce1-9552-fa395a25b92b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/247537985",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 428,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 275.0,
+      "pricevsmarket": "normal",
+      "resale": 300.0,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские часы Tissot (механика с автоподзаводом, реплика), цена 275 р. купить в Минске на Куфаре - Объявление №247537985"
     }
   },
   "recent_prices": [
-    80.0,
-    150.0,
-    100.0,
-    1750.0,
-    85.0,
-    40.0,
     490.0,
     180.0,
     1900.0,
@@ -8776,7 +8842,13 @@
     40.0,
     50.0,
     65.0,
-    145.0
+    145.0,
+    590.0,
+    65.0,
+    275.0,
+    45.0,
+    95.0,
+    65.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8789,7 +8861,8 @@
       300.0
     ],
     "audemars": [
-      45.0
+      45.0,
+      95.0
     ],
     "balmain": [
       599.99
@@ -8891,7 +8964,8 @@
       250.0,
       40.0,
       40.0,
-      50.0
+      50.0,
+      590.0
     ],
     "certina": [
       630.0,
@@ -9075,6 +9149,7 @@
       45.0,
       200.0,
       700.0,
+      45.0,
       45.0
     ],
     "romanson": [
@@ -9151,7 +9226,9 @@
       59.99,
       750.0,
       1111.0,
-      145.0
+      145.0,
+      275.0,
+      65.0
     ],
     "tommy": [
       290.0,
@@ -9363,6 +9440,9 @@
     ],
     "тиссот": [
       650.0
+    ],
+    "унисекс": [
+      65.0
     ],
     "хронограф": [
       95.0
@@ -9893,6 +9973,13 @@
     1048693984,
     1017733957,
     1001238119,
-    201213601
+    201213601,
+    1086013370,
+    1065601929,
+    1002644265,
+    247537985,
+    237215450,
+    202375566,
+    185106678
   ]
 }
