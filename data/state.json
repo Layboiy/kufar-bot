@@ -8691,6 +8691,30 @@
       "status": "suggested",
       "title": "Часы Burker оригинал, цена 180 р. купить в Столине на Куфаре - Объявление №1086022674"
     },
+    "1086022985": {
+      "actual_sale": null,
+      "ad_id": 1086022985,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/fffd9a74-edf6-4b19-891b-e19c30c7d04b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086022985",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 442,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2222.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Casio G-Shock MTG B3000D-1A, цена 2 222 р. купить в Минске на Куфаре - Объявление №1086022985"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8837,7 +8861,6 @@
     }
   },
   "recent_prices": [
-    29.99,
     29.99,
     29.99,
     29.99,
@@ -9136,7 +9159,8 @@
     165.0,
     25.0,
     888.0,
-    180.0
+    180.0,
+    2222.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10321,6 +10345,7 @@
     1086022421,
     1086022393,
     1086022619,
-    1086022674
+    1086022674,
+    1086022985
   ]
 }
