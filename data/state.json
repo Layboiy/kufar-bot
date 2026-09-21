@@ -7539,6 +7539,30 @@
       "status": "suggested",
       "title": "Casio G-Shock AWG-M100B (модуль 5230), цена 300 р. купить в Бобруйске на Куфаре - Объявление №1085991125"
     },
+    "1085992020": {
+      "actual_sale": null,
+      "ad_id": 1085992020,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/663528ad-3042-41aa-91ea-df203e5409cb.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085992020",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 392,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 30.0,
+      "pricevsmarket": "normal",
+      "resale": 40.0,
+      "resale_source": "brand:луч",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ЛУЧ женские, цена 30 р. купить в Солигорске на Куфаре - Объявление №1085992020"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -7637,8 +7661,6 @@
     }
   },
   "recent_prices": [
-    20.0,
-    95.0,
     40.0,
     270.0,
     45.0,
@@ -7936,7 +7958,9 @@
     89.0,
     279.0,
     509.0,
-    300.0
+    300.0,
+    30.0,
+    75.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8176,7 +8200,8 @@
       220.0,
       630.0,
       300.0,
-      190.0
+      190.0,
+      75.0
     ],
     "oris": [
       80.0
@@ -8348,7 +8373,8 @@
       30.0,
       20.0,
       300.0,
-      100.0
+      100.0,
+      30.0
     ],
     "механические": [
       10.0,
@@ -8919,6 +8945,9 @@
     1073879983,
     1073879981,
     1073879978,
-    1085991125
+    1085991125,
+    1085992020,
+    1085991929,
+    1085991670
   ]
 }
