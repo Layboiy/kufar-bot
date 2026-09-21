@@ -315,6 +315,30 @@
       "status": "suggested",
       "title": "SEVENFRIDAY P3C/08 NTD, цена 2 950 р. купить в Минске на Куфаре - Объявление №1036330875"
     },
+    "1036814997": {
+      "actual_sale": null,
+      "ad_id": 1036814997,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8556c17d-3ca4-452a-b8d4-9a6fac5dbcbc.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1036814997",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 436,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 290.0,
+      "pricevsmarket": "normal",
+      "resale": 290.0,
+      "resale_source": "brand:guess",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Guess, цена 290 р. купить в Могилеве на Куфаре - Объявление №1036814997"
+    },
     "1037858111": {
       "actual_sale": null,
       "ad_id": 1037858111,
@@ -8693,8 +8717,6 @@
     }
   },
   "recent_prices": [
-    99.0,
-    35.0,
     2380.0,
     4550.0,
     1000.0,
@@ -8992,7 +9014,9 @@
     200.0,
     160.0,
     20.0,
-    45.0
+    45.0,
+    400.0,
+    290.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9181,7 +9205,8 @@
     ],
     "guess": [
       320.0,
-      190.0
+      190.0,
+      290.0
     ],
     "hamilton": [
       1950.0,
@@ -9227,7 +9252,8 @@
       6850.0,
       2200.0,
       1099.99,
-      5450.0
+      5450.0,
+      400.0
     ],
     "martyn": [
       230.0
@@ -10144,6 +10170,8 @@
     1049490577,
     1086016661,
     1086016639,
-    1084602574
+    1084602574,
+    1086016911,
+    1036814997
   ]
 }
