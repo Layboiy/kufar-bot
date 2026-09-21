@@ -2643,6 +2643,30 @@
       "status": "suggested",
       "title": "Часы Lee Cooper ORG05404.321, цена 200 р. купить в Мозыре на Куфаре - Объявление №1085928313"
     },
+    "1085928907": {
+      "actual_sale": null,
+      "ad_id": 1085928907,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/113cd003-463c-4a2e-8a91-80e6d795f045.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085928907",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 185,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 120.0,
+      "pricevsmarket": "high",
+      "resale": 50.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы Casio gchok 2548, цена 120 р. купить в Мозыре на Куфаре - Объявление №1085928907"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2841,7 +2865,8 @@
     120.0,
     200.0,
     695.0,
-    2590.0
+    2590.0,
+    120.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2880,7 +2905,8 @@
       50.0,
       29.99,
       35.0,
-      40.0
+      40.0,
+      120.0
     ],
     "certina": [
       630.0
@@ -3213,6 +3239,7 @@
     1085926689,
     1085928313,
     1085517839,
-    1060355488
+    1060355488,
+    1085928907
   ]
 }
