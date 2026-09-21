@@ -363,6 +363,30 @@
       "status": "suggested",
       "title": "Мужские часы Bretling (новые,реплика), цена 75 р. купить в Минске на Куфаре - Объявление №1065947172"
     },
+    "1066335529": {
+      "actual_sale": null,
+      "ad_id": 1066335529,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5e404ceb-553b-4919-bcb7-7b1611221596.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1066335529",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 172,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 9900.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы CORUM Admiral’s Cup Black Hull 48мм, цена 9 900 р. купить в Минске на Куфаре - Объявление №1066335529"
+    },
     "1069556473": {
       "actual_sale": null,
       "ad_id": 1069556473,
@@ -506,6 +530,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Суточные часы на калибре Ракеты 2623 Марьяж, цена 420 р. купить в Бресте на Куфаре - Объявление №1073262229"
+    },
+    "1073308101": {
+      "actual_sale": null,
+      "ad_id": 1073308101,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/db6589d9-197d-4b40-a508-5d2aa6a02f6d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073308101",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 171,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2200.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ВМФ СССР WR700м, цена 2 200 р. купить в Минске на Куфаре - Объявление №1073308101"
     },
     "1073880013": {
       "actual_sale": null,
@@ -2489,7 +2537,9 @@
     45.0,
     900.0,
     150.0,
-    630.0
+    630.0,
+    2200.0,
+    9900.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2532,6 +2582,9 @@
     ],
     "certina": [
       630.0
+    ],
+    "corum": [
+      9900.0
     ],
     "daniel": [
       50.0,
@@ -2609,6 +2662,9 @@
     ],
     "tommy": [
       290.0
+    ],
+    "вмф": [
+      2200.0
     ],
     "вымпел": [
       25.0
@@ -2825,6 +2881,8 @@
     1078520180,
     1075973542,
     1085922480,
-    1085922553
+    1085922553,
+    1073308101,
+    1066335529
   ]
 }
