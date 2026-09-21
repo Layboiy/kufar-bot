@@ -1155,6 +1155,30 @@
       "status": "suggested",
       "title": "Мужские часы Diesel, цена 400 р. купить в Бобруйске на Куфаре - Объявление №1080749937"
     },
+    "1080849742": {
+      "actual_sale": null,
+      "ad_id": 1080849742,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e5280632-68cd-4d3a-9b2f-5d3007c6358e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1080849742",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 207,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 320.0,
+      "pricevsmarket": "high",
+      "resale": 92.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы GUESS Швейцарские. Оригинал, цена 320 р. купить в Иваново на Куфаре - Объявление №1080849742"
+    },
     "1081002793": {
       "actual_sale": null,
       "ad_id": 1081002793,
@@ -3394,7 +3418,9 @@
     150.0,
     220.0,
     155.0,
-    120.0
+    120.0,
+    8.5,
+    320.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3465,6 +3491,9 @@
     ],
     "fossil": [
       180.0
+    ],
+    "guess": [
+      320.0
     ],
     "hamilton": [
       1950.0
@@ -3546,6 +3575,9 @@
     ],
     "tommy": [
       290.0
+    ],
+    "в": [
+      8.5
     ],
     "вмф": [
       2200.0
@@ -3825,6 +3857,8 @@
     1085934540,
     1085936613,
     1085935962,
-    1085474154
+    1085474154,
+    1085937395,
+    1080849742
   ]
 }
