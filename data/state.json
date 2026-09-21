@@ -8595,6 +8595,30 @@
       "status": "suggested",
       "title": "Orient AAA Crystal, цена 160 р. купить в Минске на Куфаре - Объявление №1086016661"
     },
+    "1086020705": {
+      "actual_sale": null,
+      "ad_id": 1086020705,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/cfa4edfc-0c30-4297-b716-085720c99a79.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086020705",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 438,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 20.0,
+      "pricevsmarket": "normal",
+      "resale": 20.0,
+      "resale_source": "brand:электроника",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Электроника 5 рабочие ссср, цена 20 р. купить в Могилеве на Куфаре - Объявление №1086020705"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8741,10 +8765,6 @@
     }
   },
   "recent_prices": [
-    1000.0,
-    400.0,
-    250.0,
-    700.0,
     1058.19,
     850.0,
     49.99,
@@ -9040,7 +9060,11 @@
     400.0,
     290.0,
     50.0,
-    580.0
+    580.0,
+    10.0,
+    90.0,
+    26.0,
+    20.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9158,7 +9182,8 @@
       40.0,
       50.0,
       590.0,
-      400.0
+      400.0,
+      26.0
     ],
     "certina": [
       630.0,
@@ -9640,6 +9665,9 @@
     "скелетоны": [
       600.0
     ],
+    "слава": [
+      90.0
+    ],
     "спортивные": [
       180.0
     ],
@@ -9657,6 +9685,7 @@
     ],
     "электроника": [
       120.0,
+      20.0,
       20.0
     ]
   },
@@ -10201,6 +10230,10 @@
     1086018393,
     1086018486,
     1086019346,
-    1075678620
+    1075678620,
+    1086019595,
+    1086020630,
+    1086020923,
+    1086020705
   ]
 }
