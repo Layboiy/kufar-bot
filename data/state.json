@@ -3,6 +3,30 @@
   "known_models": {},
   "last_update_id": 99233349,
   "lots": {
+    "1002803252": {
+      "actual_sale": null,
+      "ad_id": 1002803252,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/3f44955e-5d0e-47dc-b0b4-9185bec5f065.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1002803252",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 311,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 125.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Addiesdive, цена 300 р. купить в Минске на Куфаре - Объявление №1002803252"
+    },
     "1015394628": {
       "actual_sale": null,
       "ad_id": 1015394628,
@@ -5595,6 +5619,30 @@
       "status": "suggested",
       "title": "Casio g5600ue, цена 300 р. купить в Новополоцке на Куфаре - Объявление №1085965514"
     },
+    "1085966313": {
+      "actual_sale": null,
+      "ad_id": 1085966313,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5eceeafd-acd0-4558-90c5-af785d0f4766.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085966313",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 310,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 299.99,
+      "pricevsmarket": "high",
+      "resale": 125.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Sea-Gull Model 819.22.6075, цена 299.99 р. купить в Гродно на Куфаре - Объявление №1085966313"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5669,10 +5717,6 @@
     }
   },
   "recent_prices": [
-    70.0,
-    140.0,
-    15.0,
-    200.0,
     20.0,
     110.0,
     13.0,
@@ -5968,9 +6012,16 @@
     149.0,
     115.0,
     300.0,
-    1455.0
+    1455.0,
+    45.0,
+    299.99,
+    50.0,
+    300.0
   ],
   "recent_prices_by_brand": {
+    "addiesdive": [
+      300.0
+    ],
     "alabaster": [
       50.0
     ],
@@ -6182,6 +6233,9 @@
     "rsw": [
       1699.0
     ],
+    "sea-gull": [
+      299.99
+    ],
     "seiko": [
       3400.0,
       700.0,
@@ -6222,7 +6276,8 @@
       1050.0,
       750.0,
       45.0,
-      450.0
+      450.0,
+      45.0
     ],
     "tommy": [
       290.0,
@@ -6708,6 +6763,10 @@
     1049284580,
     1044838327,
     1085965514,
-    1084365513
+    1084365513,
+    1059752012,
+    1085966313,
+    1079837886,
+    1002803252
   ]
 }
