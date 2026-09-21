@@ -2547,6 +2547,30 @@
       "status": "suggested",
       "title": "Casio G-Shock MTG B1000, цена 2 200 р. купить в Сенно на Куфаре - Объявление №1085925967"
     },
+    "1085926689": {
+      "actual_sale": null,
+      "ad_id": 1085926689,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/317a49aa-3ac6-47ed-8aa8-15b4bfe932b0.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085926689",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 181,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 120.0,
+      "pricevsmarket": "high",
+      "resale": 75.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "ЧАСЫ ,ЛУЧ АУ10,, цена 120 р. купить в Витебске на Куфаре - Объявление №1085926689"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2741,7 +2765,8 @@
     250.0,
     1100.0,
     350.0,
-    2200.0
+    2200.0,
+    120.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3106,6 +3131,7 @@
     1085490799,
     1060793271,
     1083360552,
-    1085925967
+    1085925967,
+    1085926689
   ]
 }
