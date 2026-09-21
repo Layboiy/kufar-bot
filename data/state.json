@@ -2091,6 +2091,30 @@
       "status": "suggested",
       "title": "Мужские механические часы Комета ''Скелетон'', цена 500 р. купить в Мозыре на Куфаре - Объявление №1080270381"
     },
+    "1080469515": {
+      "actual_sale": null,
+      "ad_id": 1080469515,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/24ebff4e-ee28-445e-addf-b18025d483ae.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1080469515",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 337,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2400.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные EDOX 10113 3M NIN, цена 2 400 р. купить в Минске на Куфаре - Объявление №1080469515"
+    },
     "1080471087": {
       "actual_sale": null,
       "ad_id": 1080471087,
@@ -6195,6 +6219,54 @@
       "status": "suggested",
       "title": "Seiko SUR599P1, цена 1 329 р. купить в Минске на Куфаре - Объявление №1085972291"
     },
+    "1085975697": {
+      "actual_sale": null,
+      "ad_id": 1085975697,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/394a4e33-76f9-4763-be94-55c30c87d350.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085975697",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 336,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 10.0,
+      "pricevsmarket": "normal",
+      "resale": 10.0,
+      "resale_source": "brand:механические",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы механические, цена 10 р. купить в Минске на Куфаре - Объявление №1085975697"
+    },
+    "1085975698": {
+      "actual_sale": null,
+      "ad_id": 1085975698,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b0bdcdaf-8a75-4051-a2a0-dcf1a749ce86.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085975698",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 335,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 180.0,
+      "pricevsmarket": "high",
+      "resale": 106.5,
+      "resale_source": "brand:с",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы с браслетом Burker, цена 180 р. купить в Минске на Куфаре - Объявление №1085975698"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -6269,10 +6341,6 @@
     }
   },
   "recent_prices": [
-    140.0,
-    3400.0,
-    2000.0,
-    300.0,
     500.0,
     6400.0,
     69.99,
@@ -6568,7 +6636,11 @@
     300.0,
     500.0,
     50.0,
-    35.0
+    35.0,
+    180.0,
+    10.0,
+    2400.0,
+    50.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6700,6 +6772,9 @@
     ],
     "givenchy": [
       885.0
+    ],
+    "gucci": [
+      50.0
     ],
     "guess": [
       320.0
@@ -6912,7 +6987,8 @@
     ],
     "механические": [
       10.0,
-      115.0
+      115.0,
+      10.0
     ],
     "молния": [
       550.0
@@ -6954,7 +7030,8 @@
       15.0,
       25.0,
       599.0,
-      40.0
+      40.0,
+      2400.0
     ],
     "немецкого": [
       550.0
@@ -6990,7 +7067,8 @@
     "с": [
       20.0,
       600.0,
-      33.0
+      33.0,
+      180.0
     ],
     "спортивные": [
       180.0
@@ -7375,6 +7453,10 @@
     1085442066,
     1080270381,
     1079524979,
-    1040788771
+    1040788771,
+    1085975698,
+    1085975697,
+    1080469515,
+    1040790393
   ]
 }
