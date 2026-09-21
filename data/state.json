@@ -3051,6 +3051,30 @@
       "status": "suggested",
       "title": "Мужские механические часы Молния (Марьяж)3602, цена 550 р. купить в Бресте на Куфаре - Объявление №1084884646"
     },
+    "1084958491": {
+      "actual_sale": null,
+      "ad_id": 1084958491,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2c2c0c01-8daa-40ff-8b72-8491a600c88b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084958491",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 342,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 850.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Spinnaker Dumas Automatic, цена 850 р. купить в Гомеле на Куфаре - Объявление №1084958491"
+    },
     "1085074938": {
       "actual_sale": null,
       "ad_id": 1085074938,
@@ -6437,7 +6461,6 @@
     }
   },
   "recent_prices": [
-    250.0,
     129.0,
     45.0,
     180.0,
@@ -6736,7 +6759,8 @@
     650.0,
     80.0,
     300.0,
-    675.0
+    675.0,
+    850.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6985,6 +7009,9 @@
     ],
     "smart": [
       135.0
+    ],
+    "spinnaker": [
+      850.0
     ],
     "sport": [
       15.0
@@ -7566,6 +7593,7 @@
     1078388482,
     1071411962,
     1085977332,
-    1085138469
+    1085138469,
+    1084958491
   ]
 }
