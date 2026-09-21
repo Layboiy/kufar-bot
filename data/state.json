@@ -8523,6 +8523,30 @@
       "status": "suggested",
       "title": "Часы casio, цена 400 р. купить в Гродно на Куфаре - Объявление №1086015553"
     },
+    "1086016661": {
+      "actual_sale": null,
+      "ad_id": 1086016661,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f960ee5a-7e5a-4d6e-9f7d-b68553a8c5c5.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086016661",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 435,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 160.0,
+      "pricevsmarket": "normal",
+      "resale": 162.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Orient AAA Crystal, цена 160 р. купить в Минске на Куфаре - Объявление №1086016661"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8669,9 +8693,6 @@
     }
   },
   "recent_prices": [
-    470.0,
-    500.0,
-    400.0,
     99.0,
     35.0,
     2380.0,
@@ -8968,7 +8989,10 @@
     450.0,
     35.0,
     810.0,
-    200.0
+    200.0,
+    160.0,
+    20.0,
+    45.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9383,6 +9407,9 @@
     "в": [
       8.5
     ],
+    "винтажные": [
+      20.0
+    ],
     "вмф": [
       2200.0
     ],
@@ -9513,7 +9540,8 @@
       300.0,
       69.0,
       30.0,
-      35.0
+      35.0,
+      45.0
     ],
     "немецкого": [
       550.0
@@ -10113,6 +10141,9 @@
     1080402834,
     1086016250,
     1074969757,
-    1049490577
+    1049490577,
+    1086016661,
+    1086016639,
+    1084602574
   ]
 }
