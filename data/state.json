@@ -1347,6 +1347,30 @@
       "status": "suggested",
       "title": "Швейцарские мужские часы RSW., цена 1 699 р. купить в Минске на Куфаре - Объявление №1082865449"
     },
+    "1082975903": {
+      "actual_sale": null,
+      "ad_id": 1082975903,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b8827aaa-080e-4e9a-b100-2f0a82bb06cd.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082975903",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 216,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 100.0,
+      "pricevsmarket": "normal",
+      "resale": 97.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Casio AE-1500WH-8B2, цена 100 р. купить в Минске на Куфаре - Объявление №1082975903"
+    },
     "1083360552": {
       "actual_sale": null,
       "ad_id": 1083360552,
@@ -3339,6 +3363,54 @@
       "status": "suggested",
       "title": "часы, цена 75 р. купить в Могилеве на Куфаре - Объявление №1085941098"
     },
+    "1085941967": {
+      "actual_sale": null,
+      "ad_id": 1085941967,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e16c2c7d-212e-4f40-ade8-07b47770ed6a.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085941967",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 215,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы Casio, цена 150 р. купить в Гродно на Куфаре - Объявление №1085941967"
+    },
+    "1085942090": {
+      "actual_sale": null,
+      "ad_id": 1085942090,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9471c48b-38f8-4f15-bba5-5b662780b85f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085942090",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 214,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 80.0,
+      "pricevsmarket": "normal",
+      "resale": 95.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Женские часы Romanson DL2133 (титан), цена 80 р. купить в Гомеле на Куфаре - Объявление №1085942090"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -3570,7 +3642,10 @@
     509.0,
     669.0,
     75.0,
-    33.0
+    33.0,
+    80.0,
+    150.0,
+    100.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3614,6 +3689,7 @@
       239.0,
       389.0,
       179.0,
+      150.0,
       150.0
     ],
     "certina": [
@@ -3693,6 +3769,9 @@
       710.0,
       45.0,
       45.0
+    ],
+    "romanson": [
+      80.0
     ],
     "rsw": [
       1699.0
@@ -4017,6 +4096,10 @@
     1085937971,
     1083031565,
     1085941098,
-    1085941016
+    1085941016,
+    1085941713,
+    1085942090,
+    1085941967,
+    1082975903
   ]
 }
