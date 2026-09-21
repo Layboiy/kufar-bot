@@ -819,6 +819,30 @@
       "status": "suggested",
       "title": "Часы наручные, механические ''Луч '', цена 100 р. купить в Минске на Куфаре - Объявление №1069636484"
     },
+    "1070100239": {
+      "actual_sale": null,
+      "ad_id": 1070100239,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/defbb441-d8f2-47a2-8afb-f48e94f4771f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1070100239",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 304,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 450.0,
+      "pricevsmarket": "high",
+      "resale": 127.5,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Tissot на комбинированном браслете, цена 450 р. купить в Бресте на Куфаре - Объявление №1070100239"
+    },
     "1070769445": {
       "actual_sale": null,
       "ad_id": 1070769445,
@@ -5403,6 +5427,54 @@
       "status": "suggested",
       "title": "Часы Candino, цена 220 р. купить в Минске на Куфаре - Объявление №1085963294"
     },
+    "1085963563": {
+      "actual_sale": null,
+      "ad_id": 1085963563,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/71b480b6-2b10-4289-aafa-7f862979249e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085963563",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 303,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 0.99,
+      "pricevsmarket": "low",
+      "resale": 120.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "коробка от часов, цена 0.99 р. купить в Светлогорске на Куфаре - Объявление №1085963563"
+    },
+    "1085963920": {
+      "actual_sale": null,
+      "ad_id": 1085963920,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/036f7d6f-b178-434b-87b2-475e6eeb6686.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085963920",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 302,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 80.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские, цена 350 р. купить в Минске на Куфаре - Объявление №1085963920"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5477,9 +5549,6 @@
     }
   },
   "recent_prices": [
-    100.0,
-    300.0,
-    70.0,
     80.0,
     250.0,
     99.0,
@@ -5776,7 +5845,10 @@
     130.0,
     129.0,
     629.0,
-    139.0
+    139.0,
+    350.0,
+    0.99,
+    450.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -6029,7 +6101,8 @@
       550.0,
       1050.0,
       750.0,
-      45.0
+      45.0,
+      450.0
     ],
     "tommy": [
       290.0,
@@ -6067,7 +6140,8 @@
       55.0,
       55.0,
       320.0,
-      250.0
+      250.0,
+      350.0
     ],
     "касио": [
       100.0
@@ -6502,6 +6576,10 @@
     1085962989,
     1073879985,
     1073879984,
-    1073879982
+    1073879982,
+    1085963920,
+    1085963761,
+    1085963563,
+    1070100239
   ]
 }
