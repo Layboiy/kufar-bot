@@ -2979,6 +2979,30 @@
       "status": "suggested",
       "title": "tissot Chrono XL. Оригинал, цена 770 р. купить в Минске на Куфаре - Объявление №1081191829"
     },
+    "1081474772": {
+      "actual_sale": null,
+      "ad_id": 1081474772,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/fc43c8af-3845-4928-b241-f9295195c045.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081474772",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 418,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 670.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Wenger мужские ( Швейцария), цена 670 р. купить в Минске на Куфаре - Объявление №1081474772"
+    },
     "1081633761": {
       "actual_sale": null,
       "ad_id": 1081633761,
@@ -8261,7 +8285,6 @@
     }
   },
   "recent_prices": [
-    120.0,
     250.0,
     400.0,
     100.0,
@@ -8560,7 +8583,8 @@
     25.0,
     30.0,
     1000.0,
-    150.0
+    150.0,
+    670.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8934,6 +8958,9 @@
     ],
     "welder": [
       590.0
+    ],
+    "wenger": [
+      670.0
     ],
     "winner": [
       65.0
@@ -9639,6 +9666,7 @@
     1086006060,
     1062912901,
     1086006917,
-    1086008243
+    1086008243,
+    1081474772
   ]
 }
