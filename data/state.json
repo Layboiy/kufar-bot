@@ -2547,6 +2547,30 @@
       "status": "suggested",
       "title": "Часы Casio, цена 90 р. купить в Минске на Куфаре - Объявление №1079409017"
     },
+    "1079937148": {
+      "actual_sale": null,
+      "ad_id": 1079937148,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/96813b0f-0655-4ed0-b425-3e8dfc532887.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1079937148",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 395,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1900.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Нamilton Khaki Field King, цена 1 900 р. купить в Минске на Куфаре - Объявление №1079937148"
+    },
     "1079946061": {
       "actual_sale": null,
       "ad_id": 1079946061,
@@ -7709,9 +7733,6 @@
     }
   },
   "recent_prices": [
-    150.0,
-    630.0,
-    2200.0,
     9900.0,
     550.0,
     25.0,
@@ -8008,7 +8029,10 @@
     20.0,
     89.0,
     300.0,
-    190.0
+    190.0,
+    20.25,
+    1900.0,
+    40.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8117,6 +8141,9 @@
     "certina": [
       630.0,
       410.0
+    ],
+    "chanel": [
+      20.25
     ],
     "citizen": [
       1100.0
@@ -8268,6 +8295,9 @@
     ],
     "q": [
       35.0
+    ],
+    "quaztz": [
+      40.0
     ],
     "roamer": [
       730.0
@@ -8451,6 +8481,9 @@
       15.0,
       250.0,
       150.0
+    ],
+    "нamilton": [
+      1900.0
     ],
     "на": [
       420.0,
@@ -9006,6 +9039,9 @@
     1085992631,
     1039808083,
     1085994445,
-    1085994098
+    1085994098,
+    1085994497,
+    1079937148,
+    1078888123
   ]
 }
