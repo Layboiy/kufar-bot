@@ -2763,6 +2763,30 @@
       "status": "suggested",
       "title": "Мужские механические часы Комета ''Скелетон'', цена 500 р. купить в Мозыре на Куфаре - Объявление №1080270381"
     },
+    "1080402834": {
+      "actual_sale": null,
+      "ad_id": 1080402834,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/02e495ce-b761-4aee-a3a8-c68b605214f6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1080402834",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 432,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 450.0,
+      "pricevsmarket": "high",
+      "resale": 375.0,
+      "resale_source": "brand:diesel",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы DIESEL  DZ4552, цена 450 р. купить в Минске на Куфаре - Объявление №1080402834"
+    },
     "1080469515": {
       "actual_sale": null,
       "ad_id": 1080469515,
@@ -8427,6 +8451,30 @@
       "status": "suggested",
       "title": "Casio MTPS120L, цена 485 р. купить в Минске на Куфаре - Объявление №1086014783"
     },
+    "1086015553": {
+      "actual_sale": null,
+      "ad_id": 1086015553,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/450e0f7a-8165-4248-bc78-bdcf04a2cca3.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086015553",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 431,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 400.0,
+      "pricevsmarket": "high",
+      "resale": 85.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы casio, цена 400 р. купить в Гродно на Куфаре - Объявление №1086015553"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8573,8 +8621,6 @@
     }
   },
   "recent_prices": [
-    1900.0,
-    40.0,
     300.0,
     260.0,
     505.0,
@@ -8872,7 +8918,9 @@
     95.0,
     65.0,
     485.0,
-    6.0
+    6.0,
+    400.0,
+    450.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8989,7 +9037,8 @@
       40.0,
       40.0,
       50.0,
-      590.0
+      590.0,
+      400.0
     ],
     "certina": [
       630.0,
@@ -9020,7 +9069,8 @@
     "diesel": [
       350.0,
       400.0,
-      260.0
+      260.0,
+      450.0
     ],
     "dom": [
       45.0
@@ -10009,6 +10059,8 @@
     202375566,
     185106678,
     1086014783,
-    1086014632
+    1086014632,
+    1086015553,
+    1080402834
   ]
 }
