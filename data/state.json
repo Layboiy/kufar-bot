@@ -411,6 +411,30 @@
       "status": "suggested",
       "title": "Tissot PRX Powermatic 80 Carbon 40 mm, цена 2 590 р. купить в Минске на Куфаре - Объявление №1060355488"
     },
+    "1060627761": {
+      "actual_sale": null,
+      "ad_id": 1060627761,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7e2aa7c9-6663-4c55-b0fe-3cf2fb98703c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1060627761",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 256,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 200.0,
+      "pricevsmarket": "normal",
+      "resale": 200.0,
+      "resale_source": "brand:daniel",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Daniel Klein . 10/10 состояние, цена 200 р. купить в Могилеве на Куфаре - Объявление №1060627761"
+    },
     "1060793271": {
       "actual_sale": null,
       "ad_id": 1060793271,
@@ -1610,6 +1634,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Мужские часы Diesel, цена 400 р. купить в Бобруйске на Куфаре - Объявление №1080749937"
+    },
+    "1080780510": {
+      "actual_sale": null,
+      "ad_id": 1080780510,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5adc93a6-d8f6-4e4c-a5a0-662c643360dd.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1080780510",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 255,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 180.0,
+      "pricevsmarket": "high",
+      "resale": 99.995,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы спортивные nike, цена 180 р. купить в Могилеве на Куфаре - Объявление №1080780510"
     },
     "1080849742": {
       "actual_sale": null,
@@ -4588,7 +4636,9 @@
     80.0,
     150.0,
     1790.0,
-    35.0
+    35.0,
+    180.0,
+    200.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4666,7 +4716,8 @@
     ],
     "daniel": [
       50.0,
-      315.0
+      315.0,
+      200.0
     ],
     "diesel": [
       350.0,
@@ -4888,6 +4939,9 @@
       20.0,
       600.0,
       33.0
+    ],
+    "спортивные": [
+      180.0
     ],
     "тиссот": [
       650.0
@@ -5160,6 +5214,8 @@
     1085949154,
     1085349064,
     1078586182,
-    1075243526
+    1075243526,
+    1080780510,
+    1060627761
   ]
 }
