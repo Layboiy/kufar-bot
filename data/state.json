@@ -411,6 +411,30 @@
       "status": "suggested",
       "title": "Часы, цена 149 р. купить в Минске на Куфаре - Объявление №1049284580"
     },
+    "1051139767": {
+      "actual_sale": null,
+      "ad_id": 1051139767,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/27fbfb4e-a9fc-478b-ad5b-75a9994e445c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1051139767",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 323,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 140.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы TAG HEUER механика автоподзавод люкс копия, цена 350 р. купить в Минске на Куфаре - Объявление №1051139767"
+    },
     "1054687618": {
       "actual_sale": null,
       "ad_id": 1054687618,
@@ -2642,6 +2666,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы мужские кварцевые Orient хронограф/будильник, цена 350 р. купить в Могилеве на Куфаре - Объявление №1083360552"
+    },
+    "1083361180": {
+      "actual_sale": null,
+      "ad_id": 1083361180,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1a8e48e1-dd44-4070-bd22-9ec2cb30c970.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1083361180",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 322,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 139.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы, цена 250 р. купить в Гомеле на Куфаре - Объявление №1083361180"
     },
     "1083476194": {
       "actual_sale": null,
@@ -5859,6 +5907,30 @@
       "status": "suggested",
       "title": "Часы Полет.Механика.Исправны, цена 165 р. купить в Бобруйске на Куфаре - Объявление №1085969943"
     },
+    "1085970645": {
+      "actual_sale": null,
+      "ad_id": 1085970645,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/c8d0e0e0-4ff4-47c0-9608-7b1ce4afb1ca.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085970645",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 321,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 187.5,
+      "resale_source": "brand:orient",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Orient, цена 300 р. купить в Минске на Куфаре - Объявление №1085970645"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5933,9 +6005,6 @@
     }
   },
   "recent_prices": [
-    700.0,
-    10.0,
-    23.0,
     9.0,
     20.0,
     90.0,
@@ -6232,7 +6301,10 @@
     599.0,
     165.0,
     130.0,
-    750.0
+    750.0,
+    300.0,
+    250.0,
+    350.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6423,7 +6495,8 @@
       110.0,
       155.0,
       220.0,
-      630.0
+      630.0,
+      300.0
     ],
     "oris": [
       80.0
@@ -6477,7 +6550,8 @@
       220.0
     ],
     "tag": [
-      4500.0
+      4500.0,
+      350.0
     ],
     "ted": [
       100.0
@@ -7008,6 +7082,9 @@
     1085969943,
     1085969633,
     1074167404,
-    1072916662
+    1072916662,
+    1085970645,
+    1083361180,
+    1051139767
   ]
 }
