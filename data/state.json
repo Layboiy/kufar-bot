@@ -315,6 +315,30 @@
       "status": "suggested",
       "title": "Casio G-shock Gulfmaster GWN-1000C-1A, цена 800 р. купить в Минске на Куфаре - Объявление №1061123934"
     },
+    "1062489637": {
+      "actual_sale": null,
+      "ad_id": 1062489637,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1d26cca3-0016-4f65-b112-e5f999beeed0.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1062489637",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 220,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1900.0,
+      "pricevsmarket": "high",
+      "resale": 99.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы швейцарские charriol с бриллиантами, цена 1 900 р. купить в Гомеле на Куфаре - Объявление №1062489637"
+    },
     "1062503333": {
       "actual_sale": null,
       "ad_id": 1062503333,
@@ -1059,6 +1083,30 @@
       "status": "suggested",
       "title": "Наручные часы ROLEX (Новые.Коробка в подарок), цена 45 р. купить в Минске на Куфаре - Объявление №1078402969"
     },
+    "1078628316": {
+      "actual_sale": null,
+      "ad_id": 1078628316,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/71546d55-6706-413a-a9df-a7d6a7c4ce07.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078628316",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 219,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 180.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы CASIO VINTAGE A100WE-1A Оригинал, цена 180 р. купить в Минске на Куфаре - Объявление №1078628316"
+    },
     "1079211791": {
       "actual_sale": null,
       "ad_id": 1079211791,
@@ -1466,6 +1514,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Наручные часы CASIO (Новые), цена 35 р. купить в Минске на Куфаре - Объявление №1084012595"
+    },
+    "1084773567": {
+      "actual_sale": null,
+      "ad_id": 1084773567,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b2bac371-35aa-4f5d-b039-5e5841567f8e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084773567",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 218,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 490.0,
+      "pricevsmarket": "high",
+      "resale": 200.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские механические дайвер., цена 490 р. купить в Минске на Куфаре - Объявление №1084773567"
     },
     "1084884646": {
       "actual_sale": null,
@@ -3671,7 +3743,11 @@
     150.0,
     100.0,
     1750.0,
-    85.0
+    85.0,
+    40.0,
+    490.0,
+    180.0,
+    1900.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3716,7 +3792,8 @@
       389.0,
       179.0,
       150.0,
-      150.0
+      150.0,
+      180.0
     ],
     "certina": [
       630.0
@@ -3884,10 +3961,12 @@
       150.0,
       350.0,
       350.0,
-      85.0
+      85.0,
+      490.0
     ],
     "на": [
-      420.0
+      420.0,
+      40.0
     ],
     "наручные": [
       35.0,
@@ -3922,6 +4001,9 @@
     ],
     "хронограф": [
       95.0
+    ],
+    "швейцарские": [
+      1900.0
     ],
     "электроника": [
       120.0
@@ -4131,6 +4213,10 @@
     1082975903,
     1082935398,
     1070371175,
-    1062150569
+    1062150569,
+    1085528229,
+    1084773567,
+    1078628316,
+    1062489637
   ]
 }
