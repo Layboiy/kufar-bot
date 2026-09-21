@@ -7107,6 +7107,30 @@
       "status": "suggested",
       "title": "Часы наручные, цена 150 р. купить в Минске на Куфаре - Объявление №1085985138"
     },
+    "1085987345": {
+      "actual_sale": null,
+      "ad_id": 1085987345,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/145b4fee-da93-4d8f-bbbe-926c4ea34381.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085987345",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 374,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 30.0,
+      "pricevsmarket": "high",
+      "resale": 20.0,
+      "resale_source": "brand:механические",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы механические, цена 30 р. купить в Минске на Куфаре - Объявление №1085987345"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -7205,9 +7229,6 @@
     }
   },
   "recent_prices": [
-    55.0,
-    55.0,
-    10.0,
     250.0,
     45.0,
     700.0,
@@ -7504,7 +7525,10 @@
     45.0,
     5450.0,
     17.0,
-    750.0
+    750.0,
+    30.0,
+    120.0,
+    130.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7715,6 +7739,9 @@
     "nemesis": [
       250.0
     ],
+    "north": [
+      130.0
+    ],
     "omega": [
       99.0,
       45.0
@@ -7864,6 +7891,9 @@
       350.0,
       60.0
     ],
+    "из": [
+      120.0
+    ],
     "касио": [
       100.0
     ],
@@ -7891,7 +7921,8 @@
     "механические": [
       10.0,
       115.0,
-      10.0
+      10.0,
+      30.0
     ],
     "молния": [
       550.0
@@ -8420,6 +8451,11 @@
     1085985780,
     1085986286,
     1085986648,
-    1078872896
+    1078872896,
+    1085987345,
+    1085987257,
+    1085987085,
+    1085987029,
+    1081317852
   ]
 }
