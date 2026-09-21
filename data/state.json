@@ -171,6 +171,30 @@
       "status": "suggested",
       "title": "Наручные Часы TISSOT PRX, цена 79.99 р. купить в Минске на Куфаре - Объявление №1021625072"
     },
+    "1023798626": {
+      "actual_sale": null,
+      "ad_id": 1023798626,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/cffaf498-6a82-49f1-b822-1cf92e7c97ee.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1023798626",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 357,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2499.99,
+      "pricevsmarket": "high",
+      "resale": 172.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Armand Nicolet Tramelan T610AQN-NR-G9610, Оригинал ТОРГ,Обмен, цена 2 499.99 р. купить в Минске на Куфаре - Объявление №1023798626"
+    },
     "1023969532": {
       "actual_sale": null,
       "ad_id": 1023969532,
@@ -2090,6 +2114,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы наручные Tommi Hilfiger, цена 470 р. купить в Минске на Куфаре - Объявление №1078705821"
+    },
+    "1078802885": {
+      "actual_sale": null,
+      "ad_id": 1078802885,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/4d753d77-f2aa-4a61-8665-a7d9cbde2a0c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078802885",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 356,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 850.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы, цена 850 р. купить в Минске на Куфаре - Объявление №1078802885"
     },
     "1079211791": {
       "actual_sale": null,
@@ -6651,6 +6699,54 @@
       "status": "suggested",
       "title": "коробка от чисов TISSOT, цена 50 р. купить в Минске на Куфаре - Объявление №1085978691"
     },
+    "1085980147": {
+      "actual_sale": null,
+      "ad_id": 1085980147,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2984b78b-e749-4198-858c-8355d35aa828.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085980147",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 355,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 400.0,
+      "pricevsmarket": "high",
+      "resale": 179.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Steeldive sd1970, цена 400 р. купить в Новополоцке на Куфаре - Объявление №1085980147"
+    },
+    "1085980283": {
+      "actual_sale": null,
+      "ad_id": 1085980283,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/98363629-db87-49a0-b16d-41d89ed7c494.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085980283",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 354,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1200.0,
+      "pricevsmarket": "high",
+      "resale": 269.995,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы  Tissot, цена 1 200 р. купить в Гомеле на Куфаре - Объявление №1085980283"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -6725,14 +6821,6 @@
     }
   },
   "recent_prices": [
-    75.0,
-    7000.0,
-    45.0,
-    45.0,
-    45.0,
-    800.0,
-    950.0,
-    70.0,
     710.0,
     300.0,
     2950.0,
@@ -7024,7 +7112,15 @@
     2200.0,
     35.0,
     190.0,
-    270.0
+    270.0,
+    20.0,
+    1200.0,
+    30.0,
+    400.0,
+    50.0,
+    80.0,
+    850.0,
+    2499.99
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7152,6 +7248,9 @@
     ],
     "evangelion": [
       60.0
+    ],
+    "fastrack": [
+      50.0
     ],
     "ferrari": [
       35.0
@@ -7317,7 +7416,8 @@
       450.0,
       45.0,
       2000.0,
-      650.0
+      650.0,
+      1200.0
     ],
     "tommy": [
       290.0,
@@ -7381,7 +7481,8 @@
       500.0,
       820.0,
       50.0,
-      80.0
+      80.0,
+      30.0
     ],
     "механические": [
       10.0,
@@ -7485,7 +7586,8 @@
       1900.0
     ],
     "электроника": [
-      120.0
+      120.0,
+      20.0
     ]
   },
   "seen_ad_ids": [
@@ -7881,6 +7983,14 @@
     1085978856,
     1084842997,
     1083902680,
-    1083889084
+    1083889084,
+    1085979791,
+    1085980283,
+    1085980177,
+    1085980147,
+    1083059460,
+    1082610016,
+    1078802885,
+    1023798626
   ]
 }
