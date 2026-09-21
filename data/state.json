@@ -4515,6 +4515,30 @@
       "status": "suggested",
       "title": "Часы Michael Kors, цена 700 р. купить в Могилеве на Куфаре - Объявление №1085863898"
     },
+    "1085867798": {
+      "actual_sale": null,
+      "ad_id": 1085867798,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/86b9da81-24d4-4a8c-9111-18bdeb65dd4d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085867798",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 411,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1800.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы АV-4090-07, цена 1 800 р. купить в Минске на Куфаре - Объявление №1085867798"
+    },
     "1085873020": {
       "actual_sale": null,
       "ad_id": 1085873020,
@@ -7827,18 +7851,42 @@
       "status": "suggested",
       "title": "Часы механические СССР Луч  AU, цена 40 р. купить в Минске на Куфаре - Объявление №1086000181"
     },
+    "1086000922": {
+      "actual_sale": null,
+      "ad_id": 1086000922,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1b5098c5-f9c7-45bf-b3fe-f233096f43b1.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086000922",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 410,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 595.0,
+      "pricevsmarket": "high",
+      "resale": 85.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio G-Shock, цена 595 р. купить в Минске на Куфаре - Объявление №1086000922"
+    },
     "1086001888": {
       "actual_sale": null,
       "ad_id": 1086001888,
-      "chat_id": null,
+      "chat_id": 8399187607,
       "complete": "unverified",
       "condition": "Новое. Покупайте и п",
       "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/63fed158-3d2f-4590-9357-a903f554dc62.jpg",
-      "is_photo": false,
+      "is_photo": true,
       "link": "https://www.kufar.by/item/1086001888",
       "liquidity": "medium",
       "listing_photo_file_ids": [],
-      "message_id": null,
+      "message_id": 409,
       "originality": "unverified",
       "originality_note": null,
       "price": 519.0,
@@ -8069,8 +8117,6 @@
     }
   },
   "recent_prices": [
-    300.0,
-    15.0,
     45.0,
     30.0,
     350.0,
@@ -8368,7 +8414,9 @@
     629.0,
     939.0,
     1589.0,
-    519.0
+    519.0,
+    595.0,
+    1800.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8475,7 +8523,8 @@
       195.0,
       89.0,
       279.0,
-      509.0
+      509.0,
+      595.0
     ],
     "certina": [
       630.0,
@@ -8737,6 +8786,9 @@
     ],
     "winner": [
       65.0
+    ],
+    "аv-4090-07": [
+      1800.0
     ],
     "автокварц": [
       400.0
@@ -9418,6 +9470,8 @@
     1086001924,
     1086001923,
     1086001911,
-    1086001888
+    1086001888,
+    1086000922,
+    1085867798
   ]
 }
