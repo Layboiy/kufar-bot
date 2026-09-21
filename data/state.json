@@ -1371,6 +1371,30 @@
       "status": "suggested",
       "title": "Наручные часы ROLEX (Новые.Коробка в подарок), цена 45 р. купить в Минске на Куфаре - Объявление №1078402969"
     },
+    "1078586182": {
+      "actual_sale": null,
+      "ad_id": 1078586182,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/53027247-bb68-4fbc-ab6a-fa1dfb79df65.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078586182",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 254,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1790.0,
+      "pricevsmarket": "high",
+      "resale": 49.5,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Casio G-Shock GMW-B5000GD-9, цена 1 790 р. купить в Минске на Куфаре - Объявление №1078586182"
+    },
     "1078628316": {
       "actual_sale": null,
       "ad_id": 1078628316,
@@ -2186,6 +2210,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы мужские механические, цена 350 р. купить в Орше на Куфаре - Объявление №1085085313"
+    },
+    "1085349064": {
+      "actual_sale": null,
+      "ad_id": 1085349064,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/13f80cfc-6476-484a-8894-2e9fd29bdd93.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085349064",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 253,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "high",
+      "resale": 49.5,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы casio alarm, цена 150 р. купить в Витебске на Куфаре - Объявление №1085349064"
     },
     "1085474154": {
       "actual_sale": null,
@@ -4227,6 +4275,30 @@
       "status": "suggested",
       "title": "Casio G-Shock Original New, цена 250 р. купить в Минске на Куфаре - Объявление №1085948631"
     },
+    "1085949154": {
+      "actual_sale": null,
+      "ad_id": 1085949154,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/17b28306-6c0f-452a-93ed-969b5bf40d5e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085949154",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 252,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 80.0,
+      "pricevsmarket": "normal",
+      "resale": 80.0,
+      "resale_source": "brand:луч",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы луч лунник кварц лунный календарь винтаж, цена 80 р. купить в Минске на Куфаре - Объявление №1085949154"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -4512,7 +4584,11 @@
     1500.0,
     50.0,
     590.0,
-    90.0
+    90.0,
+    80.0,
+    150.0,
+    1790.0,
+    35.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4535,7 +4611,8 @@
       230.0
     ],
     "calvin": [
-      45.0
+      45.0,
+      35.0
     ],
     "cartier": [
       60.0,
@@ -4574,7 +4651,9 @@
       29.99,
       69.99,
       590.0,
-      90.0
+      90.0,
+      150.0,
+      1790.0
     ],
     "certina": [
       630.0
@@ -4748,7 +4827,8 @@
       20.0,
       500.0,
       820.0,
-      50.0
+      50.0,
+      80.0
     ],
     "механические": [
       10.0
@@ -5076,6 +5156,10 @@
     1082501535,
     1058599421,
     1085489833,
-    1079409017
+    1079409017,
+    1085949154,
+    1085349064,
+    1078586182,
+    1075243526
   ]
 }
