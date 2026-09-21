@@ -2259,6 +2259,30 @@
       "status": "suggested",
       "title": "часы мужские '' Tissot '', цена 270 р. купить в Бресте на Куфаре - Объявление №1085907852"
     },
+    "1085922480": {
+      "actual_sale": null,
+      "ad_id": 1085922480,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5fdce434-17a9-4b8e-b5b4-d8ea5c5d6c32.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085922480",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 168,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "normal",
+      "resale": 145.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские, цена 150 р. купить в Городке на Куфаре - Объявление №1085922480"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2439,7 +2463,8 @@
     40.0,
     270.0,
     45.0,
-    900.0
+    900.0,
+    150.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2596,7 +2621,8 @@
       65.0,
       140.0,
       250.0,
-      270.0
+      270.0,
+      150.0
     ],
     "на": [
       420.0
@@ -2769,6 +2795,7 @@
     1072872012,
     1085907852,
     1078520180,
-    1075973542
+    1075973542,
+    1085922480
   ]
 }
