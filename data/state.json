@@ -2835,6 +2835,30 @@
       "status": "suggested",
       "title": "Часы DIESEL CRUSHER, цена 260 р. купить в Минске на Куфаре - Объявление №1082525398"
     },
+    "1082697348": {
+      "actual_sale": null,
+      "ad_id": 1082697348,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/ab79ba0e-2a82-49b5-ae0b-3c1ca4cb1b6b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082697348",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 366,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1000.0,
+      "pricevsmarket": "high",
+      "resale": 179.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Tissot Cera с бриллиантами, цена 1 000 р. купить в Минске на Куфаре - Объявление №1082697348"
+    },
     "1082739829": {
       "actual_sale": null,
       "ad_id": 1082739829,
@@ -7013,8 +7037,6 @@
     }
   },
   "recent_prices": [
-    79.99,
-    400.0,
     45.0,
     65.0,
     50.0,
@@ -7312,7 +7334,9 @@
     20.0,
     10.0,
     160.0,
-    590.0
+    590.0,
+    35.0,
+    1000.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7544,6 +7568,9 @@
     ],
     "pintime": [
       65.0
+    ],
+    "q": [
+      35.0
     ],
     "roamer": [
       730.0
@@ -8204,6 +8231,8 @@
     1085981996,
     1085981689,
     1080817899,
-    1073452749
+    1073452749,
+    1085982600,
+    1082697348
   ]
 }
