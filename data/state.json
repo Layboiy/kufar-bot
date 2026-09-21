@@ -4851,6 +4851,30 @@
       "status": "suggested",
       "title": "Мужские часы Pintime (Новые, полный комплект), цена 65 р. купить в Минске на Куфаре - Объявление №1085955511"
     },
+    "1085959660": {
+      "actual_sale": null,
+      "ad_id": 1085959660,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9b4fa8d4-aed7-486e-b0c3-468931086e2c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085959660",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 278,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 45.0,
+      "pricevsmarket": "normal",
+      "resale": 49.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio (оригинал), цена 45 р. купить в Молодечно на Куфаре - Объявление №1085959660"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -5173,7 +5197,8 @@
     15.0,
     20.0,
     220.0,
-    600.0
+    600.0,
+    45.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -5243,7 +5268,8 @@
       90.0,
       150.0,
       1790.0,
-      900.0
+      900.0,
+      45.0
     ],
     "certina": [
       630.0
@@ -5823,6 +5849,9 @@
     1085957484,
     1085957046,
     1081809220,
-    1071643551
+    1071643551,
+    1085958862,
+    1085959660,
+    1085590113
   ]
 }
