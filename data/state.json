@@ -2787,6 +2787,30 @@
       "status": "suggested",
       "title": "Луч - Фаворит, цена 300 р. купить в Минске на Куфаре - Объявление №1085929932"
     },
+    "1085930281": {
+      "actual_sale": null,
+      "ad_id": 1085930281,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d4c065a0-bf06-4b3a-86a4-cff8b0bfeea9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085930281",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 191,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 30.0,
+      "pricevsmarket": "low",
+      "resale": 79.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Коробка от часов Tissot с подушкой., цена 30 р. купить в Минске на Куфаре - Объявление №1085930281"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2993,7 +3017,8 @@
     179.0,
     300.0,
     15.0,
-    45.0
+    45.0,
+    30.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3381,6 +3406,7 @@
     1073879989,
     1085929932,
     1085929390,
-    1078857536
+    1078857536,
+    1085930281
   ]
 }
