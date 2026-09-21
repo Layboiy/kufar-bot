@@ -8211,6 +8211,30 @@
       "status": "suggested",
       "title": "Часы Tissot, цена 1 111 р. купить в Минске на Куфаре - Объявление №1086009508"
     },
+    "1086010071": {
+      "actual_sale": null,
+      "ad_id": 1086010071,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/6e622964-5aaa-46d6-b11b-541abef4cf31.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086010071",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 420,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1400.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Louis Vuitton Swiss Made, цена 1 400 р. купить в Минске на Куфаре - Объявление №1086010071"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8309,8 +8333,6 @@
     }
   },
   "recent_prices": [
-    400.0,
-    100.0,
     150.0,
     220.0,
     155.0,
@@ -8608,7 +8630,9 @@
     1000.0,
     150.0,
     670.0,
-    1111.0
+    1111.0,
+    1400.0,
+    30.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9693,6 +9717,8 @@
     1086006917,
     1086008243,
     1081474772,
-    1086009508
+    1086009508,
+    1086010071,
+    1045952838
   ]
 }
