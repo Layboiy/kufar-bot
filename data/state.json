@@ -2331,6 +2331,30 @@
       "status": "suggested",
       "title": "Часы, цена 850 р. купить в Минске на Куфаре - Объявление №1078802885"
     },
+    "1078872896": {
+      "actual_sale": null,
+      "ad_id": 1078872896,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/529ab86b-86da-433f-b96a-b3daa378972e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078872896",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 373,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 750.0,
+      "pricevsmarket": "high",
+      "resale": 199.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Tissot Classic Dream, цена 750 р. купить в Минске на Куфаре - Объявление №1078872896"
+    },
     "1079211791": {
       "actual_sale": null,
       "ad_id": 1079211791,
@@ -7181,8 +7205,6 @@
     }
   },
   "recent_prices": [
-    70.0,
-    140.0,
     55.0,
     55.0,
     10.0,
@@ -7480,7 +7502,9 @@
     1099.99,
     150.0,
     45.0,
-    5450.0
+    5450.0,
+    17.0,
+    750.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8392,6 +8416,10 @@
     253483507,
     1085985138,
     1077381977,
-    1076527846
+    1076527846,
+    1085985780,
+    1085986286,
+    1085986648,
+    1078872896
   ]
 }
