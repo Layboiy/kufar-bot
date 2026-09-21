@@ -1155,6 +1155,30 @@
       "status": "suggested",
       "title": "Часы касио, цена 100 р. купить в Бобруйске на Куфаре - Объявление №1072442212"
     },
+    "1072916662": {
+      "actual_sale": null,
+      "ad_id": 1072916662,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/fd8113ba-45a3-4acc-9d00-4d854225671d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1072916662",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 320,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 750.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы Casio G-SHOCK GST-B100D bluetooth tough solar, цена 750 р. купить в Бресте на Куфаре - Объявление №1072916662"
+    },
     "1073262229": {
       "actual_sale": null,
       "ad_id": 1073262229,
@@ -1370,6 +1394,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Новые Гарантия Наручные часы Casio LTP-V007SG-9B, цена 129 р. купить в Минске на Куфаре - Объявление №1073880013"
+    },
+    "1074167404": {
+      "actual_sale": null,
+      "ad_id": 1074167404,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/f884fc34-d23c-4283-b285-0942ae69a49b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1074167404",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 319,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 130.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Цифровые часы CASIO ROYAL Vintage CASIO AE-1200WH, цена 130 р. купить в Бресте на Куфаре - Объявление №1074167404"
     },
     "1074188750": {
       "actual_sale": null,
@@ -5787,6 +5835,30 @@
       "status": "suggested",
       "title": "Часы наручные Tissot T125.610.17.081.00, цена 599 р. купить в Минске на Куфаре - Объявление №1085969165"
     },
+    "1085969943": {
+      "actual_sale": null,
+      "ad_id": 1085969943,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/6cd4ce14-5fc0-4488-8716-dc828a7402c7.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085969943",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 318,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 165.0,
+      "pricevsmarket": "high",
+      "resale": 130.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Полет.Механика.Исправны, цена 165 р. купить в Бобруйске на Куфаре - Объявление №1085969943"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5861,9 +5933,6 @@
     }
   },
   "recent_prices": [
-    450.0,
-    20.0,
-    20.0,
     700.0,
     10.0,
     23.0,
@@ -6160,7 +6229,10 @@
     15.0,
     250.0,
     730.0,
-    599.0
+    599.0,
+    165.0,
+    130.0,
+    750.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6247,7 +6319,9 @@
       129.0,
       629.0,
       139.0,
-      250.0
+      250.0,
+      130.0,
+      750.0
     ],
     "certina": [
       630.0
@@ -6551,6 +6625,9 @@
     ],
     "ориент": [
       260.0
+    ],
+    "полет": [
+      165.0
     ],
     "ракета": [
       100.0,
@@ -6927,6 +7004,10 @@
     1085968872,
     1085968698,
     1083632903,
-    1085969165
+    1085969165,
+    1085969943,
+    1085969633,
+    1074167404,
+    1072916662
   ]
 }
