@@ -2259,6 +2259,30 @@
       "status": "suggested",
       "title": "Наручные часы CASIO (Новые), цена 35 р. купить в Минске на Куфаре - Объявление №1084012595"
     },
+    "1084448800": {
+      "actual_sale": null,
+      "ad_id": 1084448800,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/0842c18b-2249-4ac5-9a07-0982bca83412.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084448800",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 270,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 800.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы PASCAL Paradoxe (Сальвадор Дали), цена 800 р. купить в Витебске на Куфаре - Объявление №1084448800"
+    },
     "1084773567": {
       "actual_sale": null,
       "ad_id": 1084773567,
@@ -4635,6 +4659,30 @@
       "status": "suggested",
       "title": "часы, цена 150 р. купить в Бобруйске на Куфаре - Объявление №1085954014"
     },
+    "1085955240": {
+      "actual_sale": null,
+      "ad_id": 1085955240,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7afe3c25-0ec0-4968-92f4-b0dd7d0c7ac9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085955240",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 269,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Женские часики ЛУЧ КОЛЛЕКЦИЯ ''РЕТРО КВАРЦ'', цена 250 р. купить в Минске на Куфаре - Объявление №1085955240"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -4942,7 +4990,9 @@
     23000.0,
     550.0,
     5000.0,
-    150.0
+    150.0,
+    250.0,
+    800.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -5094,6 +5144,9 @@
     ],
     "oris": [
       80.0
+    ],
+    "pascal": [
+      800.0
     ],
     "patek": [
       45.0,
@@ -5556,6 +5609,8 @@
     1077255984,
     1069289989,
     1085953663,
-    1085954014
+    1085954014,
+    1085955240,
+    1084448800
   ]
 }
