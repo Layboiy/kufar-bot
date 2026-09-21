@@ -5763,6 +5763,30 @@
       "status": "suggested",
       "title": "Часы Casio g-shock, цена 250 р. купить в Минске на Куфаре - Объявление №1085968698"
     },
+    "1085969165": {
+      "actual_sale": null,
+      "ad_id": 1085969165,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d64c19ad-04c8-43f1-bc97-06defdcbe1b1.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085969165",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 317,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 599.0,
+      "pricevsmarket": "high",
+      "resale": 150.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные Tissot T125.610.17.081.00, цена 599 р. купить в Минске на Куфаре - Объявление №1085969165"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5837,7 +5861,6 @@
     }
   },
   "recent_prices": [
-    65.0,
     450.0,
     20.0,
     20.0,
@@ -6136,7 +6159,8 @@
     6850.0,
     15.0,
     250.0,
-    730.0
+    730.0,
+    599.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6506,7 +6530,8 @@
       500.0,
       150.0,
       15.0,
-      25.0
+      25.0,
+      599.0
     ],
     "немецкого": [
       550.0
@@ -6901,6 +6926,7 @@
     1085074938,
     1085968872,
     1085968698,
-    1083632903
+    1083632903,
+    1085969165
   ]
 }
