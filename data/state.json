@@ -315,6 +315,30 @@
       "status": "suggested",
       "title": "Мужские часы Casio (реплика, новые), цена 70 р. купить в Минске на Куфаре - Объявление №1048692984"
     },
+    "1048885396": {
+      "actual_sale": null,
+      "ad_id": 1048885396,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/fc62eb6d-75fc-49c0-9abb-1cf737decabf.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1048885396",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 244,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2284.1,
+      "pricevsmarket": "high",
+      "resale": 297.5,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные CERTINA C029.426.11.091.60 состояние новых, цена 2 284.10 р. купить в Минске на Куфаре - Объявление №1048885396"
+    },
     "1054687618": {
       "actual_sale": null,
       "ad_id": 1054687618,
@@ -1874,6 +1898,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы мужские кварцевые Orient хронограф/будильник, цена 350 р. купить в Могилеве на Куфаре - Объявление №1083360552"
+    },
+    "1083476194": {
+      "actual_sale": null,
+      "ad_id": 1083476194,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8d68738d-f73f-415d-8dba-f24bb4d3c3bb.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1083476194",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 243,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 135.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Smart Watch X6 Max, цена 135 р. купить в Могилеве на Куфаре - Объявление №1083476194"
     },
     "1083576799": {
       "actual_sale": null,
@@ -4284,7 +4332,9 @@
     59.99,
     125.0,
     900.0,
-    5200.0
+    5200.0,
+    135.0,
+    2284.1
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4448,6 +4498,9 @@
     "skmei": [
       15.0
     ],
+    "smart": [
+      135.0
+    ],
     "sport": [
       15.0
     ],
@@ -4547,7 +4600,8 @@
       470.0,
       1000.0,
       1058.19,
-      125.0
+      125.0,
+      2284.1
     ],
     "немецкого": [
       550.0
@@ -4827,6 +4881,8 @@
     243265289,
     1082101941,
     1074188750,
-    1071425146
+    1071425146,
+    1083476194,
+    1048885396
   ]
 }
