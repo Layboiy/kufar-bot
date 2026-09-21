@@ -147,6 +147,30 @@
       "status": "suggested",
       "title": "SEVENFRIDAY P3C/08 NTD, цена 2 950 р. купить в Минске на Куфаре - Объявление №1036330875"
     },
+    "1037858111": {
+      "actual_sale": null,
+      "ad_id": 1037858111,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e4c12ea3-1172-453f-b185-f5bdc0b646fc.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1037858111",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 227,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 400.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские аксессуары, цена 400 р. купить в Минске на Куфаре - Объявление №1037858111"
+    },
     "1040763747": {
       "actual_sale": null,
       "ad_id": 1040763747,
@@ -3873,7 +3897,8 @@
     260.0,
     505.0,
     470.0,
-    500.0
+    500.0,
+    400.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4358,6 +4383,7 @@
     1081983335,
     1080152682,
     1078705821,
-    1077776213
+    1077776213,
+    1037858111
   ]
 }
