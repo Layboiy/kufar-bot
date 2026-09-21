@@ -1347,6 +1347,30 @@
       "status": "suggested",
       "title": "Швейцарские мужские часы RSW., цена 1 699 р. купить в Минске на Куфаре - Объявление №1082865449"
     },
+    "1082935398": {
+      "actual_sale": null,
+      "ad_id": 1082935398,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2d61a9e9-ed8f-4708-be7e-3c81e6a55a78.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082935398",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 217,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1750.0,
+      "pricevsmarket": "high",
+      "resale": 79.99,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Швейцарские часы Tissot Gentleman Powermatic 80 Silicium (Синий циферблат), цена 1 750 р. купить в Минске на Куфаре - Объявление №1082935398"
+    },
     "1082975903": {
       "actual_sale": null,
       "ad_id": 1082975903,
@@ -3645,7 +3669,9 @@
     33.0,
     80.0,
     150.0,
-    100.0
+    100.0,
+    1750.0,
+    85.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3800,7 +3826,8 @@
       79.99,
       79.99,
       115.0,
-      40.0
+      40.0,
+      1750.0
     ],
     "tommy": [
       290.0
@@ -3856,7 +3883,8 @@
       270.0,
       150.0,
       350.0,
-      350.0
+      350.0,
+      85.0
     ],
     "на": [
       420.0
@@ -4100,6 +4128,9 @@
     1085941713,
     1085942090,
     1085941967,
-    1082975903
+    1082975903,
+    1082935398,
+    1070371175,
+    1062150569
   ]
 }
