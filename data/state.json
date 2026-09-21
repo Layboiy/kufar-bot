@@ -2643,6 +2643,30 @@
       "status": "suggested",
       "title": "Часы Burker Diana Petite Silver White, оригинал, цена 230 р. купить в Логойске на Куфаре - Объявление №1083576799"
     },
+    "1083632903": {
+      "actual_sale": null,
+      "ad_id": 1083632903,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/71dd07fd-bd77-45d5-bca8-4abc91a612da.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1083632903",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 316,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 730.0,
+      "pricevsmarket": "high",
+      "resale": 130.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ROAMER ROCKSHELL 3, цена 730 р. купить в Минске на Куфаре - Объявление №1083632903"
+    },
     "1083891668": {
       "actual_sale": null,
       "ad_id": 1083891668,
@@ -5715,6 +5739,30 @@
       "status": "suggested",
       "title": "Invicta Reserve Venom 5728, цена 850 р. купить в Минске на Куфаре - Объявление №1085967023"
     },
+    "1085968698": {
+      "actual_sale": null,
+      "ad_id": 1085968698,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/62dcbe4a-2818-4800-92c5-5c516fb14488.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085968698",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 315,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 69.995,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio g-shock, цена 250 р. купить в Минске на Куфаре - Объявление №1085968698"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -5789,9 +5837,6 @@
     }
   },
   "recent_prices": [
-    100.0,
-    399.99,
-    859.0,
     65.0,
     450.0,
     20.0,
@@ -6088,7 +6133,10 @@
     300.0,
     850.0,
     400.0,
-    6850.0
+    6850.0,
+    15.0,
+    250.0,
+    730.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -6174,7 +6222,8 @@
       85.0,
       129.0,
       629.0,
-      139.0
+      139.0,
+      250.0
     ],
     "certina": [
       630.0
@@ -6291,6 +6340,9 @@
     ],
     "pintime": [
       65.0
+    ],
+    "roamer": [
+      730.0
     ],
     "rolex": [
       45.0,
@@ -6846,6 +6898,9 @@
     1002803252,
     1085967023,
     1085966937,
-    1085074938
+    1085074938,
+    1085968872,
+    1085968698,
+    1083632903
   ]
 }
