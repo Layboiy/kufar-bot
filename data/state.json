@@ -4059,6 +4059,30 @@
       "status": "suggested",
       "title": "Кварцевые часы Armani Exchange, цена 300 р. купить в Минске на Куфаре - Объявление №1085276026"
     },
+    "1085276389": {
+      "actual_sale": null,
+      "ad_id": 1085276389,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/6a5a0802-e14b-4ada-94bd-6dfd68558b10.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085276389",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 400,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "normal",
+      "resale": 324.995,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Кварцевые часы Tissot(реплика хорошего качества), цена 300 р. купить в Минске на Куфаре - Объявление №1085276389"
+    },
     "1085349064": {
       "actual_sale": null,
       "ad_id": 1085349064,
@@ -7707,6 +7731,30 @@
       "status": "suggested",
       "title": "Часы Fossil Blue Dive Новые Оригинал, цена 585 р. купить в Минске на Куфаре - Объявление №1085996435"
     },
+    "1085997247": {
+      "actual_sale": null,
+      "ad_id": 1085997247,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7448fd74-6854-4648-b9d9-b3ab5b099291.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085997247",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 399,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 470.0,
+      "pricevsmarket": "high",
+      "resale": 200.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские Longines, цена 470 р. купить в Гомеле на Куфаре - Объявление №1085997247"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -7805,8 +7853,6 @@
     }
   },
   "recent_prices": [
-    250.0,
-    1100.0,
     350.0,
     2200.0,
     120.0,
@@ -8104,6 +8150,8 @@
     140.0,
     585.0,
     20.0,
+    300.0,
+    470.0,
     300.0
   ],
   "recent_prices_by_brand": {
@@ -8455,7 +8503,8 @@
       1200.0,
       349.99,
       160.0,
-      999.99
+      999.99,
+      300.0
     ],
     "tommy": [
       290.0,
@@ -8561,7 +8610,8 @@
       690.0,
       15.0,
       250.0,
-      150.0
+      150.0,
+      470.0
     ],
     "нamilton": [
       1900.0
@@ -9132,6 +9182,8 @@
     1085996435,
     1085996716,
     1085996686,
-    1085276026
+    1085276026,
+    1085997247,
+    1085276389
   ]
 }
