@@ -1371,6 +1371,30 @@
       "status": "suggested",
       "title": "Часы ВМФ СССР WR700м, цена 2 200 р. купить в Минске на Куфаре - Объявление №1073308101"
     },
+    "1073452749": {
+      "actual_sale": null,
+      "ad_id": 1073452749,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7e3846bb-2346-46f1-b78a-1415164997df.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073452749",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 365,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 590.0,
+      "pricevsmarket": "high",
+      "resale": 179.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Welder Series K-29 All Black, цена 590 р. купить в Минске на Куфаре - Объявление №1073452749"
+    },
     "1073879982": {
       "actual_sale": null,
       "ad_id": 1073879982,
@@ -2426,6 +2450,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы спортивные nike, цена 180 р. купить в Могилеве на Куфаре - Объявление №1080780510"
+    },
+    "1080817899": {
+      "actual_sale": null,
+      "ad_id": 1080817899,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/aa67d60a-eb5c-4938-a74f-9632702ddf6f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1080817899",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 364,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 160.0,
+      "pricevsmarket": "low",
+      "resale": 254.995,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Tissot PRX Premium (Полный комплект), цена 160 р. купить в Минске на Куфаре - Объявление №1080817899"
     },
     "1080849742": {
       "actual_sale": null,
@@ -6965,10 +7013,6 @@
     }
   },
   "recent_prices": [
-    65.0,
-    80.0,
-    25.0,
-    45.0,
     79.99,
     400.0,
     45.0,
@@ -7264,7 +7308,11 @@
     30.0,
     450.0,
     650.0,
-    3800.0
+    3800.0,
+    20.0,
+    10.0,
+    160.0,
+    590.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7566,11 +7614,15 @@
       2000.0,
       650.0,
       1200.0,
-      349.99
+      349.99,
+      160.0
     ],
     "tommy": [
       290.0,
       230.0
+    ],
+    "welder": [
+      590.0
     ],
     "winner": [
       65.0
@@ -7632,7 +7684,8 @@
       50.0,
       80.0,
       30.0,
-      30.0
+      30.0,
+      20.0
     ],
     "механические": [
       10.0,
@@ -8147,6 +8200,10 @@
     1085980750,
     1085980710,
     1077261350,
-    1066333116
+    1066333116,
+    1085981996,
+    1085981689,
+    1080817899,
+    1073452749
   ]
 }
