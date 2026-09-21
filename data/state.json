@@ -1491,6 +1491,30 @@
       "status": "suggested",
       "title": "Часы мужские механические, цена 350 р. купить в Орше на Куфаре - Объявление №1085085313"
     },
+    "1085474154": {
+      "actual_sale": null,
+      "ad_id": 1085474154,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/a0c6c761-0126-4498-9362-2bab9ee07a71.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085474154",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 206,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 120.0,
+      "pricevsmarket": "high",
+      "resale": 92.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы ., цена 120 р. купить в Минске на Куфаре - Объявление №1085474154"
+    },
     "1085490799": {
       "actual_sale": null,
       "ad_id": 1085490799,
@@ -3099,6 +3123,54 @@
       "status": "suggested",
       "title": "часы Casio AE-1600H оригинал новые+подарок, цена 150 р. купить в Барановичах на Куфаре - Объявление №1085934540"
     },
+    "1085935962": {
+      "actual_sale": null,
+      "ad_id": 1085935962,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/520cbbe6-cb8c-4aaa-83c4-9e099da576d7.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085935962",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 205,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 155.0,
+      "pricevsmarket": "high",
+      "resale": 90.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы ORIENT., цена 155 р. купить в Витебске на Куфаре - Объявление №1085935962"
+    },
+    "1085936613": {
+      "actual_sale": null,
+      "ad_id": 1085936613,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e0cfefef-6bf5-47d5-a2ba-1b700768f51a.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085936613",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 204,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 220.0,
+      "pricevsmarket": "high",
+      "resale": 90.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы swatch irony, цена 220 р. купить в Минске на Куфаре - Объявление №1085936613"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -3319,7 +3391,10 @@
     250.0,
     400.0,
     100.0,
-    150.0
+    150.0,
+    220.0,
+    155.0,
+    120.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3424,7 +3499,8 @@
       45.0
     ],
     "orient": [
-      110.0
+      110.0,
+      155.0
     ],
     "oris": [
       80.0
@@ -3452,6 +3528,9 @@
     ],
     "sport": [
       15.0
+    ],
+    "swatch": [
+      220.0
     ],
     "tissot": [
       140.0,
@@ -3743,6 +3822,9 @@
     1081191295,
     1080749937,
     1074330155,
-    1085934540
+    1085934540,
+    1085936613,
+    1085935962,
+    1085474154
   ]
 }
