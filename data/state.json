@@ -8139,6 +8139,30 @@
       "status": "suggested",
       "title": "Часы мужские Baldinini, цена 170 р. купить в Минске на Куфаре - Объявление №1086005214"
     },
+    "1086008243": {
+      "actual_sale": null,
+      "ad_id": 1086008243,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/a936e2dd-1e3b-437e-bf7a-a4920d9f8012.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086008243",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 417,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "normal",
+      "resale": 170.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы Kangol, цена 150 р. купить в Барановичах на Куфаре - Объявление №1086008243"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8237,7 +8261,6 @@
     }
   },
   "recent_prices": [
-    100.0,
     120.0,
     250.0,
     400.0,
@@ -8536,7 +8559,8 @@
     750.0,
     25.0,
     30.0,
-    1000.0
+    1000.0,
+    150.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8739,6 +8763,9 @@
     ],
     "joefox": [
       35.0
+    ],
+    "kangol": [
+      150.0
     ],
     "lee": [
       200.0
@@ -9610,6 +9637,8 @@
     1071188843,
     1086006508,
     1086006060,
-    1062912901
+    1062912901,
+    1086006917,
+    1086008243
   ]
 }
