@@ -1203,6 +1203,30 @@
       "status": "suggested",
       "title": "Часы Fossil, цена 180 р. купить в Минске на Куфаре - Объявление №1071072636"
     },
+    "1071188843": {
+      "actual_sale": null,
+      "ad_id": 1071188843,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9de7c0c0-f50f-4140-b72c-b4f37318aaee.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1071188843",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 415,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 750.0,
+      "pricevsmarket": "high",
+      "resale": 324.995,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Tissot V8 chronograph, цена 750 р. купить в Минске на Куфаре - Объявление №1071188843"
+    },
     "1071311662": {
       "actual_sale": null,
       "ad_id": 1071311662,
@@ -8067,6 +8091,30 @@
       "status": "suggested",
       "title": "Часы Fossil Everett Chronograph Новые Оригинал, цена 615 р. купить в Минске на Куфаре - Объявление №1086003319"
     },
+    "1086005214": {
+      "actual_sale": null,
+      "ad_id": 1086005214,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/6d7ca1be-86d1-4063-8461-5e66695489e2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086005214",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 414,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 170.0,
+      "pricevsmarket": "normal",
+      "resale": 170.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские Baldinini, цена 170 р. купить в Минске на Куфаре - Объявление №1086005214"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8165,9 +8213,6 @@
     }
   },
   "recent_prices": [
-    50.0,
-    2300.0,
-    600.0,
     650.0,
     770.0,
     230.0,
@@ -8464,7 +8509,10 @@
     1800.0,
     299.99,
     615.0,
-    59.99
+    59.99,
+    10.0,
+    170.0,
+    750.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8823,7 +8871,8 @@
       160.0,
       999.99,
       300.0,
-      59.99
+      59.99,
+      750.0
     ],
     "tommy": [
       290.0,
@@ -8875,7 +8924,8 @@
       320.0,
       250.0,
       350.0,
-      60.0
+      60.0,
+      10.0
     ],
     "из": [
       120.0
@@ -8934,7 +8984,8 @@
       15.0,
       250.0,
       150.0,
-      470.0
+      470.0,
+      170.0
     ],
     "нamilton": [
       1900.0
@@ -9526,6 +9577,10 @@
     1085867798,
     1086003042,
     1086003319,
-    237308255
+    237308255,
+    1086005080,
+    1086004820,
+    1086005214,
+    1071188843
   ]
 }
