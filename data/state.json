@@ -4875,6 +4875,78 @@
       "status": "suggested",
       "title": "Часы Casio (оригинал), цена 45 р. купить в Молодечно на Куфаре - Объявление №1085959660"
     },
+    "1085959678": {
+      "actual_sale": null,
+      "ad_id": 1085959678,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/ff5372ca-43bc-4f9f-97b3-2a89e879d1a1.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085959678",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 281,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 250.0,
+      "pricevsmarket": "high",
+      "resale": 200.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Механические часы мужские, цена 250 р. купить в Бресте на Куфаре - Объявление №1085959678"
+    },
+    "1085959697": {
+      "actual_sale": null,
+      "ad_id": 1085959697,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d5bb0d33-6ad2-4520-930f-929a7811538a.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085959697",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 280,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "normal",
+      "resale": 150.0,
+      "resale_source": "brand:на",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы на браслете механические, цена 150 р. купить в Новополоцке на Куфаре - Объявление №1085959697"
+    },
+    "1085960081": {
+      "actual_sale": null,
+      "ad_id": 1085960081,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7d308b4f-e8f5-41f5-9361-0cd4f8a30b06.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085960081",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 279,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 50.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio G-Shock 7600, цена 300 р. купить в Минске на Куфаре - Объявление №1085960081"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -5198,7 +5270,11 @@
     20.0,
     220.0,
     600.0,
-    45.0
+    45.0,
+    20.0,
+    300.0,
+    150.0,
+    250.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -5269,7 +5345,8 @@
       150.0,
       1790.0,
       900.0,
-      45.0
+      45.0,
+      300.0
     ],
     "certina": [
       630.0
@@ -5490,11 +5567,13 @@
       490.0,
       40.0,
       690.0,
-      15.0
+      15.0,
+      250.0
     ],
     "на": [
       420.0,
-      40.0
+      40.0,
+      150.0
     ],
     "наручные": [
       35.0,
@@ -5852,6 +5931,11 @@
     1071643551,
     1085958862,
     1085959660,
-    1085590113
+    1085590113,
+    1085960179,
+    1085960081,
+    1085959698,
+    1085959697,
+    1085959678
   ]
 }
