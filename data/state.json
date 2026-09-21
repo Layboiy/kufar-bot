@@ -1515,6 +1515,54 @@
       "status": "suggested",
       "title": "Часы Welder Series K-29 All Black, цена 590 р. купить в Минске на Куфаре - Объявление №1073452749"
     },
+    "1073879978": {
+      "actual_sale": null,
+      "ad_id": 1073879978,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/91d2800d-1e18-4c40-96a6-5e371fe06cb9.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073879978",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 390,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 509.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Новые Оригинальные часы Casio G-SHOCK GD-B500-1 с гарантией, цена 509 р. купить в Минске на Куфаре - Объявление №1073879978"
+    },
+    "1073879981": {
+      "actual_sale": null,
+      "ad_id": 1073879981,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/3ab50f89-d326-493d-9e40-f5fbe0cda74f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073879981",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 389,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 279.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Новые Оригинальные часы Casio MTP-1384D-7A с гарантией, цена 279 р. купить в Минске на Куфаре - Объявление №1073879981"
+    },
     "1073879982": {
       "actual_sale": null,
       "ad_id": 1073879982,
@@ -1538,6 +1586,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Наручные часы Casio AE-1500WH-2A  Абсолютно новые и оригинальные часы., цена 139 р. купить в Минске на Куфаре - Объявление №1073879982"
+    },
+    "1073879983": {
+      "actual_sale": null,
+      "ad_id": 1073879983,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/6bdf4504-8a76-43a3-90ad-29ef032f0da2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1073879983",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 388,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 89.0,
+      "pricevsmarket": "high",
+      "resale": 70.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Новые Оригинальные часы Casio MTP-V001D-1B с гарантией, цена 89 р. купить в Минске на Куфаре - Объявление №1073879983"
     },
     "1073879984": {
       "actual_sale": null,
@@ -3602,6 +3674,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы Tissot Chemin des Tourelles Powermatic 80, цена 2 000 р. купить в Минске на Куфаре - Объявление №1084523798"
+    },
+    "1084593892": {
+      "actual_sale": null,
+      "ad_id": 1084593892,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/520f4d11-c531-4bbc-9cb4-c4c527d54f11.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084593892",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 387,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 590.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Casio G-SHOCK, GBM-2100-1A, G-STEEL, 20bar, цена 590 р. купить в Минске на Куфаре - Объявление №1084593892"
     },
     "1084610121": {
       "actual_sale": null,
@@ -7517,11 +7613,6 @@
     }
   },
   "recent_prices": [
-    400.0,
-    315.0,
-    15.0,
-    15.0,
-    10.0,
     2110.0,
     20.0,
     95.0,
@@ -7816,7 +7907,12 @@
     100.0,
     100.0,
     150.0,
-    195.0
+    195.0,
+    10.0,
+    590.0,
+    89.0,
+    279.0,
+    509.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7917,7 +8013,10 @@
       40.0,
       149.99,
       49.0,
-      195.0
+      195.0,
+      89.0,
+      279.0,
+      509.0
     ],
     "certina": [
       630.0,
@@ -8789,6 +8888,12 @@
     1085990452,
     1085990184,
     1084610121,
-    1084124597
+    1084124597,
+    1085991069,
+    1085990805,
+    1084593892,
+    1073879983,
+    1073879981,
+    1073879978
   ]
 }
