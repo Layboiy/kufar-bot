@@ -795,6 +795,30 @@
       "status": "suggested",
       "title": "Часы Tommy Hilfiger, оригинал, цена 290 р. купить в Бресте на Куфаре - Объявление №1077619874"
     },
+    "1077713922": {
+      "actual_sale": null,
+      "ad_id": 1077713922,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/2ab56de3-aa85-488e-a464-7519c6c80fe7.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1077713922",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 192,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 79.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы DIESEL dz4308, цена 350 р. купить в Минске на Куфаре - Объявление №1077713922"
+    },
     "1077893610": {
       "actual_sale": null,
       "ad_id": 1077893610,
@@ -3018,7 +3042,9 @@
     300.0,
     15.0,
     45.0,
-    30.0
+    30.0,
+    350.0,
+    50.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3076,6 +3102,9 @@
       50.0,
       315.0
     ],
+    "diesel": [
+      350.0
+    ],
     "dom": [
       45.0
     ],
@@ -3106,6 +3135,9 @@
     "michael": [
       700.0,
       1050.0
+    ],
+    "montre": [
+      50.0
     ],
     "omega": [
       99.0,
@@ -3407,6 +3439,8 @@
     1085929932,
     1085929390,
     1078857536,
-    1085930281
+    1085930281,
+    1077713922,
+    1026831339
   ]
 }
