@@ -51,6 +51,30 @@
       "status": "suggested",
       "title": "Женские наручные часы (ПРЕМИУМ КЛАССА )  от 400 р., цена 400 р. купить в Минске на Куфаре - Объявление №1020491649"
     },
+    "1021621180": {
+      "actual_sale": null,
+      "ad_id": 1021621180,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/70bce63d-18f9-43f3-b442-efc700002dd4.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1021621180",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 238,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 29.99,
+      "pricevsmarket": "normal",
+      "resale": 40.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Casio Classic, цена 29.99 р. купить в Минске на Куфаре - Объявление №1021621180"
+    },
     "1021625030": {
       "actual_sale": null,
       "ad_id": 1021625030,
@@ -98,6 +122,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Наручные Часы TISSOT PRX, цена 79.99 р. купить в Минске на Куфаре - Объявление №1021625072"
+    },
+    "1023969532": {
+      "actual_sale": null,
+      "ad_id": 1023969532,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/3a9278da-a7c3-4342-88d2-634f1a87083e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1023969532",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 237,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 99.99,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "brand:patek",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы PATEK PHILLIPHE *Механика*, цена 99.99 р. купить в Минске на Куфаре - Объявление №1023969532"
     },
     "1032712655": {
       "actual_sale": null,
@@ -650,6 +698,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы Fossil, цена 180 р. купить в Минске на Куфаре - Объявление №1071072636"
+    },
+    "1071422195": {
+      "actual_sale": null,
+      "ad_id": 1071422195,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1683a0c5-ed1c-40a8-8f19-b4f41bffd4f8.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1071422195",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 236,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 850.0,
+      "pricevsmarket": "high",
+      "resale": 100.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Rado женские , оригинал, в отличном состоянии, цена 850 р. купить в Минске на Куфаре - Объявление №1071422195"
     },
     "1071561292": {
       "actual_sale": null,
@@ -4099,7 +4171,19 @@
     400.0,
     250.0,
     700.0,
-    1058.19
+    1058.19,
+    850.0,
+    49.99,
+    99.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99,
+    29.99
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4107,6 +4191,9 @@
     ],
     "audemars": [
       45.0
+    ],
+    "black": [
+      49.99
     ],
     "boss": [
       45.0,
@@ -4146,7 +4233,16 @@
       150.0,
       150.0,
       180.0,
-      500.0
+      500.0,
+      29.99,
+      29.99,
+      29.99,
+      29.99,
+      29.99,
+      29.99,
+      29.99,
+      29.99,
+      29.99
     ],
     "certina": [
       630.0
@@ -4223,7 +4319,8 @@
     ],
     "patek": [
       45.0,
-      65.0
+      65.0,
+      99.99
     ],
     "rolex": [
       45.0,
@@ -4606,6 +4703,18 @@
     1085945306,
     1082966874,
     1071561292,
-    1054687618
+    1054687618,
+    1071422195,
+    1029849961,
+    1023969532,
+    1021623247,
+    1021622693,
+    1021622303,
+    1021621755,
+    1021621349,
+    1021621309,
+    1021621271,
+    1021621229,
+    1021621180
   ]
 }
