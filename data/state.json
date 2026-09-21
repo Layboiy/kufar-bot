@@ -7515,6 +7515,30 @@
       "status": "suggested",
       "title": "Люксовые часы Carl F. Bucherer Adamavi новые, авто, цена 4 500 р. купить в Мозыре на Куфаре - Объявление №1085990093"
     },
+    "1085991125": {
+      "actual_sale": null,
+      "ad_id": 1085991125,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/0b1902d3-632c-4d8d-819d-26f34a966fad.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085991125",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 391,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 185.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Casio G-Shock AWG-M100B (модуль 5230), цена 300 р. купить в Бобруйске на Куфаре - Объявление №1085991125"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -7613,7 +7637,6 @@
     }
   },
   "recent_prices": [
-    2110.0,
     20.0,
     95.0,
     40.0,
@@ -7912,7 +7935,8 @@
     590.0,
     89.0,
     279.0,
-    509.0
+    509.0,
+    300.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8894,6 +8918,7 @@
     1084593892,
     1073879983,
     1073879981,
-    1073879978
+    1073879978,
+    1085991125
   ]
 }
