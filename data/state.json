@@ -2139,6 +2139,30 @@
       "status": "suggested",
       "title": "Часы Ракета «Полярные» СССР, цена 280 р. купить в Бресте на Куфаре - Объявление №1082260928"
     },
+    "1082525398": {
+      "actual_sale": null,
+      "ad_id": 1082525398,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/53bd5649-6455-4885-97c8-e604094a421e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082525398",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 283,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 260.0,
+      "pricevsmarket": "normal",
+      "resale": 350.0,
+      "resale_source": "brand:diesel",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы DIESEL CRUSHER, цена 260 р. купить в Минске на Куфаре - Объявление №1082525398"
+    },
     "1082739829": {
       "actual_sale": null,
       "ad_id": 1082739829,
@@ -4947,6 +4971,30 @@
       "status": "suggested",
       "title": "Часы Casio G-Shock 7600, цена 300 р. купить в Минске на Куфаре - Объявление №1085960081"
     },
+    "1085960262": {
+      "actual_sale": null,
+      "ad_id": 1085960262,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/c5a18d66-8953-494f-8431-fbf3c6ef5277.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085960262",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 282,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 199.99,
+      "pricevsmarket": "high",
+      "resale": 50.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio 5691, цена 199.99 р. купить в Бресте на Куфаре - Объявление №1085960262"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -5274,7 +5322,9 @@
     20.0,
     300.0,
     150.0,
-    250.0
+    250.0,
+    199.99,
+    260.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -5346,7 +5396,8 @@
       1790.0,
       900.0,
       45.0,
-      300.0
+      300.0,
+      199.99
     ],
     "certina": [
       630.0
@@ -5368,7 +5419,8 @@
     ],
     "diesel": [
       350.0,
-      400.0
+      400.0,
+      260.0
     ],
     "dom": [
       45.0
@@ -5936,6 +5988,8 @@
     1085960081,
     1085959698,
     1085959697,
-    1085959678
+    1085959678,
+    1085960262,
+    1082525398
   ]
 }
