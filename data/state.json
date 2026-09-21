@@ -1083,6 +1083,30 @@
       "status": "suggested",
       "title": "Наручные часы Casio Square парные / парный комплект, цена 50 р. купить в Минске на Куфаре - Объявление №1070538024"
     },
+    "1070696616": {
+      "actual_sale": null,
+      "ad_id": 1070696616,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/3111c2fa-858b-42de-a723-33f293cb8b1f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1070696616",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 376,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 49.0,
+      "pricevsmarket": "normal",
+      "resale": 69.995,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные часы Casio Classic мужские, цена 49 р. купить в Минске на Куфаре - Объявление №1070696616"
+    },
     "1070769445": {
       "actual_sale": null,
       "ad_id": 1070769445,
@@ -2786,6 +2810,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы Orient Titanium (Япония), цена 220 р. купить в Минске на Куфаре - Объявление №1081809220"
+    },
+    "1081976883": {
+      "actual_sale": null,
+      "ad_id": 1081976883,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/3ec4cf35-b84e-4c4e-af1e-b235c6307c89.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081976883",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 375,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 40.0,
+      "resale_source": "brand:луч",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Редкие мужские часы Луч ''Амфибия - Фаворит'', цена 300 р. купить в Минске на Куфаре - Объявление №1081976883"
     },
     "1081983335": {
       "actual_sale": null,
@@ -7229,8 +7277,6 @@
     }
   },
   "recent_prices": [
-    250.0,
-    45.0,
     700.0,
     70.0,
     50.0,
@@ -7528,7 +7574,9 @@
     750.0,
     30.0,
     120.0,
-    130.0
+    130.0,
+    300.0,
+    49.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7621,7 +7669,8 @@
       120.0,
       50.0,
       40.0,
-      149.99
+      149.99,
+      49.0
     ],
     "certina": [
       630.0,
@@ -7916,7 +7965,8 @@
       80.0,
       30.0,
       30.0,
-      20.0
+      20.0,
+      300.0
     ],
     "механические": [
       10.0,
@@ -8456,6 +8506,8 @@
     1085987257,
     1085987085,
     1085987029,
-    1081317852
+    1081317852,
+    1081976883,
+    1070696616
   ]
 }
