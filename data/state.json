@@ -3003,6 +3003,30 @@
       "status": "suggested",
       "title": "Культовые Швейцарские часы Certina DS Podium, цена 410 р. купить в Минске на Куфаре - Объявление №1083895829"
     },
+    "1083902680": {
+      "actual_sale": null,
+      "ad_id": 1083902680,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/c2b706b2-dbd4-4da9-8907-c490514a2e56.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1083902680",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 352,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 190.0,
+      "pricevsmarket": "normal",
+      "resale": 190.0,
+      "resale_source": "brand:orient",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Вечные стильные часы Orient Sports CUNA7001B0, цена 190 р. купить в Минске на Куфаре - Объявление №1083902680"
+    },
     "1084012595": {
       "actual_sale": null,
       "ad_id": 1084012595,
@@ -6677,9 +6701,6 @@
     }
   },
   "recent_prices": [
-    45.0,
-    35.0,
-    25.0,
     75.0,
     75.0,
     7000.0,
@@ -6976,7 +6997,10 @@
     400.0,
     50.0,
     1000.0,
-    29000.0
+    29000.0,
+    2200.0,
+    35.0,
+    190.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -7153,7 +7177,8 @@
       4550.0,
       5200.0,
       1500.0,
-      6850.0
+      6850.0,
+      2200.0
     ],
     "martyn": [
       230.0
@@ -7181,7 +7206,8 @@
       155.0,
       220.0,
       630.0,
-      300.0
+      300.0,
+      190.0
     ],
     "oris": [
       80.0
@@ -7379,7 +7405,8 @@
       2400.0,
       80.0,
       300.0,
-      400.0
+      400.0,
+      35.0
     ],
     "немецкого": [
       550.0
@@ -7823,6 +7850,9 @@
     1030679381,
     1085978691,
     1082380907,
-    1069172755
+    1069172755,
+    1085978856,
+    1084842997,
+    1083902680
   ]
 }
