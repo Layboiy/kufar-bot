@@ -1035,6 +1035,30 @@
       "status": "suggested",
       "title": "Швейцарские мужские часы RSW., цена 1 699 р. купить в Минске на Куфаре - Объявление №1082865449"
     },
+    "1083360552": {
+      "actual_sale": null,
+      "ad_id": 1083360552,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/a01254c7-68a4-4b69-94a4-a164fef1948c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1083360552",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 179,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "high",
+      "resale": 200.0,
+      "resale_source": "brand:мужские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы мужские кварцевые Orient хронограф/будильник, цена 350 р. купить в Могилеве на Куфаре - Объявление №1083360552"
+    },
     "1083576799": {
       "actual_sale": null,
       "ad_id": 1083576799,
@@ -2691,7 +2715,8 @@
     90.0,
     200.0,
     250.0,
-    1100.0
+    1100.0,
+    350.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -2863,6 +2888,7 @@
       250.0,
       270.0,
       150.0,
+      350.0,
       350.0
     ],
     "на": [
@@ -3053,6 +3079,7 @@
     1085924492,
     1085924652,
     1085490799,
-    1060793271
+    1060793271,
+    1083360552
   ]
 }
