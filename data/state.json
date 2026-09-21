@@ -2763,6 +2763,30 @@
       "status": "suggested",
       "title": "Tissot T137.210.11.081.00, цена 850 р. купить в Лиде на Куфаре - Объявление №1085929289"
     },
+    "1085929932": {
+      "actual_sale": null,
+      "ad_id": 1085929932,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d03d5e5b-372a-4a7f-a47d-15b0a93df6a0.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085929932",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 190,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 79.995,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Луч - Фаворит, цена 300 р. купить в Минске на Куфаре - Объявление №1085929932"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -2966,7 +2990,10 @@
     850.0,
     239.0,
     389.0,
-    179.0
+    179.0,
+    300.0,
+    15.0,
+    45.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3047,6 +3074,9 @@
     ],
     "lige": [
       10.0
+    ],
+    "longines": [
+      45.0
     ],
     "michael": [
       700.0,
@@ -3348,6 +3378,9 @@
     1085929289,
     1073879991,
     1073879990,
-    1073879989
+    1073879989,
+    1085929932,
+    1085929390,
+    1078857536
   ]
 }
