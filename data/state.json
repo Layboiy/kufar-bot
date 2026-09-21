@@ -747,6 +747,30 @@
       "status": "suggested",
       "title": "Rado женские , оригинал, в отличном состоянии, цена 850 р. купить в Минске на Куфаре - Объявление №1071422195"
     },
+    "1071425146": {
+      "actual_sale": null,
+      "ad_id": 1071425146,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7b8b3129-f0af-4682-9e0a-cf40785b5c14.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1071425146",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 242,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 5200.0,
+      "pricevsmarket": "high",
+      "resale": 4550.0,
+      "resale_source": "brand:longines",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Longines женские , оригинал, цена 5 200 р. купить в Минске на Куфаре - Объявление №1071425146"
+    },
     "1071561292": {
       "actual_sale": null,
       "ad_id": 1071561292,
@@ -962,6 +986,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Новые Гарантия Наручные часы Casio LTP-V007SG-9B, цена 129 р. купить в Минске на Куфаре - Объявление №1073880013"
+    },
+    "1074188750": {
+      "actual_sale": null,
+      "ad_id": 1074188750,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e5035092-6a22-4434-8d83-719d13a1a50e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1074188750",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 241,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 900.0,
+      "pricevsmarket": "high",
+      "resale": 99.995,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Луч большой однострелочник, цена 900 р. купить в Минске на Куфаре - Объявление №1074188750"
     },
     "1074330155": {
       "actual_sale": null,
@@ -1586,6 +1634,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы ориент колледж, цена 260 р. купить в Бресте на Куфаре - Объявление №1081983335"
+    },
+    "1082101941": {
+      "actual_sale": null,
+      "ad_id": 1082101941,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9d063f5f-bf68-4bba-9a6c-73771bf5ff18.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1082101941",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 240,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 125.0,
+      "pricevsmarket": "normal",
+      "resale": 125.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Смарт часы наручные мужские X5 Max, 46 мм, 2 ремешка, цена 125 р. купить в Могилеве на Куфаре - Объявление №1082101941"
     },
     "1082133141": {
       "actual_sale": null,
@@ -4209,7 +4281,10 @@
     29.99,
     29.99,
     69.99,
-    59.99
+    59.99,
+    125.0,
+    900.0,
+    5200.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -4324,7 +4399,8 @@
     ],
     "longines": [
       45.0,
-      4550.0
+      4550.0,
+      5200.0
     ],
     "michael": [
       700.0,
@@ -4470,7 +4546,8 @@
       70.0,
       470.0,
       1000.0,
-      1058.19
+      1058.19,
+      125.0
     ],
     "немецкого": [
       550.0
@@ -4747,6 +4824,9 @@
     1021621229,
     1021621180,
     1015394628,
-    243265289
+    243265289,
+    1082101941,
+    1074188750,
+    1071425146
   ]
 }
