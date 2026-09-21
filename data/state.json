@@ -315,6 +315,30 @@
       "status": "suggested",
       "title": "Casio G-shock Gulfmaster GWN-1000C-1A, цена 800 р. купить в Минске на Куфаре - Объявление №1061123934"
     },
+    "1062503333": {
+      "actual_sale": null,
+      "ad_id": 1062503333,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/36fc4190-e763-4a33-976f-bef84cfa834b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1062503333",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 195,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 650.0,
+      "pricevsmarket": "high",
+      "resale": 79.995,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Наручные Часы Тиссот, цена 650 р. купить в Минске на Куфаре - Объявление №1062503333"
+    },
     "1063954865": {
       "actual_sale": null,
       "ad_id": 1063954865,
@@ -362,6 +386,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Наручные часы ROLEX (Новые), цена 45 р. купить в Минске на Куфаре - Объявление №1064269483"
+    },
+    "1065790954": {
+      "actual_sale": null,
+      "ad_id": 1065790954,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/abc35fe3-0b6c-4972-b623-30ca8e71def6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1065790954",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 194,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 600.0,
+      "pricevsmarket": "high",
+      "resale": 79.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы с рулеткой - Casino, цена 600 р. купить в Минске на Куфаре - Объявление №1065790954"
     },
     "1065946897": {
       "actual_sale": null,
@@ -2835,6 +2883,30 @@
       "status": "suggested",
       "title": "Коробка от часов Tissot с подушкой., цена 30 р. купить в Минске на Куфаре - Объявление №1085930281"
     },
+    "1085930827": {
+      "actual_sale": null,
+      "ad_id": 1085930827,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/bb70403a-2b9b-4cf7-97cf-c769d2b8b19b.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085930827",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 193,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 2300.0,
+      "pricevsmarket": "high",
+      "resale": 79.99,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "наручные часы, цена 2 300 р. купить в Минске на Куфаре - Объявление №1085930827"
+    },
     "177582130": {
       "actual_sale": null,
       "ad_id": 177582130,
@@ -3044,7 +3116,10 @@
     45.0,
     30.0,
     350.0,
-    50.0
+    50.0,
+    2300.0,
+    600.0,
+    650.0
   ],
   "recent_prices_by_brand": {
     "alabaster": [
@@ -3261,7 +3336,11 @@
       280.0
     ],
     "с": [
-      20.0
+      20.0,
+      600.0
+    ],
+    "тиссот": [
+      650.0
     ],
     "хронограф": [
       95.0
@@ -3441,6 +3520,9 @@
     1078857536,
     1085930281,
     1077713922,
-    1026831339
+    1026831339,
+    1085930827,
+    1065790954,
+    1062503333
   ]
 }
