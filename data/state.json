@@ -8019,6 +8019,30 @@
       "status": "suggested",
       "title": "Casio AWM-500GC-1AJR, цена 3 779 р. купить в Минске на Куфаре - Объявление №1086001926"
     },
+    "1086003042": {
+      "actual_sale": null,
+      "ad_id": 1086003042,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b321161e-de07-4dde-ba87-7bfb8a7d53cd.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086003042",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 412,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 299.99,
+      "pricevsmarket": "high",
+      "resale": 87.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio LTP-E157MRB-1B, Оригинал, цена 299.99 р. купить в Минске на Куфаре - Объявление №1086003042"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8117,7 +8141,6 @@
     }
   },
   "recent_prices": [
-    45.0,
     30.0,
     350.0,
     50.0,
@@ -8416,7 +8439,8 @@
     1589.0,
     519.0,
     595.0,
-    1800.0
+    1800.0,
+    299.99
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -8524,7 +8548,8 @@
       89.0,
       279.0,
       509.0,
-      595.0
+      595.0,
+      299.99
     ],
     "certina": [
       630.0,
@@ -9472,6 +9497,7 @@
     1086001911,
     1086001888,
     1086000922,
-    1085867798
+    1085867798,
+    1086003042
   ]
 }
