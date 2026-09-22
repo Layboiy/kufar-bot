@@ -8955,6 +8955,30 @@
       "status": "suggested",
       "title": "Boldr Expedition II Matterhorn (Sellita SW200-1), цена 1 700 р. купить в Минске на Куфаре - Объявление №1086050728"
     },
+    "1086052166": {
+      "actual_sale": null,
+      "ad_id": 1086052166,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b7ca14d1-03d6-4687-b654-86f040e728be.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086052166",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 453,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 750.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Мужские часы Baldinini , Италия, цена 750 р. купить в Минске на Куфаре - Объявление №1086052166"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -9101,7 +9125,6 @@
     }
   },
   "recent_prices": [
-    2284.1,
     85.0,
     85.0,
     600.0,
@@ -9400,7 +9423,8 @@
     50.0,
     1700.0,
     600.0,
-    100.0
+    100.0,
+    750.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9418,6 +9442,9 @@
     "audemars": [
       45.0,
       95.0
+    ],
+    "baldinini": [
+      750.0
     ],
     "balmain": [
       599.99
@@ -10612,6 +10639,7 @@
     1086051451,
     1086050728,
     1077744623,
-    1061933288
+    1061933288,
+    1086052166
   ]
 }
