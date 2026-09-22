@@ -3363,6 +3363,30 @@
       "status": "suggested",
       "title": "tissot Chrono XL. Оригинал, цена 770 р. купить в Минске на Куфаре - Объявление №1081191829"
     },
+    "1081467744": {
+      "actual_sale": null,
+      "ad_id": 1081467744,
+      "chat_id": 8399187607,
+      "complete": "full",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/d90f139f-66aa-4738-adc7-5eceb15d87b2.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081467744",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 467,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 750.0,
+      "pricevsmarket": "high",
+      "resale": 349.99,
+      "resale_source": "brand:tissot",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Tissot lovely оригинал с коробкой, цена 750 р. купить в Минске на Куфаре - Объявление №1081467744"
+    },
     "1081474772": {
       "actual_sale": null,
       "ad_id": 1081474772,
@@ -9437,8 +9461,6 @@
     }
   },
   "recent_prices": [
-    25.0,
-    30.0,
     690.0,
     9900.0,
     23000.0,
@@ -9736,7 +9758,9 @@
     65.0,
     89.99,
     110.0,
-    25.0
+    25.0,
+    10.0,
+    750.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10057,6 +10081,9 @@
     "q": [
       35.0
     ],
+    "qq": [
+      10.0
+    ],
     "quaztz": [
       40.0
     ],
@@ -10151,7 +10178,8 @@
       275.0,
       65.0,
       580.0,
-      600.0
+      600.0,
+      750.0
     ],
     "tommy": [
       290.0,
@@ -11015,6 +11043,10 @@
     1086059771,
     1086059554,
     1086060551,
-    1086060376
+    1086060376,
+    1086062287,
+    1086060537,
+    1086060292,
+    1081467744
   ]
 }
