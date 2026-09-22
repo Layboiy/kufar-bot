@@ -8835,6 +8835,30 @@
       "status": "suggested",
       "title": "Часы женские, цена 55 р. купить в Гомеле на Куфаре - Объявление №1086038173"
     },
+    "1086049581": {
+      "actual_sale": null,
+      "ad_id": 1086049581,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7ddb3cac-3c2a-479f-b822-dcaf9e2eb5d7.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086049581",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 448,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 350.0,
+      "pricevsmarket": "normal",
+      "resale": 350.0,
+      "resale_source": "brand:fossil",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы fossil, цена 350 р. купить в Бресте на Куфаре - Объявление №1086049581"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -8981,7 +9005,6 @@
     }
   },
   "recent_prices": [
-    69.99,
     59.99,
     125.0,
     900.0,
@@ -9280,7 +9303,8 @@
     585.0,
     20.0,
     100.0,
-    55.0
+    55.0,
+    350.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9460,7 +9484,8 @@
       180.0,
       130.0,
       585.0,
-      615.0
+      615.0,
+      350.0
     ],
     "gevril": [
       3800.0,
@@ -10481,6 +10506,7 @@
     1086030486,
     1086031227,
     1086033848,
-    1086038173
+    1086038173,
+    1086049581
   ]
 }
