@@ -2235,6 +2235,30 @@
       "status": "suggested",
       "title": "Часы Хронограф эксклюзив швейцарские - коробка, цена 95 р. купить в Бресте на Куфаре - Объявление №1076616660"
     },
+    "1076945663": {
+      "actual_sale": null,
+      "ad_id": 1076945663,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5e1e1473-ef93-4e52-8a2f-d983d69530cf.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1076945663",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 458,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 167.5,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Ingersoll, цена 300 р. купить в Минске на Куфаре - Объявление №1076945663"
+    },
     "1077255984": {
       "actual_sale": null,
       "ad_id": 1077255984,
@@ -9221,7 +9245,6 @@
     }
   },
   "recent_prices": [
-    50.0,
     590.0,
     90.0,
     80.0,
@@ -9520,7 +9543,8 @@
     29.0,
     1299.0,
     29.0,
-    500.0
+    500.0,
+    300.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9740,6 +9764,9 @@
     ],
     "hyblot": [
       45.0
+    ],
+    "ingersoll": [
+      300.0
     ],
     "jaques": [
       230.0
@@ -10752,6 +10779,7 @@
     1086053846,
     1086053762,
     1086053720,
-    1086055044
+    1086055044,
+    1076945663
   ]
 }
