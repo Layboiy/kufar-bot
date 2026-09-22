@@ -9123,6 +9123,30 @@
       "status": "suggested",
       "title": "Часы Швейцария, цена 500 р. купить в Барановичах на Куфаре - Объявление №1086055044"
     },
+    "1086056598": {
+      "actual_sale": null,
+      "ad_id": 1086056598,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/50c6f05c-b8bb-46a0-b1f4-1c33aa4c5386.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086056598",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 460,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 75.0,
+      "pricevsmarket": "normal",
+      "resale": 75.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы casio, цена 75 р. купить в Витебске на Куфаре - Объявление №1086056598"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -9269,7 +9293,6 @@
     }
   },
   "recent_prices": [
-    80.0,
     150.0,
     1790.0,
     35.0,
@@ -9568,7 +9591,8 @@
     500.0,
     300.0,
     30.0,
-    1400.0
+    1400.0,
+    75.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9694,7 +9718,8 @@
       50.0,
       590.0,
       400.0,
-      26.0
+      26.0,
+      75.0
     ],
     "certina": [
       630.0,
@@ -10809,6 +10834,7 @@
     1086055044,
     1076945663,
     1086055835,
-    1078050535
+    1078050535,
+    1086056598
   ]
 }
