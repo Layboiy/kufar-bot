@@ -4227,6 +4227,30 @@
       "status": "suggested",
       "title": "Наручные часы CASIO (Новые), цена 35 р. купить в Минске на Куфаре - Объявление №1084012595"
     },
+    "1084089333": {
+      "actual_sale": null,
+      "ad_id": 1084089333,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/b349705e-2904-4e30-bfbc-32d64832a710.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1084089333",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 474,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 500.0,
+      "pricevsmarket": "high",
+      "resale": 89.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio G-Shock gm-110g-1a9pr, цена 500 р. купить в Минске на Куфаре - Объявление №1084089333"
+    },
     "1084124597": {
       "actual_sale": null,
       "ad_id": 1084124597,
@@ -9605,7 +9629,6 @@
     }
   },
   "recent_prices": [
-    800.0,
     150.0,
     65.0,
     200.0,
@@ -9904,7 +9927,8 @@
     1590.0,
     290.0,
     990.0,
-    6660.0
+    6660.0,
+    500.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10039,7 +10063,8 @@
       75.0,
       169.0,
       389.0,
-      249.0
+      249.0,
+      500.0
     ],
     "certina": [
       630.0,
@@ -11209,6 +11234,7 @@
     1073462272,
     1069738746,
     1064937659,
-    1062242933
+    1062242933,
+    1084089333
   ]
 }
