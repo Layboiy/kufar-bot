@@ -9219,6 +9219,54 @@
       "status": "suggested",
       "title": "часы casio, цена 75 р. купить в Витебске на Куфаре - Объявление №1086056598"
     },
+    "1086057603": {
+      "actual_sale": null,
+      "ad_id": 1086057603,
+      "chat_id": null,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/e931e7d4-6f5f-41ef-bb63-31f9387d1a55.jpg",
+      "is_photo": false,
+      "link": "https://www.kufar.by/item/1086057603",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": null,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1300.0,
+      "pricevsmarket": "high",
+      "resale": 175.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Tissot Chrono Xl, цена 1 300 р. купить в Волковыске на Куфаре - Объявление №1086057603"
+    },
+    "1086057629": {
+      "actual_sale": null,
+      "ad_id": 1086057629,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9152236f-d9d9-4b5d-886d-62637e697f01.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086057629",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 464,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 200.0,
+      "pricevsmarket": "high",
+      "resale": 170.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Franck Muller рабочие, цена 200 р. купить в Гродно на Куфаре - Объявление №1086057629"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -9365,8 +9413,6 @@
     }
   },
   "recent_prices": [
-    200.0,
-    500.0,
     250.0,
     10.0,
     55.0,
@@ -9664,7 +9710,9 @@
     100.0,
     169.0,
     389.0,
-    249.0
+    249.0,
+    200.0,
+    1300.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9853,6 +9901,9 @@
       585.0,
       615.0,
       350.0
+    ],
+    "franck": [
+      200.0
     ],
     "gevril": [
       3800.0,
@@ -10917,6 +10968,8 @@
     1086056967,
     1073879975,
     1073879973,
-    1073879971
+    1073879971,
+    1086057629,
+    1086057603
   ]
 }
