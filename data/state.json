@@ -2499,6 +2499,30 @@
       "status": "suggested",
       "title": "Новые Швейцарские часы Murex RSL995-SRL-D-7 DIAMOND SWISS MADE, Оригинал, цена 1 699.99 р. купить в Минске на Куфаре - Объявление №1078035920"
     },
+    "1078050535": {
+      "actual_sale": null,
+      "ad_id": 1078050535,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/675411ed-7a97-464e-90f7-91b4ae061243.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1078050535",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 459,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 1400.0,
+      "pricevsmarket": "high",
+      "resale": 170.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "НОВЫЕ CERTINA DS ACTION, цена 1 400 р. купить в Минске на Куфаре - Объявление №1078050535"
+    },
     "1078242941": {
       "actual_sale": null,
       "ad_id": 1078242941,
@@ -9245,8 +9269,6 @@
     }
   },
   "recent_prices": [
-    590.0,
-    90.0,
     80.0,
     150.0,
     1790.0,
@@ -9544,7 +9566,9 @@
     1299.0,
     29.0,
     500.0,
-    300.0
+    300.0,
+    30.0,
+    1400.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10153,6 +10177,9 @@
     ],
     "полёт": [
       100.0
+    ],
+    "произв": [
+      30.0
     ],
     "радио": [
       22.0
@@ -10780,6 +10807,8 @@
     1086053762,
     1086053720,
     1086055044,
-    1076945663
+    1076945663,
+    1086055835,
+    1078050535
   ]
 }
