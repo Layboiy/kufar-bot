@@ -1011,6 +1011,30 @@
       "status": "suggested",
       "title": "Часы, цена 800 р. купить в Бресте на Куфаре - Объявление №1064627927"
     },
+    "1065712554": {
+      "actual_sale": null,
+      "ad_id": 1065712554,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/55f512a8-e2ac-494f-b75a-099c3ad11eea.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1065712554",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 455,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 550.0,
+      "pricevsmarket": "high",
+      "resale": 65.0,
+      "resale_source": "brand:женские",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы женские TISSOT, цена 550 р. купить в Жодино на Куфаре - Объявление №1065712554"
+    },
     "1065790954": {
       "actual_sale": null,
       "ad_id": 1065790954,
@@ -9149,7 +9173,6 @@
     }
   },
   "recent_prices": [
-    600.0,
     800.0,
     250.0,
     50.0,
@@ -9448,7 +9471,8 @@
     100.0,
     750.0,
     30.0,
-    4500.0
+    4500.0,
+    550.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -9914,7 +9938,8 @@
       60.0,
       10.0,
       25.0,
-      55.0
+      55.0,
+      550.0
     ],
     "из": [
       120.0
@@ -10667,6 +10692,7 @@
     1061933288,
     1086052166,
     1086052660,
-    1084860960
+    1084860960,
+    1065712554
   ]
 }
