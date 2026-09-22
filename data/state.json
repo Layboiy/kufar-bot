@@ -8859,6 +8859,30 @@
       "status": "suggested",
       "title": "Часы fossil, цена 350 р. купить в Бресте на Куфаре - Объявление №1086049581"
     },
+    "1086050052": {
+      "actual_sale": null,
+      "ad_id": 1086050052,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/97a3e9b6-3210-479c-ba1b-879668bfedbd.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086050052",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 449,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 500.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Seiko пре. Обре.ту, цена 500 р. купить в Витебске на Куфаре - Объявление №1086050052"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -9005,7 +9029,6 @@
     }
   },
   "recent_prices": [
-    59.99,
     125.0,
     900.0,
     5200.0,
@@ -9304,7 +9327,8 @@
     20.0,
     100.0,
     55.0,
-    350.0
+    350.0,
+    500.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10507,6 +10531,7 @@
     1086031227,
     1086033848,
     1086038173,
-    1086049581
+    1086049581,
+    1086050052
   ]
 }
