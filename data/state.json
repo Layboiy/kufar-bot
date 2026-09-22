@@ -3435,6 +3435,30 @@
       "status": "suggested",
       "title": "Часы наручные мужские, цена 1 150 р. купить в Минске на Куфаре - Объявление №1081002793"
     },
+    "1081145466": {
+      "actual_sale": null,
+      "ad_id": 1081145466,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/77da16c0-d695-41c5-bb5c-8c1adcc51e77.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1081145466",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 484,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 650.0,
+      "pricevsmarket": "high",
+      "resale": 180.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Strumento Marino. Италия., цена 650 р. купить в Бресте на Куфаре - Объявление №1081145466"
+    },
     "1081149170": {
       "actual_sale": null,
       "ad_id": 1081149170,
@@ -4754,6 +4778,30 @@
       "shipping": 0.0,
       "status": "suggested",
       "title": "Часы, цена 675 р. купить в Гомеле на Куфаре - Объявление №1085138469"
+    },
+    "1085199814": {
+      "actual_sale": null,
+      "ad_id": 1085199814,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/48e90dbe-b677-4919-8586-835684d1ddd4.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1085199814",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 483,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 45.0,
+      "resale_source": "brand:rolex",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Rolex копия, цена 300 р. купить в Минске на Куфаре - Объявление №1085199814"
     },
     "1085276026": {
       "actual_sale": null,
@@ -9821,9 +9869,6 @@
     }
   },
   "recent_prices": [
-    15.0,
-    20.0,
-    220.0,
     600.0,
     45.0,
     20.0,
@@ -10120,7 +10165,10 @@
     1029.0,
     579.0,
     1149.0,
-    1969.0
+    1969.0,
+    93.0,
+    300.0,
+    650.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10467,7 +10515,8 @@
       200.0,
       700.0,
       45.0,
-      45.0
+      45.0,
+      300.0
     ],
     "romanson": [
       80.0
@@ -10500,6 +10549,9 @@
     ],
     "sport": [
       15.0
+    ],
+    "strumento": [
+      650.0
     ],
     "swatch": [
       220.0
@@ -10553,7 +10605,8 @@
       600.0,
       750.0,
       1590.0,
-      990.0
+      990.0,
+      93.0
     ],
     "tommy": [
       290.0,
@@ -11439,6 +11492,9 @@
     1086065209,
     1086065202,
     1086065184,
-    1086065125
+    1086065125,
+    1086064987,
+    1085199814,
+    1081145466
   ]
 }
