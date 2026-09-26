@@ -1,7 +1,7 @@
 {
   "awaiting": {},
   "known_models": {},
-  "last_update_id": 99233349,
+  "last_update_id": 99233351,
   "lots": {
     "1001238119": {
       "actual_sale": null,
@@ -9747,6 +9747,222 @@
       "status": "suggested",
       "title": "Casio BG-169U-8B, цена 519 р. купить в Минске на Куфаре - Объявление №1086065211"
     },
+    "1086628616": {
+      "actual_sale": null,
+      "ad_id": 1086628616,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/7cb71241-89f3-4f5d-bb16-4798b6f0909d.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086628616",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 818,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 300.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Candino C4439 оригинал, цена 300 р. купить в Пинске на Куфаре - Объявление №1086628616"
+    },
+    "1086629277": {
+      "actual_sale": null,
+      "ad_id": 1086629277,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/c42f60cb-c33d-4638-a472-20094a824996.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086629277",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 817,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 800.0,
+      "pricevsmarket": "high",
+      "resale": 750.0,
+      "resale_source": "brand:seiko",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Seiko 5 Midnight Logo, цена 800 р. купить в Минске на Куфаре - Объявление №1086629277"
+    },
+    "1086629708": {
+      "actual_sale": null,
+      "ad_id": 1086629708,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/1fcfa0ba-a212-4b56-87d1-d3d60567bab8.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086629708",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 816,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 450.0,
+      "pricevsmarket": "high",
+      "resale": 120.0,
+      "resale_source": "brand:casio",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Casio G Shock GW-M5610U-1ER, цена 450 р. купить в Минске на Куфаре - Объявление №1086629708"
+    },
+    "1086630185": {
+      "actual_sale": null,
+      "ad_id": 1086630185,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/47929210-ec91-4b98-9c9a-384deb4a4b2f.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086630185",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 815,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 400.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Invicta Pro Diver, цена 400 р. купить в Минске на Куфаре - Объявление №1086630185"
+    },
+    "1086630672": {
+      "actual_sale": null,
+      "ad_id": 1086630672,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/9fe87e0e-4da0-4823-92ca-8d9a38ba45b6.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086630672",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 814,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 290.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы SWATCH, цена 290 р. купить в Лиде на Куфаре - Объявление №1086630672"
+    },
+    "1086631035": {
+      "actual_sale": null,
+      "ad_id": 1086631035,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/120c9f0d-f4bd-4d5f-bade-ab05bbd4b181.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086631035",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 813,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 80.0,
+      "pricevsmarket": "high",
+      "resale": 35.0,
+      "resale_source": "brand:механические",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы механические Ракета, цена 80 р. купить в Минске на Куфаре - Объявление №1086631035"
+    },
+    "1086631036": {
+      "actual_sale": null,
+      "ad_id": 1086631036,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/5888ea0e-6c4d-40c0-ae5e-3b1bd9fa5a4e.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086631036",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 812,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 50.0,
+      "pricevsmarket": "normal",
+      "resale": 70.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные мужские, цена 50 р. купить в Минске на Куфаре - Объявление №1086631036"
+    },
+    "1086631357": {
+      "actual_sale": null,
+      "ad_id": 1086631357,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8a468cbc-eec7-486b-aa31-8c80f37b0c87.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086631357",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 811,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 120.0,
+      "pricevsmarket": "normal",
+      "resale": 170.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы Wostok Амфибия 2209, стрелки-вёсла, цена 120 р. купить в Минске на Куфаре - Объявление №1086631357"
+    },
+    "1086632104": {
+      "actual_sale": null,
+      "ad_id": 1086632104,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/15377a53-4d4c-4f0f-98f6-5714402e1944.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086632104",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 810,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 70.0,
+      "pricevsmarket": "normal",
+      "resale": 80.0,
+      "resale_source": "brand:наручные",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы наручные ''Электроника 5'', цена 70 р. купить в Гомеле на Куфаре - Объявление №1086632104"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -9893,16 +10109,6 @@
     }
   },
   "recent_prices": [
-    300.0,
-    150.0,
-    250.0,
-    199.99,
-    260.0,
-    85.0,
-    630.0,
-    1050.0,
-    750.0,
-    230.0,
     200.0,
     599.99,
     249.99,
@@ -10192,7 +10398,17 @@
     650.0,
     80.0,
     125.0,
-    400.0
+    400.0,
+    70.0,
+    120.0,
+    55.0,
+    50.0,
+    80.0,
+    290.0,
+    400.0,
+    450.0,
+    800.0,
+    300.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10245,7 +10461,8 @@
       65.0
     ],
     "candino": [
-      220.0
+      220.0,
+      300.0
     ],
     "cardinal": [
       100.0
@@ -10328,7 +10545,8 @@
       169.0,
       389.0,
       249.0,
-      500.0
+      500.0,
+      450.0
     ],
     "certina": [
       630.0,
@@ -10429,6 +10647,9 @@
     ],
     "ingersoll": [
       300.0
+    ],
+    "invicta": [
+      400.0
     ],
     "jacques": [
       95.0
@@ -10555,7 +10776,8 @@
     "seiko": [
       3400.0,
       700.0,
-      400.0
+      400.0,
+      800.0
     ],
     "skmei": [
       15.0
@@ -10579,7 +10801,8 @@
       650.0
     ],
     "swatch": [
-      220.0
+      220.0,
+      290.0
     ],
     "swiss": [
       520.0
@@ -10648,6 +10871,9 @@
     ],
     "winner": [
       65.0
+    ],
+    "wostok": [
+      120.0
     ],
     "аv-4090-07": [
       1800.0
@@ -10753,7 +10979,8 @@
       30.0,
       160.0,
       40.0,
-      20.0
+      20.0,
+      80.0
     ],
     "молния": [
       550.0
@@ -10822,6 +11049,8 @@
       35.0,
       45.0,
       39.8,
+      50.0,
+      70.0,
       50.0
     ],
     "немецкого": [
@@ -11526,6 +11755,18 @@
     1081655858,
     1086067600,
     1083624201,
-    1078421184
+    1078421184,
+    1086632104,
+    1086631357,
+    1086631293,
+    1086631036,
+    1086631035,
+    1086630793,
+    1086630672,
+    1086630185,
+    1086629769,
+    1086629708,
+    1086629277,
+    1086628616
   ]
 }
