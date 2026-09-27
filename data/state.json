@@ -10083,6 +10083,78 @@
       "status": "suggested",
       "title": "Casio G-SHOCK GA-110AC, цена 150 р. купить в Пинске на Куфаре - Объявление №1086736721"
     },
+    "1086737405": {
+      "actual_sale": null,
+      "ad_id": 1086737405,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/8b57bf2c-8645-499c-9098-d027edc8a46c.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086737405",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 929,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 150.0,
+      "pricevsmarket": "normal",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Casio G-SHOCK GD-400MB, цена 150 р. купить в Пинске на Куфаре - Объявление №1086737405"
+    },
+    "1086739298": {
+      "actual_sale": null,
+      "ad_id": 1086739298,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Новое. Покупайте и п",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/911835e4-3da9-46ed-ab74-9b7f4f1ba442.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086739298",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 928,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 500.0,
+      "pricevsmarket": "high",
+      "resale": 165.0,
+      "resale_source": "global",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "часы G SHOCK GAW 100B, цена 500 р. купить в Минске на Куфаре - Объявление №1086739298"
+    },
+    "1086740925": {
+      "actual_sale": null,
+      "ad_id": 1086740925,
+      "chat_id": 8399187607,
+      "complete": "unverified",
+      "condition": "Б/у. Покупайте и про",
+      "image_url": "https://rms.kufar.by/v1/list_thumbs_2x/adim1/08450a8e-a75f-47b1-bbfd-4cc42fc731d4.jpg",
+      "is_photo": true,
+      "link": "https://www.kufar.by/item/1086740925",
+      "liquidity": "medium",
+      "listing_photo_file_ids": [],
+      "message_id": 927,
+      "originality": "unverified",
+      "originality_note": null,
+      "price": 200.0,
+      "pricevsmarket": "high",
+      "resale": 50.0,
+      "resale_source": "brand:g-shock",
+      "resalevsmarket": "realistic",
+      "seller": "new",
+      "shipping": 0.0,
+      "status": "suggested",
+      "title": "Часы G-Shock, casio, цена 200 р. купить в Минске на Куфаре - Объявление №1086740925"
+    },
     "174336060": {
       "actual_sale": null,
       "ad_id": 174336060,
@@ -10229,9 +10301,6 @@
     }
   },
   "recent_prices": [
-    0.99,
-    450.0,
-    25.0,
     400.0,
     149.0,
     115.0,
@@ -10528,7 +10597,10 @@
     50.0,
     350.0,
     150.0,
-    15.0
+    15.0,
+    200.0,
+    500.0,
+    150.0
   ],
   "recent_prices_by_brand": {
     "addiesdive": [
@@ -10737,9 +10809,13 @@
     "franck": [
       200.0
     ],
+    "g": [
+      500.0
+    ],
     "g-shock": [
       50.0,
-      15.0
+      15.0,
+      200.0
     ],
     "gevril": [
       3800.0,
@@ -11666,6 +11742,25 @@
     1069172755,
     1086736721,
     1086736627,
-    1082380907
+    1082380907,
+    1086737206,
+    1086738335,
+    1086738116,
+    1086741103,
+    1086740925,
+    1086740881,
+    1086740700,
+    1086740446,
+    1086739299,
+    1086739298,
+    1086738813,
+    1086738040,
+    1086737942,
+    1086737604,
+    1086737405,
+    1086500730,
+    1086118866,
+    1080817899,
+    1074202997
   ]
 }
